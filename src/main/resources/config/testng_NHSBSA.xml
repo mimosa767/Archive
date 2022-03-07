@@ -1,0 +1,412 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NHS BSA Demo Suite" verbose="0" parallel="tests" thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
+	</listeners>
+
+	<test name="Web Scenarios Chrome Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Windows"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="10"/>
+		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="latest"/>
+		<parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+		<parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>
+		<parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Firefox Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Windows"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="10"/>
+		<parameter name="perfecto.capabilities.browserName" value="Firefox"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="latest"/>
+		<parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+		<parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>
+		<parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Edge Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Windows"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="10"/>
+		<parameter name="perfecto.capabilities.browserName" value="Edge"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="latest"/>
+		<parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+		<parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>
+		<parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios IE Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Windows"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="10"/>
+		<parameter name="perfecto.capabilities.browserName" value="Internet Explorer"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="11"/>
+		<parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+		<parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>
+		<parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Safari Monterey Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Mac"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="macOS Monterey"/>
+		<parameter name="perfecto.capabilities.browserName" value="Safari"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="15"/>
+		<parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+		<parameter name="perfecto.capabilities.location" value="EU-DE-FRA"/>
+		<parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Chrome Big Sur Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Mac"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="macOS Big Sur"/>
+		<parameter name="perfecto.capabilities.browserName" value="Safari"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="14"/>
+		<parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+		<parameter name="perfecto.capabilities.location" value="EU-DE-FRA"/>
+		<parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Safari Catalina Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Mac"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="macOS Catalina"/>
+		<parameter name="perfecto.capabilities.browserName" value="Safari"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="latest"/>
+		<parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+		<parameter name="perfecto.capabilities.location" value="EU-DE-FRA"/>
+		<parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios iPhone Safari Test" enabled="true" thread-count="10">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="iOS"/>
+		<parameter name="perfecto.capabilities.model" value="iPhone.*"/>
+		<parameter name="perfecto.capabilities.browserName" value="Safari"/>
+		<parameter name="perfecto.capabilities.useAppiumForWeb" value="true" />
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+		<parameter name="perfecto.env.resources" value="src/main/resources/ios"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios iPad Safari Test" enabled="true" thread-count="10">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="iOS"/>
+		<parameter name="perfecto.capabilities.model" value="iPad.*"/>
+		<parameter name="perfecto.capabilities.browserName" value="Safari"/>
+		<parameter name="perfecto.capabilities.useAppiumForWeb" value="true" />
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+		<parameter name="perfecto.env.resources" value="src/main/resources/ios"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios iPhone Chrome Test" enabled="true" thread-count="10">
+		<parameter name="driver.name" value="perfectoDriver"/>
+		<parameter name="perfecto.capabilities.deviceName" value="00008101-000C55403684001E"/>
+		<parameter name="perfecto.capabilities.bundleId" value="com.google.chrome.ios"/>
+		<parameter name="perfecto.capabilities.platformName" value="iOS"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+		<parameter name="perfecto.env.resources" value="src/main/resources/ios"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Android Pixel Chrome Test" enabled="true" thread-count="10">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.model" value="Pixel.*"/>
+		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+		<parameter name="perfecto.env.resources" value="src/main/resources/android"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Android Chrome Fold Test" enabled="true" thread-count="10">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.model" value="Galaxy Z Fold.*"/>
+		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+		<parameter name="perfecto.env.resources" value="src/main/resources/android"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Android Chrome Flip Test" enabled="true" thread-count="10">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.model" value="Galaxy Z Flip.*"/>
+		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+		<parameter name="perfecto.env.resources" value="src/main/resources/android"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Android Tablet Chrome Test" enabled="true" thread-count="10">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.model" value="Galaxy Tab.*"/>
+		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+		<parameter name="perfecto.env.resources" value="src/main/resources/android"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Android Samsung Internet Test 1" enabled="true" thread-count="10">
+		<parameter name="driver.name" value="perfectoDriver"/>
+		<parameter name="perfecto.capabilities.deviceName" value="RF8N50LN28B"/>
+		<parameter name="perfecto.capabilities.platformName" value="Android"/>
+		<parameter name="perfecto.capabilities.appPackage" value="com.sec.android.app.sbrowser"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+		<parameter name="perfecto.env.resources" value="src/main/resources/android"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Android Samsung Internet Test 2" enabled="true" thread-count="10">
+		<parameter name="driver.name" value="perfectoDriver"/>
+		<parameter name="perfecto.capabilities.deviceName" value="R58M84TAXKT"/>
+		<parameter name="perfecto.capabilities.platformName" value="Android"/>
+		<parameter name="perfecto.capabilities.appPackage" value="com.sec.android.app.sbrowser"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+		<parameter name="perfecto.env.resources" value="src/main/resources/android"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="iPhone Simulator" enabled="true">
+		<parameter name="driver.name" value="perfectoDriver"/>
+		<parameter name="perfecto.capabilities.deviceName" value="iPhone 12"/>
+		<parameter name="perfecto.capabilities.platformName" value="iOS"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="14.*"/>
+		<parameter name="perfecto.capabilities.browserName" value="Safari"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+		<parameter name="perfecto.additional.capabilities" value="{'useVirtualDevice':true}" />
+		<parameter name="perfecto.env.resources" value="src/main/resources/ios"/>
+		<parameter name="wd.command.listeners" value="com.quantum.listeners.PerfectoDriverListener"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+		</classes>
+	</test>
+
+	<test name="iPad Simulator" enabled="true">
+		<parameter name="driver.name" value="perfectoDriver"/>
+		<parameter name="perfecto.capabilities.deviceName" value="iPad Simulator"/>
+		<parameter name="perfecto.capabilities.platformName" value="iOS"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="14.3"/>
+		<parameter name="perfecto.capabilities.browserName" value="Safari"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+		<parameter name="perfecto.additional.capabilities" value="{'useVirtualDevice':true}" />
+		<parameter name="perfecto.env.resources" value="src/main/resources/ios"/>
+		<parameter name="wd.command.listeners" value="com.quantum.listeners.PerfectoDriverListener"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+		</classes>
+	</test>
+
+	<test name="iPad Mini Simulator" enabled="true">
+		<parameter name="driver.name" value="perfectoDriver"/>
+		<parameter name="perfecto.capabilities.deviceName" value="iPad Mini 4"/>
+		<parameter name="perfecto.capabilities.platformName" value="iOS"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="14.3"/>
+		<parameter name="perfecto.capabilities.browserName" value="Safari"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+		<parameter name="perfecto.additional.capabilities" value="{'useVirtualDevice':true}" />
+		<parameter name="perfecto.env.resources" value="src/main/resources/ios"/>
+		<parameter name="wd.command.listeners" value="com.quantum.listeners.PerfectoDriverListener"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+		</classes>
+	</test>
+
+	<test name="Pixel 4 Emulator" enabled="true">
+		<parameter name="driver.name" value="perfectoDriver"/>
+		<parameter name="perfecto.capabilities.deviceName" value="Pixel 4"/>
+		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+		<parameter name="perfecto.additional.capabilities" value="{'useVirtualDevice':true}" />
+		<parameter name="perfecto.env.resources" value="src/main/resources/android"/>
+		<parameter name="wd.command.listeners" value="com.quantum.listeners.PerfectoDriverListener"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+		</classes>
+	</test>
+
+	<test name="Galaxy S20 Ultra Emulator" enabled="true">
+		<parameter name="driver.name" value="perfectoDriver"/>
+		<parameter name="perfecto.capabilities.deviceName" value="Galaxy S20 Ultra"/>
+		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+		<parameter name="perfecto.additional.capabilities" value="{'useVirtualDevice':true}" />
+		<parameter name="perfecto.env.resources" value="src/main/resources/android"/>
+		<parameter name="wd.command.listeners" value="com.quantum.listeners.PerfectoDriverListener"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+		</classes>
+	</test>
+
+	<test name="Galaxy Z Flip Emulator" enabled="true">
+		<parameter name="driver.name" value="perfectoDriver"/>
+		<parameter name="perfecto.capabilities.deviceName" value="Galaxy Z Flip"/>
+		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+		<parameter name="perfecto.additional.capabilities" value="{'useVirtualDevice':true}" />
+		<parameter name="perfecto.env.resources" value="src/main/resources/android"/>
+		<parameter name="wd.command.listeners" value="com.quantum.listeners.PerfectoDriverListener"/>
+		<groups>
+			<run>
+				<include name="@NHSBSA_Web"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+		</classes>
+	</test>
+
+</suite>

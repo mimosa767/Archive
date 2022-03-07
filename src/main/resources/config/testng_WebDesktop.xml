@@ -1,0 +1,121 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests" thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
+	</listeners>
+
+	<test name="Web Scenarios Chrome Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Windows"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="10"/>
+		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="beta"/>
+		<parameter name="perfecto.capabilities.resolution" value="1600x1200"/>
+		<parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Firefox Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Windows"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="10"/>
+		<parameter name="perfecto.capabilities.browserName" value="Firefox"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="beta"/>
+		<parameter name="perfecto.capabilities.resolution" value="1600x1200"/>
+		<parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Edge Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Windows"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="10"/>
+		<parameter name="perfecto.capabilities.browserName" value="Edge"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="beta"/>
+		<parameter name="perfecto.capabilities.resolution" value="1600x1200"/>
+		<parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios IE Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Windows"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="10"/>
+		<parameter name="perfecto.capabilities.browserName" value="Internet Explorer"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="11"/>
+		<parameter name="perfecto.capabilities.resolution" value="1600x1200"/>
+		<parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Big Sur Safari Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Mac"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="macOS Big Sur"/>
+		<parameter name="perfecto.capabilities.browserName" value="Safari"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="14"/>
+		<parameter name="perfecto.capabilities.resolution" value="1600x1200"/>
+		<parameter name="perfecto.capabilities.location" value="EU-DE-FRA"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Web Scenarios Catalina Safari Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Mac"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="macOS Catalina"/>
+		<parameter name="perfecto.capabilities.browserName" value="Safari"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="13"/>
+		<parameter name="perfecto.capabilities.resolution" value="1600x1200"/>
+		<parameter name="perfecto.capabilities.location" value="EU-DE-FRA"/>
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+</suite>

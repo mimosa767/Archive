@@ -1,0 +1,124 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Virtual Device Demos" verbose="0" parallel="tests" thread-count="100">
+    <listeners>
+        <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+    </listeners>
+
+    <test name="iOS Simulator 1" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="iPhone Simulator"/>
+        <parameter name="driver.capabilities.fullReset" value="true"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Simulators/InvoiceApp.app.zip"/>
+        <parameter name="driver.additional.capabilities" value="{'useVirtualDevice':true}" />
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <parameter name="wd.command.listeners" value="com.quantum.listeners.PerfectoDriverListener"/>
+        <groups>
+            <run>
+                <include name="@iOSSimulator"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="iOS Simulator 2" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="iPhone Simulator"/>
+        <parameter name="driver.capabilities.fullReset" value="true"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Simulators/InvoiceApp.app.zip"/>
+        <parameter name="driver.additional.capabilities" value="{'useVirtualDevice':true}" />
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <parameter name="wd.command.listeners" value="com.quantum.listeners.PerfectoDriverListener"/>
+        <groups>
+            <run>
+                <include name="@iOSSimulator"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="iOS Simulator 3" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="iPad Simulator"/>
+        <parameter name="driver.capabilities.fullReset" value="true"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Simulators/InvoiceApp.app.zip"/>
+        <parameter name="driver.additional.capabilities" value="{'useVirtualDevice':true}" />
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <parameter name="wd.command.listeners" value="com.quantum.listeners.PerfectoDriverListener"/>
+        <groups>
+            <run>
+                <include name="@iOSSimulator"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="Android Emulator 1" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="Galaxy S20 Ultra"/>
+        <parameter name="driver.capabilities.fullReset" value="true"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+        <parameter name="driver.additional.capabilities" value="{'useVirtualDevice':true}" />
+<!--        <parameter name="driver.capabilities.appiumVersion" value="1.17.1"/>-->
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <parameter name="wd.command.listeners" value="com.quantum.listeners.PerfectoDriverListener"/>
+        <groups>
+            <run>
+                <include name="@AndroidEmulator"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="Android Emulator 2" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="Galaxy Note10 Plus"/>
+        <parameter name="driver.capabilities.fullReset" value="true"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+        <parameter name="driver.additional.capabilities" value="{'useVirtualDevice':true}" />
+<!--        <parameter name="driver.capabilities.appiumVersion" value="1.17.1"/>-->
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <parameter name="wd.command.listeners" value="com.quantum.listeners.PerfectoDriverListener"/>
+        <groups>
+            <run>
+                <include name="@AndroidEmulator"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="Android Emulator 3" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="Pixel 4"/>
+        <parameter name="driver.capabilities.fullReset" value="true"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+        <parameter name="driver.additional.capabilities" value="{'useVirtualDevice':true}" />
+<!--        <parameter name="driver.capabilities.appiumVersion" value="1.17.1"/>-->
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <parameter name="wd.command.listeners" value="com.quantum.listeners.PerfectoDriverListener"/>
+        <groups>
+            <run>
+                <include name="@AndroidEmulator"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+</suite>

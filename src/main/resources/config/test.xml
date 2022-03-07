@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Expense Tracker Demos" verbose="0" parallel="tests" thread-count="100" group-by-instances="true">
+    <listeners>
+        <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+        <!--<listener class-name="com.quantum.listeners.TestListener" />-->
+    </listeners>
+
+    <test name="iOS device 1" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.platformName" value="iOS"/>
+        <parameter name="driver.capabilities.model" value="iPhone.*"/>
+        <parameter name="driver.capabilities.platformVersion" value="15.*"/>
+        <!--  <parameter name="driver.capabilities.deviceName" value="00008101-000C55403684001E"/>-->
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+        <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <!--        <parameter name="driver.capabilities.automationName" value="PerfectoMobile"/>-->
+        <!--        <parameter name="driver.additional.capabilities" value="{'takesScreenshot':false,  ‘screenshotOnError':true, 'outputVideo':false}" />-->
+        <parameter name="appType" value="Native" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <groups>
+            <run>
+                <include name="@ExpenseTracker"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+</suite>

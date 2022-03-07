@@ -1,0 +1,69 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Two Devices Demo Suite" verbose="0" parallel="tests" thread-count="100">
+    <listeners>
+        <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+    </listeners>
+
+    <test name="Audio Call Android to iOS" enabled="true">
+        <parameter name="driverNameList" value="perfecto,perfectodevii"/>
+        <parameter name="perfecto.name" value="perfectoDriver"/>
+        <parameter name="perfecto.capabilities.deviceName" value="RF8N82SBA6H"/>
+        <parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="perfecto.env.resources" value="src/main/resources/android"/>
+        <parameter name="perfectodevii.name" value="perfectoDriver"/>
+        <parameter name="perfectodevii.capabilities.deviceName" value="00008101-000C55403684001E"/>
+        <parameter name="perfectodevii.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+        <parameter name="perfectodevii.env.resources" value="src/main/resources/ios"/>
+        <groups>
+            <run>
+                <include name="@AudioCalls"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+<!--    <test name="Audio Call Android to Android" enabled="true">-->
+<!--        <parameter name="driverNameList" value="perfecto,perfectodevii"/>-->
+<!--        <parameter name="perfecto.name" value="perfectoDriver"/>-->
+<!--        <parameter name="perfecto.capabilities.deviceName" value="RF8N82SBA6H"/>-->
+<!--        <parameter name="perfectodevii.name" value="perfectoDriver"/>-->
+<!--                <parameter name="perfectodevii.capabilities.deviceName" value="1C382024050B7ECE"/>-->
+<!--        <parameter name="perfecto.env.resources" value="src/main/resources/android"/>-->
+<!--                <parameter name="perfectodevii.env.resources" value="src/main/resources/android"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@AudioCalls"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Audio Call Web to Android" enabled="true">-->
+<!--        <parameter name="driverNameList" value="perfectoRemote,perfectodevii"/>-->
+<!--        <parameter name="perfecto.name" value="perfectoRemoteDriver"/>-->
+<!--        <parameter name="perfecto.capabilities.platformName" value="Windows"/>-->
+<!--        <parameter name="perfecto.capabilities.platformVersion" value="10"/>-->
+<!--        <parameter name="perfecto.capabilities.browserName" value="Chrome"/>-->
+<!--        <parameter name="perfecto.capabilities.browserVersion" value="92"/>-->
+<!--        <parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>-->
+<!--        <parameter name="perfecto.capabilities.resolution" value="1920x1080"/>-->
+<!--        <parameter name="perfectodevii.name" value="perfectoDriver"/>-->
+<!--        <parameter name="perfectodevii.capabilities.deviceName" value="RF8N82SBA6H"/>-->
+<!--        <parameter name="perfecto.env.resources" value="src/main/resources/common"/>-->
+<!--        <parameter name="perfectodevii.env.resources" value="src/main/resources/android"/>-->
+<!--         <parameter name="perfectodevii.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@AudioCallsWebAndMobile"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
