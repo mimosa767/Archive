@@ -1,0 +1,13 @@
+{
+  "name": "Expense Tracker Demos",
+  "status": "pass",
+  "tests": [
+    "ExpenseTrackerDemos_iOSdevice1"
+  ],
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1646678565520,
+  "endTime": 1646678703649
+}

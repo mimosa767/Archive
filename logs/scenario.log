@@ -6587,3 +6587,775 @@ Executing scenario: Add expense after Login -
 15:57:47 command: findElement[ param-1: By.name: login_password param-2: {}] Result: OK
 15:57:47 Executing sendKeysToElement element: By.name: login_password parameters: {"id":"27000000-0000-0000-3738-000000000000","value":["test123"]}
 15:58:25 command: sendKeysToElement[ param-1: By.name: login_password param-2: {"id":"27000000-0000-0000-3738-000000000000","value":["test123"]}] Result: sendKeysToElement:null
+13:36:38 Executing findElement element: By.xpath: //XCUIElementTypeSwitch parameters: {}
+13:36:38 Executing quit parameters: {}
+13:36:38 Executing findElement parameters: {"using":"xpath","value":"//XCUIElementTypeSwitch"}
+13:36:38 Executing executeScript parameters: {"args":[{}],"script":"mobile:execution:close"}
+13:36:39 Executing close parameters: {}
+13:36:39 command: findElement[ param-1: {value=//XCUIElementTypeSwitch, using=xpath}] Result: {message=Invalid request! session ef2c1098-8231-4f21-8e9d-45334baa1d3b wasn't found, error: Failed to get session with id ef2c1098-8231-4f21-8e9d-45334baa1d3b - session is null}
+13:36:39 command: close[ param-1: {}] Result: {message=Invalid request! session ef2c1098-8231-4f21-8e9d-45334baa1d3b wasn't found, error: Failed to get session with id ef2c1098-8231-4f21-8e9d-45334baa1d3b - session is null}
+13:36:39 command: quit[ param-1: {}] Result: {message=Invalid request! session ef2c1098-8231-4f21-8e9d-45334baa1d3b wasn't found, error: Failed to get session with id ef2c1098-8231-4f21-8e9d-45334baa1d3b - session is null}
+13:36:39 UI-driver tear down complete...
+13:39:55 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Version=3.0, qaf-Build-Time=26-Jul-2020 22:16:34}
+13:39:55 Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/common. Found property files to load: 5
+13:39:55 Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/common. Found property files to load: 0
+13:39:55 scenario.file.loc[Ljava.lang.String;@693fe6c9
+13:39:55 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/WebSearch.feature
+13:39:55 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Cafe24.feature
+13:39:55 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/NHSBSA.feature
+13:39:55 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/AudioCalls.feature
+13:39:55 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/ExpenseTracker.feature
+13:39:55 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Calculator.feature
+13:39:55 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Maps.feature
+13:39:55 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Chanel.feature
+13:39:55 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/MultiDevice.feature
+13:39:55 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/VirtualDevices.feature
+13:39:55 total test found: 1
+13:39:56 Adding resources from: src/main/resources/ios
+13:39:56 Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/ios. Found property files to load: 3
+13:39:56 Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/ios. Found property files to load: 0
+13:39:56 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+13:39:56 Driver: perfectoDriver
+13:39:56 Direct Driver Connect
+13:40:38 Executing setTimeout parameters: {"implicit":0}
+13:40:39 command: setTimeout[ param-1: {implicit=0}] Result: null
+13:40:39 driver init done
+13:40:39 Executing executeScript parameters: {"args":[{"jobName":"PerfectoDemo","jobBranch":"master","customFields":[],"name":"Add expense after Login","projectName":"Archive","jobNumber":7183147,"projectVersion":"1.0","tags":["iOS device 1","Expense Tracker Demos"," @ExpenseTrackerLogExpense"," @ExpenseTracker "]}],"script":"mobile:test:start"}
+13:40:40 
+
+Executing scenario: Add expense after Login - 
+13:40:40 pkg: com.qmetry.qaf.automation.step
+13:40:40 pkg: com.quantum.steps
+13:40:40 Invoking Teststep: Given I login to Expense Tracker app with username and password
+13:40:40 Executing executeScript parameters: {"args":[{"name":"Given I login to Expense Tracker app with username and password"}],"script":"mobile:step:start"}
+13:40:40 Executing findElement element: By.name: login_email parameters: {}
+13:40:40 Executing findElement parameters: {"using":"name","value":"login_email"}
+13:40:40 command: findElement[ param-1: {value=login_email, using=name}] Result: id: 16000000-0000-0000-2D84-000000000000
+13:40:40 command: findElement[ param-1: By.name: login_email param-2: {}] Result: OK
+13:40:40 Executing sendKeysToElement element: By.name: login_email parameters: {"id":"16000000-0000-0000-2D84-000000000000","value":["test@perfecto.com"]}
+13:40:42 command: sendKeysToElement[ param-1: By.name: login_email param-2: {"id":"16000000-0000-0000-2D84-000000000000","value":["test@perfecto.com"]}] Result: sendKeysToElement:null
+13:40:42 Executing findElement element: By.name: login_password parameters: {}
+13:40:42 Executing findElement parameters: {"using":"name","value":"login_password"}
+13:40:42 command: findElement[ param-1: {value=login_password, using=name}] Result: id: 19000000-0000-0000-2D84-000000000000
+13:40:42 command: findElement[ param-1: By.name: login_password param-2: {}] Result: OK
+13:40:42 Executing sendKeysToElement element: By.name: login_password parameters: {"id":"19000000-0000-0000-2D84-000000000000","value":["test123"]}
+13:40:43 command: sendKeysToElement[ param-1: By.name: login_password param-2: {"id":"19000000-0000-0000-2D84-000000000000","value":["test123"]}] Result: sendKeysToElement:null
+13:40:43 Executing findElement element: By.xpath: //XCUIElementTypeSwitch parameters: {}
+13:40:43 Executing findElement parameters: {"using":"xpath","value":"//XCUIElementTypeSwitch"}
+13:40:44 command: findElement[ param-1: {value=//XCUIElementTypeSwitch, using=xpath}] Result: id: 1C000000-0000-0000-2D84-000000000000
+13:40:44 command: findElement[ param-1: By.xpath: //XCUIElementTypeSwitch param-2: {}] Result: OK
+13:40:44 Executing clickElement element: By.xpath: //XCUIElementTypeSwitch parameters: {"id":"1C000000-0000-0000-2D84-000000000000"}
+13:40:45 command: clickElement[ param-1: By.xpath: //XCUIElementTypeSwitch param-2: {"id":"1C000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:40:45 Executing findElement element: By.name: login_login_btn parameters: {}
+13:40:45 Executing findElement parameters: {"using":"name","value":"login_login_btn"}
+13:40:45 command: findElement[ param-1: {value=login_login_btn, using=name}] Result: id: 1A000000-0000-0000-2D84-000000000000
+13:40:45 command: findElement[ param-1: By.name: login_login_btn param-2: {}] Result: OK
+13:40:45 Executing clickElement element: By.name: login_login_btn parameters: {"id":"1A000000-0000-0000-2D84-000000000000"}
+13:40:46 command: clickElement[ param-1: By.name: login_login_btn param-2: {"id":"1A000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:40:47 Executing findElement parameters: {"using":"xpath","value":"//*[@label='OK']"}
+13:40:48 command: findElement[ param-1: {value=//*[@label='OK'], using=xpath}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=xpath, value=//*[@label='OK']}
+Command duration or timeout: 0 milliseconds
+13:40:49 Executing executeScript parameters: {"args":[{"resultAuth":"fail","errorType":"authFailed","name":"Perfecto Expense Tracker"}],"script":"mobile:sensorAuthentication:set"}
+13:40:51 Executing executeScript parameters: {"args":[{"property":"os"}],"script":"mobile:handset:info"}
+13:40:51 Executing findElement element: By.name: OK parameters: {}
+13:40:51 Executing findElement parameters: {"using":"name","value":"OK"}
+13:40:52 command: findElement[ param-1: {value=OK, using=name}] Result: id: 9D000000-0000-0000-2D84-000000000000
+13:40:52 command: findElement[ param-1: By.name: OK param-2: {}] Result: OK
+13:40:52 Executing clickElement element: By.name: OK parameters: {"id":"9D000000-0000-0000-2D84-000000000000"}
+13:40:52 command: clickElement[ param-1: By.name: OK param-2: {"id":"9D000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:40:54 Executing findElement element: By.name: login_login_btn parameters: {}
+13:40:54 Executing findElement parameters: {"using":"name","value":"login_login_btn"}
+13:40:55 command: findElement[ param-1: {value=login_login_btn, using=name}] Result: id: 1A000000-0000-0000-2D84-000000000000
+13:40:55 command: findElement[ param-1: By.name: login_login_btn param-2: {}] Result: OK
+13:40:55 Executing clickElement element: By.name: login_login_btn parameters: {"id":"1A000000-0000-0000-2D84-000000000000"}
+13:40:56 command: clickElement[ param-1: By.name: login_login_btn param-2: {"id":"1A000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:40:58 Executing executeScript parameters: {"args":[{"resultAuth":"success","errorType":"authFailed","name":"Perfecto Expense Tracker"}],"script":"mobile:sensorAuthentication:set"}
+13:41:00 Completed Teststep: Given I login to Expense Tracker app with username and password
+13:41:00 Invoking Teststep: And I add expense with head "Meal" , amount "23.45" , "USD" currency and category "Business" with arguments: [Meal, 23.45, USD, Business]
+13:41:00 Executing executeScript parameters: {"args":[{"name":"And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\""}],"script":"mobile:step:start"}
+13:41:00 Executing findElement element: By.name: list_add_btn parameters: {}
+13:41:00 Executing findElement parameters: {"using":"name","value":"list_add_btn"}
+13:41:01 command: findElement[ param-1: {value=list_add_btn, using=name}] Result: id: DD000000-0000-0000-2D84-000000000000
+13:41:01 command: findElement[ param-1: By.name: list_add_btn param-2: {}] Result: OK
+13:41:01 Executing clickElement element: By.name: list_add_btn parameters: {"id":"DD000000-0000-0000-2D84-000000000000"}
+13:41:01 command: clickElement[ param-1: By.name: list_add_btn param-2: {"id":"DD000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:41:01 Executing findElement element: By.name: edit_head parameters: {}
+13:41:01 Executing findElement parameters: {"using":"name","value":"edit_head"}
+13:41:02 command: findElement[ param-1: {value=edit_head, using=name}] Result: id: EF000000-0000-0000-2D84-000000000000
+13:41:02 command: findElement[ param-1: By.name: edit_head param-2: {}] Result: OK
+13:41:02 Executing clickElement element: By.name: edit_head parameters: {"id":"EF000000-0000-0000-2D84-000000000000"}
+13:41:03 command: clickElement[ param-1: By.name: edit_head param-2: {"id":"EF000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:41:03 Executing executeScript parameters: {"args":[{"property":"os"}],"script":"mobile:handset:info"}
+13:41:03 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:41:03 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:41:03 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: 07010000-0000-0000-2D84-000000000000
+13:41:03 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:41:03 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"07010000-0000-0000-2D84-000000000000"}
+13:41:04 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"07010000-0000-0000-2D84-000000000000"}] Result: getElementAttribute:- Select -
+13:41:04 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:41:04 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:41:04 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: 07010000-0000-0000-2D84-000000000000
+13:41:04 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:41:04 Executing executeScript parameters: {"args":[{"offset":0.15,"order":"next","element":"07010000-0000-0000-2D84-000000000000"}],"script":"mobile: selectPickerWheelValue"}
+13:41:06 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"07010000-0000-0000-2D84-000000000000"}
+13:41:06 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"07010000-0000-0000-2D84-000000000000"}] Result: getElementAttribute:Taxi
+13:41:06 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:41:06 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:41:07 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: 07010000-0000-0000-2D84-000000000000
+13:41:07 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:41:07 Executing executeScript parameters: {"args":[{"offset":0.15,"order":"next","element":"07010000-0000-0000-2D84-000000000000"}],"script":"mobile: selectPickerWheelValue"}
+13:41:08 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"07010000-0000-0000-2D84-000000000000"}
+13:41:08 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"07010000-0000-0000-2D84-000000000000"}] Result: getElementAttribute:Flight
+13:41:08 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:41:08 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:41:09 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: 07010000-0000-0000-2D84-000000000000
+13:41:09 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:41:09 Executing executeScript parameters: {"args":[{"offset":0.15,"order":"next","element":"07010000-0000-0000-2D84-000000000000"}],"script":"mobile: selectPickerWheelValue"}
+13:41:10 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"07010000-0000-0000-2D84-000000000000"}
+13:41:10 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"07010000-0000-0000-2D84-000000000000"}] Result: getElementAttribute:Meal
+13:41:10 Executing findElement element: By.name: edit_amount parameters: {}
+13:41:10 Executing findElement parameters: {"using":"name","value":"edit_amount"}
+13:41:11 command: findElement[ param-1: {value=edit_amount, using=name}] Result: id: F2000000-0000-0000-2D84-000000000000
+13:41:11 command: findElement[ param-1: By.name: edit_amount param-2: {}] Result: OK
+13:41:11 Executing clearElement element: By.name: edit_amount parameters: {"id":"F2000000-0000-0000-2D84-000000000000"}
+13:41:11 command: clearElement[ param-1: By.name: edit_amount param-2: {"id":"F2000000-0000-0000-2D84-000000000000"}] Result: clearElement:null
+13:41:11 Executing findElement element: By.name: edit_amount parameters: {}
+13:41:11 Executing findElement parameters: {"using":"name","value":"edit_amount"}
+13:41:12 command: findElement[ param-1: {value=edit_amount, using=name}] Result: id: F2000000-0000-0000-2D84-000000000000
+13:41:12 command: findElement[ param-1: By.name: edit_amount param-2: {}] Result: OK
+13:41:12 Executing sendKeysToElement element: By.name: edit_amount parameters: {"id":"F2000000-0000-0000-2D84-000000000000","value":["23.45"]}
+13:41:13 command: sendKeysToElement[ param-1: By.name: edit_amount param-2: {"id":"F2000000-0000-0000-2D84-000000000000","value":["23.45"]}] Result: sendKeysToElement:null
+13:41:13 Executing findElement element: By.xpath: //UIATextField[3]|//XCUIElementTypeTextField[3] parameters: {}
+13:41:13 Executing findElement parameters: {"using":"xpath","value":"//UIATextField[3]|//XCUIElementTypeTextField[3]"}
+13:41:14 command: findElement[ param-1: {value=//UIATextField[3]|//XCUIElementTypeTextField[3], using=xpath}] Result: id: F6000000-0000-0000-2D84-000000000000
+13:41:14 command: findElement[ param-1: By.xpath: //UIATextField[3]|//XCUIElementTypeTextField[3] param-2: {}] Result: OK
+13:41:14 Executing clickElement element: By.xpath: //UIATextField[3]|//XCUIElementTypeTextField[3] parameters: {"id":"F6000000-0000-0000-2D84-000000000000"}
+13:41:14 command: clickElement[ param-1: By.xpath: //UIATextField[3]|//XCUIElementTypeTextField[3] param-2: {"id":"F6000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:41:14 Executing executeScript parameters: {"args":[{"property":"os"}],"script":"mobile:handset:info"}
+13:41:14 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:41:14 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:41:15 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: 01020000-0000-0000-2D84-000000000000
+13:41:15 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:41:15 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"01020000-0000-0000-2D84-000000000000"}
+13:41:16 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"01020000-0000-0000-2D84-000000000000"}] Result: getElementAttribute:INR - ₹
+13:41:16 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:41:16 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:41:16 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: 01020000-0000-0000-2D84-000000000000
+13:41:16 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:41:16 Executing executeScript parameters: {"args":[{"offset":0.15,"order":"next","element":"01020000-0000-0000-2D84-000000000000"}],"script":"mobile: selectPickerWheelValue"}
+13:41:17 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"01020000-0000-0000-2D84-000000000000"}
+13:41:18 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"01020000-0000-0000-2D84-000000000000"}] Result: getElementAttribute:USD - $
+13:41:18 Executing findElement element: By.name: edit_category parameters: {}
+13:41:18 Executing findElement parameters: {"using":"name","value":"edit_category"}
+13:41:19 command: findElement[ param-1: {value=edit_category, using=name}] Result: id: F9000000-0000-0000-2D84-000000000000
+13:41:19 command: findElement[ param-1: By.name: edit_category param-2: {}] Result: OK
+13:41:19 Executing clickElement element: By.name: edit_category parameters: {"id":"F9000000-0000-0000-2D84-000000000000"}
+13:41:19 command: clickElement[ param-1: By.name: edit_category param-2: {"id":"F9000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:41:19 Executing executeScript parameters: {"args":[{"property":"os"}],"script":"mobile:handset:info"}
+13:41:20 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:41:20 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:41:20 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: C1020000-0000-0000-2D84-000000000000
+13:41:20 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:41:20 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"C1020000-0000-0000-2D84-000000000000"}
+13:41:21 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"C1020000-0000-0000-2D84-000000000000"}] Result: getElementAttribute:- Select -
+13:41:21 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:41:21 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:41:21 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: C1020000-0000-0000-2D84-000000000000
+13:41:21 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:41:21 Executing executeScript parameters: {"args":[{"offset":0.15,"order":"next","element":"C1020000-0000-0000-2D84-000000000000"}],"script":"mobile: selectPickerWheelValue"}
+13:41:23 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"C1020000-0000-0000-2D84-000000000000"}
+13:41:23 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"C1020000-0000-0000-2D84-000000000000"}] Result: getElementAttribute:Personal
+13:41:23 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:41:23 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:41:24 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: C1020000-0000-0000-2D84-000000000000
+13:41:24 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:41:24 Executing executeScript parameters: {"args":[{"offset":0.15,"order":"next","element":"C1020000-0000-0000-2D84-000000000000"}],"script":"mobile: selectPickerWheelValue"}
+13:41:25 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"C1020000-0000-0000-2D84-000000000000"}
+13:41:25 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"C1020000-0000-0000-2D84-000000000000"}] Result: getElementAttribute:Business
+13:41:25 Executing findElement element: By.name: edit_date parameters: {}
+13:41:25 Executing findElement parameters: {"using":"name","value":"edit_date"}
+13:41:26 command: findElement[ param-1: {value=edit_date, using=name}] Result: id: FC000000-0000-0000-2D84-000000000000
+13:41:26 command: findElement[ param-1: By.name: edit_date param-2: {}] Result: OK
+13:41:26 Executing clickElement element: By.name: edit_date parameters: {"id":"FC000000-0000-0000-2D84-000000000000"}
+13:41:26 command: clickElement[ param-1: By.name: edit_date param-2: {"id":"FC000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:41:26 Completed Teststep: And I add expense with head "Meal" , amount "23.45" , "USD" currency and category "Business" with arguments: [Meal, 23.45, USD, Business]
+13:41:26 Invoking Teststep: And I attach receipt
+13:41:26 Executing executeScript parameters: {"args":[{"name":"And I attach receipt"}],"script":"mobile:step:start"}
+13:41:27 Executing findElement element: By.name: edit_attach parameters: {}
+13:41:27 Executing findElement parameters: {"using":"name","value":"edit_attach"}
+13:41:27 command: findElement[ param-1: {value=edit_attach, using=name}] Result: id: FF000000-0000-0000-2D84-000000000000
+13:41:27 command: findElement[ param-1: By.name: edit_attach param-2: {}] Result: OK
+13:41:27 Executing clickElement element: By.name: edit_attach parameters: {"id":"FF000000-0000-0000-2D84-000000000000"}
+13:41:28 command: clickElement[ param-1: By.name: edit_attach param-2: {"id":"FF000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:41:28 Executing executeScript parameters: {"args":[{"repositoryFile":"PUBLIC:ExpenseTracker/Images/CoffeeReceipt.jpg"}],"script":"mobile:image.injection:start"}
+13:41:35 Executing findElement element: By.name: Camera parameters: {}
+13:41:35 Executing findElement parameters: {"using":"name","value":"Camera"}
+13:41:36 command: findElement[ param-1: {value=Camera, using=name}] Result: id: 45030000-0000-0000-2D84-000000000000
+13:41:36 command: findElement[ param-1: By.name: Camera param-2: {}] Result: OK
+13:41:36 Executing clickElement element: By.name: Camera parameters: {"id":"45030000-0000-0000-2D84-000000000000"}
+13:41:37 command: clickElement[ param-1: By.name: Camera param-2: {"id":"45030000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:41:39 Executing executeScript parameters: {"args":[{"property":"os"}],"script":"mobile:handset:info"}
+13:41:39 Executing findElement element: By.name: OK parameters: {}
+13:41:39 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:40 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:41 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:41 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:42 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:42 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:43 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:44 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:45 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:45 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:46 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:47 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:48 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:48 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:49 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:50 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:51 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:51 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:52 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:52 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:53 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:54 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:55 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:55 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:56 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:57 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:58 Executing findElement parameters: {"using":"name","value":"OK"}
+13:41:58 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:41:59 Executing findElement parameters: {"using":"name","value":"OK"}
+13:42:00 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:42:01 Executing findElement parameters: {"using":"name","value":"OK"}
+13:42:01 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:42:02 Executing findElement parameters: {"using":"name","value":"OK"}
+13:42:02 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:42:03 Executing findElement parameters: {"using":"name","value":"OK"}
+13:42:04 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:42:05 Executing findElement parameters: {"using":"name","value":"OK"}
+13:42:06 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:42:07 Executing findElement parameters: {"using":"name","value":"OK"}
+13:42:07 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:42:08 Executing findElement parameters: {"using":"name","value":"OK"}
+13:42:09 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:42:10 Executing findElement parameters: {"using":"name","value":"OK"}
+13:42:10 command: findElement[ param-1: {value=OK, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=OK}
+Command duration or timeout: 0 milliseconds
+13:42:10 command: clickElement[ param-1: By.name: OK param-2: {"id":"-1"}] Result: Timed out after 30 seconds waiting for presence of element located by: By.name: OK
+13:42:10 Executing findElements parameters: {"using":"name","value":"OK"}
+13:42:10 command: findElements[ param-1: {value=OK, using=name}] Result: []
+13:42:10 Executing findElement element: By.name: PhotoCapture parameters: {}
+13:42:10 Executing findElement parameters: {"using":"name","value":"PhotoCapture"}
+13:42:11 command: findElement[ param-1: {value=PhotoCapture, using=name}] Result: id: 6C030000-0000-0000-2D84-000000000000
+13:42:11 command: findElement[ param-1: By.name: PhotoCapture param-2: {}] Result: OK
+13:42:11 Executing clickElement element: By.name: PhotoCapture parameters: {"id":"6C030000-0000-0000-2D84-000000000000"}
+13:42:12 command: clickElement[ param-1: By.name: PhotoCapture param-2: {"id":"6C030000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:42:12 Executing findElement element: By.name: Use Photo parameters: {}
+13:42:12 Executing findElement parameters: {"using":"name","value":"Use Photo"}
+13:42:13 command: findElement[ param-1: {value=Use Photo, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=Use Photo}
+Command duration or timeout: 0 milliseconds
+13:42:14 Executing findElement parameters: {"using":"name","value":"Use Photo"}
+13:42:14 command: findElement[ param-1: {value=Use Photo, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-001D29661488802E, deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 48d03db6-1617-4bd4-9e15-4e9..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 13.1.2, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7183147, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11604, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-001D29661488802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: f15466d4-3e69-4c2e-988f-dc0b8684a6b0
+*** Element info: {Using=name, value=Use Photo}
+Command duration or timeout: 0 milliseconds
+13:42:15 Executing findElement parameters: {"using":"name","value":"Use Photo"}
+13:42:16 command: findElement[ param-1: {value=Use Photo, using=name}] Result: id: 88030000-0000-0000-2D84-000000000000
+13:42:16 command: findElement[ param-1: By.name: Use Photo param-2: {}] Result: OK
+13:42:16 Executing clickElement element: By.name: Use Photo parameters: {"id":"88030000-0000-0000-2D84-000000000000"}
+13:42:16 command: clickElement[ param-1: By.name: Use Photo param-2: {"id":"88030000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:42:16 Executing findElement element: By.name: add_save_btn parameters: {}
+13:42:16 Executing findElement parameters: {"using":"name","value":"add_save_btn"}
+13:42:17 command: findElement[ param-1: {value=add_save_btn, using=name}] Result: id: E3000000-0000-0000-2D84-000000000000
+13:42:17 command: findElement[ param-1: By.name: add_save_btn param-2: {}] Result: OK
+13:42:17 Executing clickElement element: By.name: add_save_btn parameters: {"id":"E3000000-0000-0000-2D84-000000000000"}
+13:42:17 command: clickElement[ param-1: By.name: add_save_btn param-2: {"id":"E3000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:42:17 Executing findElement element: By.name: OK parameters: {}
+13:42:17 Executing findElement parameters: {"using":"name","value":"OK"}
+13:42:18 command: findElement[ param-1: {value=OK, using=name}] Result: id: A7030000-0000-0000-2D84-000000000000
+13:42:18 command: findElement[ param-1: By.name: OK param-2: {}] Result: OK
+13:42:18 Executing clickElement element: By.name: OK parameters: {"id":"A7030000-0000-0000-2D84-000000000000"}
+13:42:19 command: clickElement[ param-1: By.name: OK param-2: {"id":"A7030000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:42:19 Executing executeScript parameters: {"args":[{}],"script":"mobile:image.injection:stop"}
+13:42:23 Completed Teststep: And I attach receipt
+13:42:23 Invoking Teststep: Then I logout of application
+13:42:23 Executing executeScript parameters: {"args":[{"name":"Then I logout of application"}],"script":"mobile:step:start"}
+13:42:24 Executing executeScript parameters: {"args":[{"property":"os"}],"script":"mobile:handset:info"}
+13:42:24 Executing findElement element: By.name: list_left_menu_btn parameters: {}
+13:42:24 Executing findElement parameters: {"using":"name","value":"list_left_menu_btn"}
+13:42:24 command: findElement[ param-1: {value=list_left_menu_btn, using=name}] Result: id: CA000000-0000-0000-2D84-000000000000
+13:42:24 command: findElement[ param-1: By.name: list_left_menu_btn param-2: {}] Result: OK
+13:42:24 Executing clickElement element: By.name: list_left_menu_btn parameters: {"id":"CA000000-0000-0000-2D84-000000000000"}
+13:42:25 command: clickElement[ param-1: By.name: list_left_menu_btn param-2: {"id":"CA000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:42:25 Executing findElement element: By.name: list_logout_menu parameters: {}
+13:42:25 Executing findElement parameters: {"using":"name","value":"list_logout_menu"}
+13:42:25 command: findElement[ param-1: {value=list_logout_menu, using=name}] Result: id: D3000000-0000-0000-2D84-000000000000
+13:42:25 command: findElement[ param-1: By.name: list_logout_menu param-2: {}] Result: OK
+13:42:25 Executing clickElement element: By.name: list_logout_menu parameters: {"id":"D3000000-0000-0000-2D84-000000000000"}
+13:42:26 command: clickElement[ param-1: By.name: list_logout_menu param-2: {"id":"D3000000-0000-0000-2D84-000000000000"}] Result: clickElement:null
+13:42:26 Completed Teststep: Then I logout of application
+13:42:26 Competed scenario: Add expense after Login with status SUCCESS
+13:42:26 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+13:42:27 Executing quit parameters: {}
+13:42:27 Executing executeScript parameters: {"args":[{}],"script":"mobile:execution:close"}
+13:42:45 ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Version=3.0, qaf-Build-Time=26-Jul-2020 22:16:34}
+13:42:45 Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/common. Found property files to load: 5
+13:42:45 Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/common. Found property files to load: 0
+13:42:45 scenario.file.loc[Ljava.lang.String;@16610890
+13:42:45 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/WebSearch.feature
+13:42:45 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Cafe24.feature
+13:42:45 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/NHSBSA.feature
+13:42:45 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/AudioCalls.feature
+13:42:45 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/ExpenseTracker.feature
+13:42:45 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Calculator.feature
+13:42:45 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Maps.feature
+13:42:45 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Chanel.feature
+13:42:45 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/MultiDevice.feature
+13:42:45 loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/VirtualDevices.feature
+13:42:45 total test found: 1
+13:42:45 Adding resources from: src/main/resources/ios
+13:42:45 Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/ios. Found property files to load: 3
+13:42:45 Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/ios. Found property files to load: 0
+13:42:45 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+13:42:45 Driver: perfectoDriver
+13:42:45 Direct Driver Connect
+13:42:56 Executing close parameters: {}
+13:42:56 command: close[ param-1: {}] Result: null
+13:42:56 command: quit[ param-1: {}] Result: null
+13:42:56 UI-driver tear down complete...
+13:43:27 Executing setTimeout parameters: {"implicit":0}
+13:43:28 command: setTimeout[ param-1: {implicit=0}] Result: null
+13:43:28 driver init done
+13:43:28 Executing executeScript parameters: {"args":[{"jobName":"PerfectoDemo","jobBranch":"master","customFields":[],"name":"Add expense after Login","projectName":"Archive","jobNumber":7184232,"projectVersion":"1.0","tags":["iOS device 1","Expense Tracker Demos"," @ExpenseTrackerLogExpense"," @ExpenseTracker "]}],"script":"mobile:test:start"}
+13:43:28 
+
+Executing scenario: Add expense after Login - 
+13:43:28 pkg: com.qmetry.qaf.automation.step
+13:43:28 pkg: com.quantum.steps
+13:43:28 Invoking Teststep: Given I login to Expense Tracker app with username and password
+13:43:28 Executing executeScript parameters: {"args":[{"name":"Given I login to Expense Tracker app with username and password"}],"script":"mobile:step:start"}
+13:43:28 Executing findElement element: By.name: login_email parameters: {}
+13:43:28 Executing findElement parameters: {"using":"name","value":"login_email"}
+13:43:28 command: findElement[ param-1: {value=login_email, using=name}] Result: id: 11000000-0000-0000-AEF9-000000000000
+13:43:28 command: findElement[ param-1: By.name: login_email param-2: {}] Result: OK
+13:43:28 Executing sendKeysToElement element: By.name: login_email parameters: {"id":"11000000-0000-0000-AEF9-000000000000","value":["test@perfecto.com"]}
+13:43:29 command: sendKeysToElement[ param-1: By.name: login_email param-2: {"id":"11000000-0000-0000-AEF9-000000000000","value":["test@perfecto.com"]}] Result: sendKeysToElement:null
+13:43:29 Executing findElement element: By.name: login_password parameters: {}
+13:43:29 Executing findElement parameters: {"using":"name","value":"login_password"}
+13:43:30 command: findElement[ param-1: {value=login_password, using=name}] Result: id: 14000000-0000-0000-AEF9-000000000000
+13:43:30 command: findElement[ param-1: By.name: login_password param-2: {}] Result: OK
+13:43:30 Executing sendKeysToElement element: By.name: login_password parameters: {"id":"14000000-0000-0000-AEF9-000000000000","value":["test123"]}
+13:43:30 command: sendKeysToElement[ param-1: By.name: login_password param-2: {"id":"14000000-0000-0000-AEF9-000000000000","value":["test123"]}] Result: sendKeysToElement:null
+13:43:30 Executing findElement element: By.xpath: //XCUIElementTypeSwitch parameters: {}
+13:43:30 Executing findElement parameters: {"using":"xpath","value":"//XCUIElementTypeSwitch"}
+13:43:31 command: findElement[ param-1: {value=//XCUIElementTypeSwitch, using=xpath}] Result: id: 17000000-0000-0000-AEF9-000000000000
+13:43:31 command: findElement[ param-1: By.xpath: //XCUIElementTypeSwitch param-2: {}] Result: OK
+13:43:31 Executing clickElement element: By.xpath: //XCUIElementTypeSwitch parameters: {"id":"17000000-0000-0000-AEF9-000000000000"}
+13:43:31 command: clickElement[ param-1: By.xpath: //XCUIElementTypeSwitch param-2: {"id":"17000000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:43:31 Executing findElement element: By.name: login_login_btn parameters: {}
+13:43:31 Executing findElement parameters: {"using":"name","value":"login_login_btn"}
+13:43:32 command: findElement[ param-1: {value=login_login_btn, using=name}] Result: id: 15000000-0000-0000-AEF9-000000000000
+13:43:32 command: findElement[ param-1: By.name: login_login_btn param-2: {}] Result: OK
+13:43:32 Executing clickElement element: By.name: login_login_btn parameters: {"id":"15000000-0000-0000-AEF9-000000000000"}
+13:43:32 command: clickElement[ param-1: By.name: login_login_btn param-2: {"id":"15000000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:43:33 Executing findElement parameters: {"using":"xpath","value":"//*[@label='OK']"}
+13:43:34 command: findElement[ param-1: {value=//*[@label='OK'], using=xpath}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 3223B53D8B0B789E293ECB7F94E..., deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: ba3f56b9-7164-4fc5-937d-be7..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 14.3, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7184232, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11601, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 3223b53d8b0b789e293ecb7f94e..., user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: 3044dce6-386b-4873-aa54-6a50577436ce
+*** Element info: {Using=xpath, value=//*[@label='OK']}
+Command duration or timeout: 0 milliseconds
+13:43:35 Executing executeScript parameters: {"args":[{"resultAuth":"fail","errorType":"authFailed","name":"Perfecto Expense Tracker"}],"script":"mobile:sensorAuthentication:set"}
+13:43:37 Executing executeScript parameters: {"args":[{"property":"os"}],"script":"mobile:handset:info"}
+13:43:37 Executing findElement element: By.name: OK parameters: {}
+13:43:37 Executing findElement parameters: {"using":"name","value":"OK"}
+13:43:38 command: findElement[ param-1: {value=OK, using=name}] Result: id: B2000000-0000-0000-AEF9-000000000000
+13:43:38 command: findElement[ param-1: By.name: OK param-2: {}] Result: OK
+13:43:38 Executing clickElement element: By.name: OK parameters: {"id":"B2000000-0000-0000-AEF9-000000000000"}
+13:43:39 command: clickElement[ param-1: By.name: OK param-2: {"id":"B2000000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:43:41 Executing findElement element: By.name: login_login_btn parameters: {}
+13:43:41 Executing findElement parameters: {"using":"name","value":"login_login_btn"}
+13:43:41 command: findElement[ param-1: {value=login_login_btn, using=name}] Result: id: 15000000-0000-0000-AEF9-000000000000
+13:43:41 command: findElement[ param-1: By.name: login_login_btn param-2: {}] Result: OK
+13:43:41 Executing clickElement element: By.name: login_login_btn parameters: {"id":"15000000-0000-0000-AEF9-000000000000"}
+13:43:42 command: clickElement[ param-1: By.name: login_login_btn param-2: {"id":"15000000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:43:44 Executing executeScript parameters: {"args":[{"resultAuth":"success","errorType":"authFailed","name":"Perfecto Expense Tracker"}],"script":"mobile:sensorAuthentication:set"}
+13:43:46 Completed Teststep: Given I login to Expense Tracker app with username and password
+13:43:46 Invoking Teststep: And I add expense with head "Meal" , amount "23.45" , "USD" currency and category "Business" with arguments: [Meal, 23.45, USD, Business]
+13:43:46 Executing executeScript parameters: {"args":[{"name":"And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\""}],"script":"mobile:step:start"}
+13:43:47 Executing findElement element: By.name: list_add_btn parameters: {}
+13:43:47 Executing findElement parameters: {"using":"name","value":"list_add_btn"}
+13:43:47 command: findElement[ param-1: {value=list_add_btn, using=name}] Result: id: E6000000-0000-0000-AEF9-000000000000
+13:43:47 command: findElement[ param-1: By.name: list_add_btn param-2: {}] Result: OK
+13:43:47 Executing clickElement element: By.name: list_add_btn parameters: {"id":"E6000000-0000-0000-AEF9-000000000000"}
+13:43:48 command: clickElement[ param-1: By.name: list_add_btn param-2: {"id":"E6000000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:43:48 Executing findElement element: By.name: edit_head parameters: {}
+13:43:48 Executing findElement parameters: {"using":"name","value":"edit_head"}
+13:43:48 command: findElement[ param-1: {value=edit_head, using=name}] Result: id: F7000000-0000-0000-AEF9-000000000000
+13:43:48 command: findElement[ param-1: By.name: edit_head param-2: {}] Result: OK
+13:43:48 Executing clickElement element: By.name: edit_head parameters: {"id":"F7000000-0000-0000-AEF9-000000000000"}
+13:43:49 command: clickElement[ param-1: By.name: edit_head param-2: {"id":"F7000000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:43:49 Executing executeScript parameters: {"args":[{"property":"os"}],"script":"mobile:handset:info"}
+13:43:49 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:43:49 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:43:49 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: 0C010000-0000-0000-AEF9-000000000000
+13:43:49 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:43:49 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"0C010000-0000-0000-AEF9-000000000000"}
+13:43:49 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"0C010000-0000-0000-AEF9-000000000000"}] Result: getElementAttribute:- Select -
+13:43:49 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:43:49 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:43:50 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: 0C010000-0000-0000-AEF9-000000000000
+13:43:50 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:43:50 Executing executeScript parameters: {"args":[{"offset":0.15,"order":"next","element":"0C010000-0000-0000-AEF9-000000000000"}],"script":"mobile: selectPickerWheelValue"}
+13:43:51 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"0C010000-0000-0000-AEF9-000000000000"}
+13:43:51 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"0C010000-0000-0000-AEF9-000000000000"}] Result: getElementAttribute:Taxi
+13:43:51 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:43:51 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:43:52 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: 0C010000-0000-0000-AEF9-000000000000
+13:43:52 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:43:52 Executing executeScript parameters: {"args":[{"offset":0.15,"order":"next","element":"0C010000-0000-0000-AEF9-000000000000"}],"script":"mobile: selectPickerWheelValue"}
+13:43:52 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"0C010000-0000-0000-AEF9-000000000000"}
+13:43:53 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"0C010000-0000-0000-AEF9-000000000000"}] Result: getElementAttribute:Flight
+13:43:53 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:43:53 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:43:53 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: 0C010000-0000-0000-AEF9-000000000000
+13:43:53 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:43:53 Executing executeScript parameters: {"args":[{"offset":0.15,"order":"next","element":"0C010000-0000-0000-AEF9-000000000000"}],"script":"mobile: selectPickerWheelValue"}
+13:43:54 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"0C010000-0000-0000-AEF9-000000000000"}
+13:43:54 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"0C010000-0000-0000-AEF9-000000000000"}] Result: getElementAttribute:Meal
+13:43:54 Executing findElement element: By.name: edit_amount parameters: {}
+13:43:54 Executing findElement parameters: {"using":"name","value":"edit_amount"}
+13:43:54 command: findElement[ param-1: {value=edit_amount, using=name}] Result: id: FA000000-0000-0000-AEF9-000000000000
+13:43:54 command: findElement[ param-1: By.name: edit_amount param-2: {}] Result: OK
+13:43:54 Executing clearElement element: By.name: edit_amount parameters: {"id":"FA000000-0000-0000-AEF9-000000000000"}
+13:43:55 command: clearElement[ param-1: By.name: edit_amount param-2: {"id":"FA000000-0000-0000-AEF9-000000000000"}] Result: clearElement:null
+13:43:55 Executing findElement element: By.name: edit_amount parameters: {}
+13:43:55 Executing findElement parameters: {"using":"name","value":"edit_amount"}
+13:43:55 command: findElement[ param-1: {value=edit_amount, using=name}] Result: id: FA000000-0000-0000-AEF9-000000000000
+13:43:55 command: findElement[ param-1: By.name: edit_amount param-2: {}] Result: OK
+13:43:55 Executing sendKeysToElement element: By.name: edit_amount parameters: {"id":"FA000000-0000-0000-AEF9-000000000000","value":["23.45"]}
+13:43:56 command: sendKeysToElement[ param-1: By.name: edit_amount param-2: {"id":"FA000000-0000-0000-AEF9-000000000000","value":["23.45"]}] Result: sendKeysToElement:null
+13:43:56 Executing findElement element: By.xpath: //UIATextField[3]|//XCUIElementTypeTextField[3] parameters: {}
+13:43:56 Executing findElement parameters: {"using":"xpath","value":"//UIATextField[3]|//XCUIElementTypeTextField[3]"}
+13:43:56 command: findElement[ param-1: {value=//UIATextField[3]|//XCUIElementTypeTextField[3], using=xpath}] Result: id: FE000000-0000-0000-AEF9-000000000000
+13:43:56 command: findElement[ param-1: By.xpath: //UIATextField[3]|//XCUIElementTypeTextField[3] param-2: {}] Result: OK
+13:43:56 Executing clickElement element: By.xpath: //UIATextField[3]|//XCUIElementTypeTextField[3] parameters: {"id":"FE000000-0000-0000-AEF9-000000000000"}
+13:43:56 command: clickElement[ param-1: By.xpath: //UIATextField[3]|//XCUIElementTypeTextField[3] param-2: {"id":"FE000000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:43:56 Executing executeScript parameters: {"args":[{"property":"os"}],"script":"mobile:handset:info"}
+13:43:57 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:43:57 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:43:57 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: 0A020000-0000-0000-AEF9-000000000000
+13:43:57 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:43:57 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"0A020000-0000-0000-AEF9-000000000000"}
+13:43:57 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"0A020000-0000-0000-AEF9-000000000000"}] Result: getElementAttribute:INR - ₹
+13:43:57 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:43:57 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:43:58 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: 0A020000-0000-0000-AEF9-000000000000
+13:43:58 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:43:58 Executing executeScript parameters: {"args":[{"offset":0.15,"order":"next","element":"0A020000-0000-0000-AEF9-000000000000"}],"script":"mobile: selectPickerWheelValue"}
+13:43:58 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"0A020000-0000-0000-AEF9-000000000000"}
+13:43:59 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"0A020000-0000-0000-AEF9-000000000000"}] Result: getElementAttribute:USD - $
+13:43:59 Executing findElement element: By.name: edit_category parameters: {}
+13:43:59 Executing findElement parameters: {"using":"name","value":"edit_category"}
+13:43:59 command: findElement[ param-1: {value=edit_category, using=name}] Result: id: 01010000-0000-0000-AEF9-000000000000
+13:43:59 command: findElement[ param-1: By.name: edit_category param-2: {}] Result: OK
+13:43:59 Executing clickElement element: By.name: edit_category parameters: {"id":"01010000-0000-0000-AEF9-000000000000"}
+13:43:59 command: clickElement[ param-1: By.name: edit_category param-2: {"id":"01010000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:43:59 Executing executeScript parameters: {"args":[{"property":"os"}],"script":"mobile:handset:info"}
+13:43:59 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:43:59 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:44:00 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: C1020000-0000-0000-AEF9-000000000000
+13:44:00 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:44:00 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"C1020000-0000-0000-AEF9-000000000000"}
+13:44:00 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"C1020000-0000-0000-AEF9-000000000000"}] Result: getElementAttribute:- Select -
+13:44:00 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:44:00 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:44:00 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: C1020000-0000-0000-AEF9-000000000000
+13:44:00 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:44:00 Executing executeScript parameters: {"args":[{"offset":0.15,"order":"next","element":"C1020000-0000-0000-AEF9-000000000000"}],"script":"mobile: selectPickerWheelValue"}
+13:44:01 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"C1020000-0000-0000-AEF9-000000000000"}
+13:44:02 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"C1020000-0000-0000-AEF9-000000000000"}] Result: getElementAttribute:Personal
+13:44:02 Executing findElement element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {}
+13:44:02 Executing findElement parameters: {"using":"xpath","value":"//UIAPickerWheel|//XCUIElementTypePickerWheel"}
+13:44:02 command: findElement[ param-1: {value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}] Result: id: C1020000-0000-0000-AEF9-000000000000
+13:44:02 command: findElement[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {}] Result: OK
+13:44:02 Executing executeScript parameters: {"args":[{"offset":0.15,"order":"next","element":"C1020000-0000-0000-AEF9-000000000000"}],"script":"mobile: selectPickerWheelValue"}
+13:44:03 Executing getElementAttribute element: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel parameters: {"name":"value","id":"C1020000-0000-0000-AEF9-000000000000"}
+13:44:03 command: getElementAttribute[ param-1: By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel param-2: {"name":"value","id":"C1020000-0000-0000-AEF9-000000000000"}] Result: getElementAttribute:Business
+13:44:03 Executing findElement element: By.name: edit_date parameters: {}
+13:44:03 Executing findElement parameters: {"using":"name","value":"edit_date"}
+13:44:03 command: findElement[ param-1: {value=edit_date, using=name}] Result: id: 04010000-0000-0000-AEF9-000000000000
+13:44:03 command: findElement[ param-1: By.name: edit_date param-2: {}] Result: OK
+13:44:03 Executing clickElement element: By.name: edit_date parameters: {"id":"04010000-0000-0000-AEF9-000000000000"}
+13:44:04 command: clickElement[ param-1: By.name: edit_date param-2: {"id":"04010000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:44:04 Completed Teststep: And I add expense with head "Meal" , amount "23.45" , "USD" currency and category "Business" with arguments: [Meal, 23.45, USD, Business]
+13:44:04 Invoking Teststep: And I attach receipt
+13:44:04 Executing executeScript parameters: {"args":[{"name":"And I attach receipt"}],"script":"mobile:step:start"}
+13:44:04 Executing findElement element: By.name: edit_attach parameters: {}
+13:44:04 Executing findElement parameters: {"using":"name","value":"edit_attach"}
+13:44:04 command: findElement[ param-1: {value=edit_attach, using=name}] Result: id: 07010000-0000-0000-AEF9-000000000000
+13:44:04 command: findElement[ param-1: By.name: edit_attach param-2: {}] Result: OK
+13:44:04 Executing clickElement element: By.name: edit_attach parameters: {"id":"07010000-0000-0000-AEF9-000000000000"}
+13:44:05 command: clickElement[ param-1: By.name: edit_attach param-2: {"id":"07010000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:44:05 Executing executeScript parameters: {"args":[{"repositoryFile":"PUBLIC:ExpenseTracker/Images/CoffeeReceipt.jpg"}],"script":"mobile:image.injection:start"}
+13:44:12 Executing findElement element: By.name: Camera parameters: {}
+13:44:12 Executing findElement parameters: {"using":"name","value":"Camera"}
+13:44:13 command: findElement[ param-1: {value=Camera, using=name}] Result: id: 4A030000-0000-0000-AEF9-000000000000
+13:44:13 command: findElement[ param-1: By.name: Camera param-2: {}] Result: OK
+13:44:13 Executing clickElement element: By.name: Camera parameters: {"id":"4A030000-0000-0000-AEF9-000000000000"}
+13:44:15 command: clickElement[ param-1: By.name: Camera param-2: {"id":"4A030000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:44:17 Executing executeScript parameters: {"args":[{"property":"os"}],"script":"mobile:handset:info"}
+13:44:17 Executing findElement element: By.name: OK parameters: {}
+13:44:17 Executing findElement parameters: {"using":"name","value":"OK"}
+13:44:17 command: findElement[ param-1: {value=OK, using=name}] Result: id: 273A0000-0000-0000-3B00-000000000000
+13:44:17 command: findElement[ param-1: By.name: OK param-2: {}] Result: OK
+13:44:17 Executing clickElement element: By.name: OK parameters: {"id":"273A0000-0000-0000-3B00-000000000000"}
+13:44:18 command: clickElement[ param-1: By.name: OK param-2: {"id":"273A0000-0000-0000-3B00-000000000000"}] Result: clickElement:null
+13:44:18 Executing findElement element: By.name: PhotoCapture parameters: {}
+13:44:18 Executing findElement parameters: {"using":"name","value":"PhotoCapture"}
+13:44:19 command: findElement[ param-1: {value=PhotoCapture, using=name}] Result: id: 82030000-0000-0000-AEF9-000000000000
+13:44:19 command: findElement[ param-1: By.name: PhotoCapture param-2: {}] Result: OK
+13:44:19 Executing clickElement element: By.name: PhotoCapture parameters: {"id":"82030000-0000-0000-AEF9-000000000000"}
+13:44:19 command: clickElement[ param-1: By.name: PhotoCapture param-2: {"id":"82030000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:44:19 Executing findElement element: By.name: Use Photo parameters: {}
+13:44:19 Executing findElement parameters: {"using":"name","value":"Use Photo"}
+13:44:20 command: findElement[ param-1: {value=Use Photo, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 3223B53D8B0B789E293ECB7F94E..., deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: ba3f56b9-7164-4fc5-937d-be7..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 14.3, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7184232, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11601, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 3223b53d8b0b789e293ecb7f94e..., user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: 3044dce6-386b-4873-aa54-6a50577436ce
+*** Element info: {Using=name, value=Use Photo}
+Command duration or timeout: 0 milliseconds
+13:44:21 Executing findElement parameters: {"using":"name","value":"Use Photo"}
+13:44:21 command: findElement[ param-1: {value=Use Photo, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 3223B53D8B0B789E293ECB7F94E..., deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: ba3f56b9-7164-4fc5-937d-be7..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 14.3, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7184232, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11601, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 3223b53d8b0b789e293ecb7f94e..., user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: 3044dce6-386b-4873-aa54-6a50577436ce
+*** Element info: {Using=name, value=Use Photo}
+Command duration or timeout: 0 milliseconds
+13:44:22 Executing findElement parameters: {"using":"name","value":"Use Photo"}
+13:44:22 command: findElement[ param-1: {value=Use Photo, using=name}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 3223B53D8B0B789E293ECB7F94E..., deviceSessionId: spenn02@perforce.com_Remote..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: ba3f56b9-7164-4fc5-937d-be7..., entityType: appium_driver, executionId: spenn02@perforce.com_Remote..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 14.3, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 7184232, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11601, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 3223b53d8b0b789e293ecb7f94e..., user: , webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: 3044dce6-386b-4873-aa54-6a50577436ce
+*** Element info: {Using=name, value=Use Photo}
+Command duration or timeout: 0 milliseconds
+13:44:23 Executing findElement parameters: {"using":"name","value":"Use Photo"}
+13:44:23 command: findElement[ param-1: {value=Use Photo, using=name}] Result: id: 8C030000-0000-0000-AEF9-000000000000
+13:44:23 command: findElement[ param-1: By.name: Use Photo param-2: {}] Result: OK
+13:44:23 Executing clickElement element: By.name: Use Photo parameters: {"id":"8C030000-0000-0000-AEF9-000000000000"}
+13:44:24 command: clickElement[ param-1: By.name: Use Photo param-2: {"id":"8C030000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:44:24 Executing findElement element: By.name: add_save_btn parameters: {}
+13:44:24 Executing findElement parameters: {"using":"name","value":"add_save_btn"}
+13:44:24 command: findElement[ param-1: {value=add_save_btn, using=name}] Result: id: EB000000-0000-0000-AEF9-000000000000
+13:44:24 command: findElement[ param-1: By.name: add_save_btn param-2: {}] Result: OK
+13:44:24 Executing clickElement element: By.name: add_save_btn parameters: {"id":"EB000000-0000-0000-AEF9-000000000000"}
+13:44:25 command: clickElement[ param-1: By.name: add_save_btn param-2: {"id":"EB000000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:44:25 Executing findElement element: By.name: OK parameters: {}
+13:44:25 Executing findElement parameters: {"using":"name","value":"OK"}
+13:44:25 command: findElement[ param-1: {value=OK, using=name}] Result: id: AB030000-0000-0000-AEF9-000000000000
+13:44:25 command: findElement[ param-1: By.name: OK param-2: {}] Result: OK
+13:44:25 Executing clickElement element: By.name: OK parameters: {"id":"AB030000-0000-0000-AEF9-000000000000"}
+13:44:26 command: clickElement[ param-1: By.name: OK param-2: {"id":"AB030000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:44:26 Executing executeScript parameters: {"args":[{}],"script":"mobile:image.injection:stop"}
+13:44:31 Completed Teststep: And I attach receipt
+13:44:31 Invoking Teststep: Then I logout of application
+13:44:31 Executing executeScript parameters: {"args":[{"name":"Then I logout of application"}],"script":"mobile:step:start"}
+13:44:31 Executing executeScript parameters: {"args":[{"property":"os"}],"script":"mobile:handset:info"}
+13:44:31 Executing findElement element: By.name: list_left_menu_btn parameters: {}
+13:44:31 Executing findElement parameters: {"using":"name","value":"list_left_menu_btn"}
+13:44:32 command: findElement[ param-1: {value=list_left_menu_btn, using=name}] Result: id: E0000000-0000-0000-AEF9-000000000000
+13:44:32 command: findElement[ param-1: By.name: list_left_menu_btn param-2: {}] Result: OK
+13:44:32 Executing clickElement element: By.name: list_left_menu_btn parameters: {"id":"E0000000-0000-0000-AEF9-000000000000"}
+13:44:33 command: clickElement[ param-1: By.name: list_left_menu_btn param-2: {"id":"E0000000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:44:33 Executing findElement element: By.name: list_logout_menu parameters: {}
+13:44:33 Executing findElement parameters: {"using":"name","value":"list_logout_menu"}
+13:44:33 command: findElement[ param-1: {value=list_logout_menu, using=name}] Result: id: DB000000-0000-0000-AEF9-000000000000
+13:44:33 command: findElement[ param-1: By.name: list_logout_menu param-2: {}] Result: OK
+13:44:33 Executing clickElement element: By.name: list_logout_menu parameters: {"id":"DB000000-0000-0000-AEF9-000000000000"}
+13:44:33 command: clickElement[ param-1: By.name: list_logout_menu param-2: {"id":"DB000000-0000-0000-AEF9-000000000000"}] Result: clickElement:null
+13:44:33 Completed Teststep: Then I logout of application
+13:44:33 Competed scenario: Add expense after Login with status SUCCESS
+13:44:33 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+13:44:33 Executing quit parameters: {}
+13:44:33 Executing executeScript parameters: {"args":[{}],"script":"mobile:execution:close"}
+13:45:03 Executing close parameters: {}
+13:45:03 command: close[ param-1: {}] Result: null
+13:45:03 command: quit[ param-1: {}] Result: null
+13:45:03 UI-driver tear down complete...
