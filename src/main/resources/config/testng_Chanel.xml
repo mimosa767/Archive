@@ -1,0 +1,144 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Chanel Demos" verbose="0" parallel="tests" thread-count="100" group-by-instances="true">
+    <listeners>
+        <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+        <!--<listener class-name="com.quantum.listeners.TestListener" />-->
+    </listeners>
+
+    <test name="Galaxy Note 20" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="RF8N82SBA6H"/>
+        <parameter name="driver.capabilities.appPackage" value="com.gamma.scan"/>
+        <parameter name="driver.capabilities.startActivity" value="com.gamma.scan/com.gamma.barcodeapp.ui.BarcodeCaptureActivity" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@ChanelScanQRKakao"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="Sony Xperia 5" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="QV7206RK30"/>
+        <parameter name="driver.capabilities.appPackage" value="com.gamma.scan"/>
+        <parameter name="driver.capabilities.startActivity" value="com.gamma.scan/com.gamma.barcodeapp.ui.BarcodeCaptureActivity" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@ChanelScanQRKakao"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="Galaxy Z Flip3" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="R5CRA0FM4DX"/>
+        <parameter name="driver.capabilities.appPackage" value="com.gamma.scan"/>
+        <parameter name="driver.capabilities.startActivity" value="com.gamma.scan/com.gamma.barcodeapp.ui.BarcodeCaptureActivity" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@ChanelScanQRKakao"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="Galaxy Z Fold3" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="RFCRA1B2Z5F"/>
+        <parameter name="driver.capabilities.appPackage" value="com.gamma.scan"/>
+        <parameter name="driver.capabilities.startActivity" value="com.gamma.scan/com.gamma.barcodeapp.ui.BarcodeCaptureActivity" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@ChanelScanQRKakao"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="Pixel 6" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="1A041FDF60052X"/>
+        <parameter name="driver.capabilities.appPackage" value="com.gamma.scan"/>
+        <parameter name="driver.capabilities.startActivity" value="com.gamma.scan/com.gamma.barcodeapp.ui.BarcodeCaptureActivity" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@ChanelScanQRKakao"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="Pixel 5" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="09221FDD4009ZT"/>
+        <parameter name="driver.capabilities.appPackage" value="com.gamma.scan"/>
+        <parameter name="driver.capabilities.startActivity" value="com.gamma.scan/com.gamma.barcodeapp.ui.BarcodeCaptureActivity" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@ChanelScanQRKakao"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="Galaxy S20" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="RF8N50LN28B"/>
+        <parameter name="driver.capabilities.appPackage" value="com.gamma.scan"/>
+        <parameter name="driver.capabilities.startActivity" value="com.gamma.scan/com.gamma.barcodeapp.ui.BarcodeCaptureActivity" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@ChanelScanQRKakao"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="Pixel 4a" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.deviceName" value="0A211JEC219604"/>
+        <parameter name="driver.capabilities.appPackage" value="com.gamma.scan"/>
+        <parameter name="driver.capabilities.startActivity" value="com.gamma.scan/com.gamma.barcodeapp.ui.BarcodeCaptureActivity" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@ChanelScanQRKakao"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+</suite>

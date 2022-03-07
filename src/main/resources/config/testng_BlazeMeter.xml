@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Expense Tracker Demos" verbose="0" parallel="tests" thread-count="100" group-by-instances="true">
+    <listeners>
+        <!--<listener class-name="com.quantum.listeners.TestListener" />-->
+    </listeners>
+
+    <test name="Web Scenarios Chrome Test" enabled="true">
+        <parameter name="driver.name" value="blazeRemoteDriver"/>
+        <parameter name="blaze.capabilities.browserName" value="chrome"/>
+        <parameter name="blaze.capabilities.blazemeter.reportName" value="Chrome browser test"/>
+        <parameter name="blaze.capabilities.blazemeter.sessionName" value="Demo Grid Test"/>
+        <parameter name="appType" value="Web"/>
+        <parameter name="blaze.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+        <parameter name="env.resources" value="src/main/resources/common"/>
+        <groups>
+            <run>
+                <include name="@ExpenseTracker" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
+
+    <test name="Web Scenarios Firefox Test" enabled="true">
+        <parameter name="driver.name" value="blazeRemoteDriver"/>
+        <parameter name="blaze.capabilities.browserName" value="firefox"/>
+        <parameter name="blaze.capabilities.blazemeter.reportName" value="Firefox browser test"/>
+        <parameter name="blaze.capabilities.blazemeter.sessionName" value="Demo Grid Test"/>
+        <parameter name="appType" value="Web"/>
+        <parameter name="blaze.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+        <parameter name="env.resources" value="src/main/resources/common"/>
+        <groups>
+            <run>
+                <include name="@ExpenseTracker" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
+
+</suite>

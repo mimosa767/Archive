@@ -1,0 +1,59 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "ExpenseTracker"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "app": "PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa",
+      "automationName": "Appium",
+      "browserName": "",
+      "bundleId": "io.perfecto.expense.tracker",
+      "cssSelectorsEnabled": true,
+      "driverClass": "io.appium.java_client.ios.IOSDriver",
+      "javascriptEnabled": true,
+      "model": "iPhone.*",
+      "platformName": "iOS",
+      "platformVersion": "15.*",
+      "securityToken": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE2Mzg0NDcxNDIsImp0aSI6ImNiOTdmMGZmLTVhZWEtNGNkNC04NThjLWUxMTY1NTQxMTY0OSIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiYTM3MjIzNTctNjU4NS00ZTQ2LWIwODUtMTYwOTFlZjNmMzVmIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiIyYzFlOGM2Ny0xNmI1LTRiYjMtODY0MS1kZWZiOTY5Nzk4MDUiLCJzZXNzaW9uX3N0YXRlIjoiNTRhYmFiNDItMThiYi00ODMxLWIxYWItZWI2OTQ3ZmUyYmZkIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MifQ.A6vWnTYiFV2Ld99UHoBEsk32kwZLvjqD1pjM9EPGpns",
+      "sensorInstrument": "true",
+      "takesScreenshot": true
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34",
+      "qaf-Version": "3.0"
+    },
+    "run-parameters": {
+      "driver.capabilities.platformVersion": "15.*",
+      "baseurl": "",
+      "env.resources": "src/main/resources/ios",
+      "driver.capabilities.model": "iPhone.*",
+      "appType": "Native",
+      "driver.capabilities.app": "PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa",
+      "resources": "src/main/resources/ios",
+      "driver.capabilities.bundleId": "io.perfecto.expense.tracker",
+      "driver.capabilities.platformName": "iOS",
+      "driver.name": "perfectoDriver",
+      "driver.capabilities.sensorInstrument": "true",
+      "driver.capabilities.driverClass": "io.appium.java_client.ios.IOSDriver"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "JetBrains s.r.o.",
+      "java.version": "11.0.13",
+      "os.arch": "x86_64",
+      "host": "spenn0821",
+      "os.name": "Mac OS X",
+      "user.name": "spenn02",
+      "os.version": "12.2"
+    }
+  },
+  "startTime": 1645791964899,
+  "endTime": 1645792340283
+}

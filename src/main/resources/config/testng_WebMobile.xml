@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests"
+	thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
+	</listeners>
+
+	<test name="Web Scenarios iOS Test" enabled="true" thread-count="10">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="driver.capabilities.platformName" value="iOS"/>
+		<parameter name="driver.capabilities.browserName" value="Safari"/>
+		<parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+		<parameter name="driver.env.resources" value="src/main/resources/ios"/>
+		<groups>
+			<run>
+				<include name="@Web" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+<!--	<test name="Web Scenarios Android Test" enabled="true" thread-count="10">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="driver.capabilities.platformName" value="Android"/>-->
+<!--		<parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--		<parameter name="driver.env.resources" value="src/main/resources/android"/>-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Web" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+</suite>

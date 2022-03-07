@@ -1,0 +1,61 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Maps Demo Suite" verbose="0" parallel="tests" thread-count="100">
+    <listeners>
+        <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+    </listeners>
+
+    <!--<test name="iPhone 11 Pro" enabled="true">-->
+        <!--<parameter name="driver.capabilities.deviceName" value="00008030-00160D260280802E"/>-->
+        <!--<parameter name="env.resources" value="src/main/resources/ios"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="@directions"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="iPhone XS Max" enabled="true">-->
+        <!--<parameter name="driver.capabilities.deviceName" value="00008020-001130A13A90003A"/>-->
+        <!--<parameter name="env.resources" value="src/main/resources/ios"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="@directions"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="iPhone X" enabled="true">-->
+        <!--<parameter name="driver.capabilities.deviceName" value="75758395A846051E8BE3058F9C14D5170FF2A2D2"/>-->
+        <!--<parameter name="env.resources" value="src/main/resources/ios"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="@directions"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <test name="Multiple devices" enabled="true">
+        <parameter name="driverNameList" value="perfectoRemote,perfectodeviiRemote,perfectodeviiiRemote"/>
+        <parameter name="perfecto.capabilities.platformName" value="iOS"/>
+        <parameter name="perfectodevii.capabilities.platformName" value="iOS"/>
+        <parameter name="perfectodeviii.capabilities.platformName" value="iOS"/>
+        <groups>
+            <run>
+                <include name="@directions_cycling_multi"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+</suite>

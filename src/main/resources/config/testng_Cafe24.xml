@@ -1,0 +1,277 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests" thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
+	</listeners>
+
+	<test name="Web Scenarios Chrome Test" enabled="true">
+		<parameter name="driver.name" value="perfectoRemoteDriver"/>
+		<parameter name="perfecto.capabilities.platformName" value="Windows"/>
+		<parameter name="perfecto.capabilities.platformVersion" value="10"/>
+		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+		<parameter name="perfecto.capabilities.browserVersion" value="latest"/>
+		<parameter name="perfecto.capabilities.resolution" value="1600x1200"/>
+		<parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>
+<!--        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
+		<parameter name="env.resources" value="src/main/resources/common" />
+		<groups>
+			<run>
+				<include name="@Cafe24SignUpOrder" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+<!--	<test name="Web Scenarios Firefox Test" enabled="true">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.platformName" value="Windows"/>-->
+<!--		<parameter name="perfecto.capabilities.platformVersion" value="10"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Firefox"/>-->
+<!--		<parameter name="perfecto.capabilities.browserVersion" value="latest"/>-->
+<!--		<parameter name="perfecto.capabilities.resolution" value="1600x1200"/>-->
+<!--		<parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>-->
+<!--		<parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
+<!--		<parameter name="env.resources" value="src/main/resources/common" />-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Web Scenarios Edge Test" enabled="true">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.platformName" value="Windows"/>-->
+<!--		<parameter name="perfecto.capabilities.platformVersion" value="10"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Edge"/>-->
+<!--		<parameter name="perfecto.capabilities.browserVersion" value="latest"/>-->
+<!--		<parameter name="perfecto.capabilities.resolution" value="1600x1200"/>-->
+<!--		<parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>-->
+<!--		<parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
+<!--		<parameter name="env.resources" value="src/main/resources/common" />-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Web Scenarios IE Test" enabled="true">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.platformName" value="Windows"/>-->
+<!--		<parameter name="perfecto.capabilities.platformVersion" value="10"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Internet Explorer"/>-->
+<!--		<parameter name="perfecto.capabilities.browserVersion" value="11"/>-->
+<!--		<parameter name="perfecto.capabilities.resolution" value="1600x1200"/>-->
+<!--		<parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>-->
+<!--		<parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
+<!--		<parameter name="env.resources" value="src/main/resources/common" />-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Web Scenarios Safari 15 Test" enabled="true">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.platformName" value="Mac"/>-->
+<!--		<parameter name="perfecto.capabilities.platformVersion" value="macOS Monterey"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Safari"/>-->
+<!--		<parameter name="perfecto.capabilities.browserVersion" value="15"/>-->
+<!--		<parameter name="perfecto.capabilities.resolution" value="1600x1200"/>-->
+<!--		<parameter name="perfecto.capabilities.location" value="EU-DE-FRA"/>-->
+<!--		<parameter name="env.resources" value="src/main/resources/common" />-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Web Scenarios Safari 14 Test" enabled="true">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.platformName" value="Mac"/>-->
+<!--		<parameter name="perfecto.capabilities.platformVersion" value="macOS Big Sur"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Safari"/>-->
+<!--		<parameter name="perfecto.capabilities.browserVersion" value="14"/>-->
+<!--		<parameter name="perfecto.capabilities.resolution" value="1600x1200"/>-->
+<!--		<parameter name="perfecto.capabilities.location" value="EU-DE-FRA"/>-->
+<!--		<parameter name="env.resources" value="src/main/resources/common" />-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Web Scenarios Android Samsung Test" enabled="true" thread-count="10">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.model" value="Galaxy S.*"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>-->
+<!--		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class-->
+<!--					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Web Scenarios Android Samsung Note Test" enabled="true" thread-count="10">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.model" value="Galaxy Note.*"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>-->
+<!--		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class-->
+<!--					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Web Scenarios Android Samsung Fold Test" enabled="true" thread-count="10">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.model" value="Galaxy Z Fold.*"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>-->
+<!--		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class-->
+<!--				name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Web Scenarios Android Samsung Flip Test" enabled="true" thread-count="10">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.model" value="Galaxy Z Flip.*"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>-->
+<!--		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class-->
+<!--					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Web Scenarios Android Pixel Test" enabled="true" thread-count="10">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.model" value="Pixel.*"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>-->
+<!--		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class-->
+<!--					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Web Scenarios Android Tab Test" enabled="true" thread-count="10">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.model" value="Galaxy Tab.*"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Chrome"/>-->
+<!--		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class-->
+<!--					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+
+<!--	<test name="Web Scenarios iOS Test" enabled="true" thread-count="10">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.model" value="iPhone.*"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Safari"/>-->
+<!--		<parameter name="perfecto.capabilities.useAppiumForWeb" value="true" />-->
+<!--		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class-->
+<!--					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Web Scenarios iOS iPad Test" enabled="true" thread-count="10">-->
+<!--		<parameter name="driver.name" value="perfectoRemoteDriver"/>-->
+<!--		<parameter name="perfecto.capabilities.model" value="iPad.*"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Safari"/>-->
+<!--		<parameter name="perfecto.capabilities.useAppiumForWeb" value="true" />-->
+<!--		<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class-->
+<!--				name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Cafe24 Multi Device Test" enabled="true">-->
+<!--		<parameter name="driverNameList" value="perfectoRemote,perfectodeviiRemote"/>-->
+<!--		<parameter name="perfecto.capabilities.platformName" value="Android"/>-->
+<!--		<parameter name="perfecto.capabilities.browserName" value="Chrome" />-->
+<!--		<parameter name="perfectodevii.capabilities.platformName" value="Windows"/>-->
+<!--		<parameter name="perfectodevii.capabilities.platformVersion" value="10"/>-->
+<!--		<parameter name="perfectodevii.capabilities.browserName" value="Chrome"/>-->
+<!--		<parameter name="perfectodevii.capabilities.browserVersion" value="latest"/>-->
+<!--		<parameter name="perfectodevii.capabilities.resolution" value="1600x1200"/>-->
+<!--		<parameter name="perfectodevii.capabilities.location" value="EU Frankfurt"/>-->
+<!--		<parameter name="perfectodevii.additional.capabilities" value="{'captureHAR':true}" />-->
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="@Cafe24SignUpProcessOrder" />-->
+<!--			</run>-->
+<!--		</groups>-->
+<!--		<classes>-->
+<!--			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+</suite>
