@@ -67,6 +67,7 @@
 						<suiteXmlFile>${testngXmlDir}/${testngXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 					<skipTests>${skipTests}</skipTests>
+					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
 		</plugins>
