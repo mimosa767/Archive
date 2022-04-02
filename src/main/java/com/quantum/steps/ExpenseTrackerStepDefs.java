@@ -121,10 +121,9 @@ public class ExpenseTrackerStepDefs {
     @When("^I login to Expense Tracker app with username and password")
     public void loginToInvoiceApp() throws InterruptedException {
 
-//        String username = "secured.hadgVUR3w+TLDCy90cu+YfDDPC8qtlL9htC/3TKtwTs=";
-//        String password = "secured.oGw68iNhEdtnFLc796ViLw==";
         String username = "test@perfecto.com";
         String password = "test123";
+
         if (ConfigurationManager.getBundle().getProperty("appType").equals("Hybrid")
                 || ConfigurationManager.getBundle().getProperty("appType").equals("Native")) {
             if (ConfigurationManager.getBundle().getProperty("appType").equals("Hybrid")) {
@@ -157,7 +156,7 @@ public class ExpenseTrackerStepDefs {
             Thread.currentThread().sleep(2000);
 
             if (DeviceUtils.getDeviceProperty("os").contains("iOS")) {
-                CommonUtils.click("Ok.button");
+                CommonUtils.click("Ok.button"); //this is where the issue is
                 Thread.currentThread().sleep(2000);
                 CommonUtils.click("login.button");
             }
