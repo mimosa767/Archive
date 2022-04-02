@@ -263,7 +263,7 @@
         <parameter name="perfecto.capabilities.platformName" value="Windows"/>
         <parameter name="perfecto.capabilities.platformVersion" value="10"/>
         <parameter name="perfecto.capabilities.browserName" value="Chrome"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="latest"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="100"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
 <!--        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
@@ -285,7 +285,7 @@
         <parameter name="perfecto.capabilities.platformName" value="Windows"/>
         <parameter name="perfecto.capabilities.platformVersion" value="10"/>
         <parameter name="perfecto.capabilities.browserName" value="Firefox"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="latest"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="98"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
 <!--        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
@@ -307,7 +307,7 @@
         <parameter name="perfecto.capabilities.platformName" value="Windows"/>
         <parameter name="perfecto.capabilities.platformVersion" value="10"/>
         <parameter name="perfecto.capabilities.browserName" value="Edge"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="latest"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="99"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
 <!--        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
@@ -327,11 +327,11 @@
     <test name="Web Scenarios Safari Monterey Test" enabled="true">
         <parameter name="driver.name" value="perfectoRemoteDriver"/>
         <parameter name="perfecto.capabilities.platformName" value="Mac"/>
-        <parameter name="perfecto.capabilities.platformVersion" value="macOS Monterey"/>
+        <parameter name="perfecto.capabilities.platformVersion" value="macOS Big Sur"/>
         <parameter name="perfecto.capabilities.browserName" value="Safari"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="15"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="14"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
-        <parameter name="perfecto.capabilities.location" value="US East"/>
+        <parameter name="perfecto.capabilities.location" value="NA-US-BOS"/>
         <parameter name="appType" value="Web"/>
         <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
         <parameter name="env.resources" value="src/main/resources/common" />
@@ -352,7 +352,7 @@
         <parameter name="perfecto.capabilities.browserName" value="Safari"/>
         <parameter name="perfecto.capabilities.browserVersion" value="14"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
-        <parameter name="perfecto.capabilities.location" value="US East"/>
+        <parameter name="perfecto.capabilities.location" value="NA-US-BOS"/>
         <parameter name="appType" value="Web"/>
         <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
         <parameter name="env.resources" value="src/main/resources/common" />
@@ -371,9 +371,9 @@
         <parameter name="perfecto.capabilities.platformName" value="Mac"/>
         <parameter name="perfecto.capabilities.platformVersion" value="macOS Catalina"/>
         <parameter name="perfecto.capabilities.browserName" value="Safari"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="latest"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="13"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
-        <parameter name="perfecto.capabilities.location" value="US East"/>
+        <parameter name="perfecto.capabilities.location" value="NA-US-BOS"/>
         <parameter name="appType" value="Web"/>
         <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
         <parameter name="env.resources" value="src/main/resources/common" />
