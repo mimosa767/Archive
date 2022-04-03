@@ -241,6 +241,7 @@
     <test name="Android device 2.6" enabled="true">
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="Android"/>
+        <parameter name="driver.capabilities.model" value=".*"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
         <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
