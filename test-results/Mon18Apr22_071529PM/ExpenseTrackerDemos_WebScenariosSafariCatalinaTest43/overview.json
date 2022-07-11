@@ -1,0 +1,84 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "ExpenseTracker"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "automationName": "Appium",
+      "browserName": "Safari",
+      "browserVersion": "13",
+      "cssSelectorsEnabled": true,
+      "driverClass": "org.openqa.selenium.WebDriver",
+      "javascriptEnabled": true,
+      "location": "NA-US-BOS",
+      "platformName": "Mac",
+      "platformVersion": "macOS Catalina",
+      "resolution": "1280x1024",
+      "securityToken": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE2NDU4MDI1OTMsImp0aSI6ImU1NTJiZWVlLTY3OTItNDc3Mi1hNzNjLTRlMjNhMGY4ZDgwNSIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZDQyMTczM2MtOTFjOC00YzIxLTgxZmItZmM3OWFlNzRjZmQwIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiIzNGM0MzljNC0xOGMxLTRhZDktYmFjZS0yZDdiMjlkNTUxYjUiLCJzZXNzaW9uX3N0YXRlIjoiMzc3NzY1M2QtYzhiNy00MWY3LWFmMWQtNzA3YTVkNzc3MGM2Iiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MifQ.pwkicVBa05D-vizMWs3dCp3bCM8p9VNTvDQUDQCa6tY",
+      "takesScreenshot": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://demo.app.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=3ca48e47-2a77-4033-b801-8469d53beb80",
+      "streamInfo": "{\n  \"url\": \"https://demo.web.us.perfectomobile.com/fast/view/?sessionId\\u003d3ca48e47-2a77-4033-b801-8469d53beb80@@100.66.227.2@@1650323738943@7b7e1135-6e24-44b1-9284-556847db8a6b\",\n  \"type\": \"JS_STREAM\",\n  \"authenticationType\": \"PERFECTO_HEADER\"\n}",
+      "resolution": "1280x1024",
+      "platform": "MAC",
+      "acceptInsecureCerts": "false",
+      "browserVersion": "13",
+      "platformVersion": "macOS Catalina",
+      "safari:useSimulator": "false",
+      "safari:platformVersion": "10.15.7",
+      "browserName": "Safari",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "safari:automaticInspection": "false",
+      "platformName": "MAC",
+      "setWindowRect": "true",
+      "stopUrl": "https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/session/3ca48e47-2a77-4033-b801-8469d53beb80",
+      "testGridReportUrl": "https://demo.app.perfectomobile.com/reporting/library?externalId[0]=3ca48e47-2a77-4033-b801-8469d53beb80",
+      "safari:diagnose": "false",
+      "strictFileInteractability": "false",
+      "executionId": "3ca48e47-2a77-4033-b801-8469d53beb80",
+      "safari:automaticProfiling": "false",
+      "webdriver.remote.sessionid": "3ca48e47-2a77-4033-b801-8469d53beb80",
+      "safari:platformBuildVersion": "19H2",
+      "webkit:WebRTC": "{DisableICECandidateFiltering=false, DisableInsecureMediaCapture=false}",
+      "location": "NA-US-BOS",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Version": "3.0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34"
+    },
+    "run-parameters": {
+      "perfecto.capabilities.platformVersion": "macOS Catalina",
+      "perfecto.capabilities.browserName": "Safari",
+      "perfecto.capabilities.driverClass": "org.openqa.selenium.WebDriver",
+      "env.resources": "src/main/resources/common",
+      "perfecto.capabilities.browserVersion": "13",
+      "appType": "Web",
+      "perfecto.capabilities.location": "NA-US-BOS",
+      "perfecto.capabilities.resolution": "1280x1024",
+      "resources": "src/main/resources/common",
+      "driver.name": "perfectoRemoteDriver",
+      "perfecto.capabilities.platformName": "Mac"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_301",
+      "os.arch": "x86_64",
+      "host": "spenn0821",
+      "os.name": "Mac OS X",
+      "user.name": "spenn02",
+      "os.version": "10.16"
+    }
+  },
+  "startTime": 1650323729521,
+  "endTime": 1650323735688
+}

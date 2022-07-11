@@ -1,0 +1,88 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "ExpenseTracker"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "automationName": "Appium",
+      "browserName": "Edge",
+      "browserVersion": "99",
+      "cssSelectorsEnabled": true,
+      "driverClass": "org.openqa.selenium.WebDriver",
+      "javascriptEnabled": true,
+      "location": "US East",
+      "platformName": "Windows",
+      "platformVersion": "10",
+      "resolution": "1280x1024",
+      "securityToken": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE2NDU4MDI1OTMsImp0aSI6ImU1NTJiZWVlLTY3OTItNDc3Mi1hNzNjLTRlMjNhMGY4ZDgwNSIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZDQyMTczM2MtOTFjOC00YzIxLTgxZmItZmM3OWFlNzRjZmQwIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiIzNGM0MzljNC0xOGMxLTRhZDktYmFjZS0yZDdiMjlkNTUxYjUiLCJzZXNzaW9uX3N0YXRlIjoiMzc3NzY1M2QtYzhiNy00MWY3LWFmMWQtNzA3YTVkNzc3MGM2Iiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MifQ.pwkicVBa05D-vizMWs3dCp3bCM8p9VNTvDQUDQCa6tY",
+      "takesScreenshot": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://demo.app.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=0bdbbb5c-1a94-4531-9604-e092c8370c7c",
+      "timeouts": "{implicit=0, pageLoad=300000, script=30000}",
+      "streamInfo": "{\n  \"url\": \"https://demo.web.us.perfectomobile.com/fast/view/?sessionId\\u003d0bdbbb5c-1a94-4531-9604-e092c8370c7c@@100.66.231.94@@1655390725784@b8381af4-519b-444b-847c-f49c4b94dca7\",\n  \"type\": \"JS_STREAM\",\n  \"authenticationType\": \"PERFECTO_HEADER\"\n}",
+      "resolution": "1280x1024",
+      "platform": "WINDOWS",
+      "webauthn:extension:credBlob": "true",
+      "acceptInsecureCerts": "false",
+      "browserVersion": "99",
+      "platformVersion": "10",
+      "browserName": "Edge",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "platformName": "WINDOWS",
+      "ms:edgeOptions": "{debuggerAddress=localhost:50831}",
+      "setWindowRect": "true",
+      "webauthn:extension:largeBlob": "true",
+      "networkConnectionEnabled": "false",
+      "stopUrl": "https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/session/0bdbbb5c-1a94-4531-9604-e092c8370c7c",
+      "testGridReportUrl": "https://demo.app.perfectomobile.com/reporting/library?externalId[0]=0bdbbb5c-1a94-4531-9604-e092c8370c7c",
+      "msedge": "{msedgedriverVersion=99.0.1150.55 (c8275fcfc2e02d5ca43c76374fa8200557b8712c), userDataDir=C:\\Users\\Perfecto\\AppData\\Local\\Temp\\1\\scoped_dir5856_700062482}",
+      "pageLoadStrategy": "normal",
+      "unhandledPromptBehavior": "dismiss and notify",
+      "strictFileInteractability": "false",
+      "executionId": "0bdbbb5c-1a94-4531-9604-e092c8370c7c",
+      "proxy": "Proxy()",
+      "webdriver.remote.sessionid": "0bdbbb5c-1a94-4531-9604-e092c8370c7c",
+      "location": "US East",
+      "cssSelectorsEnabled": "true",
+      "se:options": "{cdp=http://100.66.142.48:8082/session/f425bd826592d81023fb02652466062c/se/cdp}",
+      "webauthn:virtualAuthenticators": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Version": "3.0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34"
+    },
+    "run-parameters": {
+      "perfecto.capabilities.platformVersion": "10",
+      "perfecto.capabilities.browserName": "Edge",
+      "perfecto.capabilities.driverClass": "org.openqa.selenium.WebDriver",
+      "env.resources": "src/main/resources/common",
+      "perfecto.capabilities.browserVersion": "99",
+      "appType": "Web",
+      "perfecto.capabilities.location": "US East",
+      "perfecto.capabilities.resolution": "1280x1024",
+      "resources": "src/main/resources/common",
+      "driver.name": "perfectoRemoteDriver",
+      "perfecto.capabilities.platformName": "Windows"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_301",
+      "os.arch": "x86_64",
+      "host": "spenn0821",
+      "os.name": "Mac OS X",
+      "user.name": "spenn02",
+      "os.version": "10.16"
+    }
+  },
+  "startTime": 1655390635981,
+  "endTime": 1655390684517
+}

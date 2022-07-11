@@ -273,7 +273,7 @@
         <parameter name="env.resources" value="src/main/resources/common"/>
         <groups>
             <run>
-                <include name="@ExpenseTracker" />
+                <include name="@ExpenseTracker"/>
             </run>
         </groups>
         <classes>
