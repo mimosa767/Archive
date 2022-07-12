@@ -7,5 +7,4 @@ Feature: Expense Tracker Demo Scenarios
     And I add expense with head "Meal" , amount "23.45" , "USD" currency and category "Business"
     And I attach receipt
     Then I logout of application
-    And I start
 
