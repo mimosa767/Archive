@@ -1,0 +1,18 @@
+{
+  "name": "Expense Tracker Demos",
+  "status": "fail",
+  "tests": [
+    "ExpenseTrackerDemos_WebScenariosEdgeTest33",
+    "ExpenseTrackerDemos_WebScenariosSafariMontereyTest41",
+    "ExpenseTrackerDemos_WebScenariosSafariCatalinaTest43",
+    "ExpenseTrackerDemos_WebScenariosChromeBigSurTest42",
+    "ExpenseTrackerDemos_WebScenariosFirefoxTest32",
+    "ExpenseTrackerDemos_WebScenariosChromeTest31"
+  ],
+  "total": 6,
+  "pass": 2,
+  "fail": 4,
+  "skip": 0,
+  "startTime": 1658352485060,
+  "endTime": 1658352520407
+}
