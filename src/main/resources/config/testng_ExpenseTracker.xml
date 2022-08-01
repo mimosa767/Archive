@@ -259,133 +259,133 @@
         </classes>
     </test>
 
-<!--    <test name="Web Scenarios Chrome Test 3.1" enabled="true">-->
-<!--        <parameter name="driver.name" value="perfectoRemoteDriver"/>-->
-<!--        <parameter name="perfecto.capabilities.platformName" value="Windows"/>-->
-<!--        <parameter name="perfecto.capabilities.platformVersion" value="10"/>-->
-<!--        <parameter name="perfecto.capabilities.browserName" value="Chrome"/>-->
-<!--        <parameter name="perfecto.capabilities.browserVersion" value="100"/>-->
-<!--        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>-->
-<!--        <parameter name="perfecto.capabilities.location" value="US East"/>-->
-<!--&lt;!&ndash;        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />&ndash;&gt;-->
-<!--        <parameter name="appType" value="Web"/>-->
-<!--        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>-->
-<!--        <parameter name="env.resources" value="src/main/resources/common"/>-->
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="@ExpenseTracker"/>-->
-<!--            </run>-->
-<!--        </groups>-->
-<!--        <classes>-->
-<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Web Scenarios Chrome Test 3.1" enabled="true">
+        <parameter name="driver.name" value="perfectoRemoteDriver"/>
+        <parameter name="perfecto.capabilities.platformName" value="Windows"/>
+        <parameter name="perfecto.capabilities.platformVersion" value="10"/>
+        <parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="100"/>
+        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+        <parameter name="perfecto.capabilities.location" value="US East"/>
+<!--        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
+        <parameter name="appType" value="Web"/>
+        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+        <parameter name="env.resources" value="src/main/resources/common"/>
+        <groups>
+            <run>
+                <include name="@ExpenseTracker"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
 
-<!--    <test name="Web Scenarios Firefox Test 3.2" enabled="true">-->
-<!--        <parameter name="driver.name" value="perfectoRemoteDriver"/>-->
-<!--        <parameter name="perfecto.capabilities.platformName" value="Windows"/>-->
-<!--        <parameter name="perfecto.capabilities.platformVersion" value="10"/>-->
-<!--        <parameter name="perfecto.capabilities.browserName" value="Firefox"/>-->
-<!--        <parameter name="perfecto.capabilities.browserVersion" value="98"/>-->
-<!--        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>-->
-<!--        <parameter name="perfecto.capabilities.location" value="US East"/>-->
-<!--&lt;!&ndash;        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />&ndash;&gt;-->
-<!--        <parameter name="appType" value="Web"/>-->
-<!--        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>-->
-<!--        <parameter name="env.resources" value="src/main/resources/common"/>-->
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="@ExpenseTracker" />-->
-<!--            </run>-->
-<!--        </groups>-->
-<!--        <classes>-->
-<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Web Scenarios Firefox Test 3.2" enabled="true">
+        <parameter name="driver.name" value="perfectoRemoteDriver"/>
+        <parameter name="perfecto.capabilities.platformName" value="Windows"/>
+        <parameter name="perfecto.capabilities.platformVersion" value="10"/>
+        <parameter name="perfecto.capabilities.browserName" value="Firefox"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="98"/>
+        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+        <parameter name="perfecto.capabilities.location" value="US East"/>
+<!--        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
+        <parameter name="appType" value="Web"/>
+        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+        <parameter name="env.resources" value="src/main/resources/common"/>
+        <groups>
+            <run>
+                <include name="@ExpenseTracker" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
 
-<!--    <test name="Web Scenarios Edge Test 3.3" enabled="true">-->
-<!--        <parameter name="driver.name" value="perfectoRemoteDriver"/>-->
-<!--        <parameter name="perfecto.capabilities.platformName" value="Windows"/>-->
-<!--        <parameter name="perfecto.capabilities.platformVersion" value="10"/>-->
-<!--        <parameter name="perfecto.capabilities.browserName" value="Edge"/>-->
-<!--        <parameter name="perfecto.capabilities.browserVersion" value="99"/>-->
-<!--        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>-->
-<!--        <parameter name="perfecto.capabilities.location" value="US East"/>-->
-<!--&lt;!&ndash;        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />&ndash;&gt;-->
-<!--        <parameter name="appType" value="Web"/>-->
-<!--        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>-->
-<!--        <parameter name="env.resources" value="src/main/resources/common" />-->
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="@ExpenseTracker" />-->
-<!--            </run>-->
-<!--        </groups>-->
-<!--        <classes>-->
-<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Web Scenarios Edge Test 3.3" enabled="true">
+        <parameter name="driver.name" value="perfectoRemoteDriver"/>
+        <parameter name="perfecto.capabilities.platformName" value="Windows"/>
+        <parameter name="perfecto.capabilities.platformVersion" value="10"/>
+        <parameter name="perfecto.capabilities.browserName" value="Edge"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="99"/>
+        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+        <parameter name="perfecto.capabilities.location" value="US East"/>
+<!--        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
+        <parameter name="appType" value="Web"/>
+        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+        <parameter name="env.resources" value="src/main/resources/common" />
+        <groups>
+            <run>
+                <include name="@ExpenseTracker" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
 
-<!--    <test name="Web Scenarios Safari Monterey Test 4.1" enabled="true">-->
-<!--        <parameter name="driver.name" value="perfectoRemoteDriver"/>-->
-<!--        <parameter name="perfecto.capabilities.platformName" value="Mac"/>-->
-<!--        <parameter name="perfecto.capabilities.platformVersion" value="macOS Big Sur"/>-->
-<!--        <parameter name="perfecto.capabilities.browserName" value="Safari"/>-->
-<!--        <parameter name="perfecto.capabilities.browserVersion" value="14"/>-->
-<!--        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>-->
-<!--        <parameter name="perfecto.capabilities.location" value="NA-US-BOS"/>-->
-<!--        <parameter name="appType" value="Web"/>-->
-<!--        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>-->
-<!--        <parameter name="env.resources" value="src/main/resources/common" />-->
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="@ExpenseTracker" />-->
-<!--            </run>-->
-<!--        </groups>-->
-<!--        <classes>-->
-<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Web Scenarios Safari Monterey Test 4.1" enabled="true">
+        <parameter name="driver.name" value="perfectoRemoteDriver"/>
+        <parameter name="perfecto.capabilities.platformName" value="Mac"/>
+        <parameter name="perfecto.capabilities.platformVersion" value="macOS Big Sur"/>
+        <parameter name="perfecto.capabilities.browserName" value="Safari"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="14"/>
+        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+        <parameter name="perfecto.capabilities.location" value="NA-US-BOS"/>
+        <parameter name="appType" value="Web"/>
+        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+        <parameter name="env.resources" value="src/main/resources/common" />
+        <groups>
+            <run>
+                <include name="@ExpenseTracker" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
 
-<!--    <test name="Web Scenarios Chrome Big Sur Test 4.2" enabled="true">-->
-<!--        <parameter name="driver.name" value="perfectoRemoteDriver"/>-->
-<!--        <parameter name="perfecto.capabilities.platformName" value="Mac"/>-->
-<!--        <parameter name="perfecto.capabilities.platformVersion" value="macOS Big Sur"/>-->
-<!--        <parameter name="perfecto.capabilities.browserName" value="Safari"/>-->
-<!--        <parameter name="perfecto.capabilities.browserVersion" value="14"/>-->
-<!--        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>-->
-<!--        <parameter name="perfecto.capabilities.location" value="NA-US-BOS"/>-->
-<!--        <parameter name="appType" value="Web"/>-->
-<!--        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>-->
-<!--        <parameter name="env.resources" value="src/main/resources/common" />-->
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="@ExpenseTracker" />-->
-<!--            </run>-->
-<!--        </groups>-->
-<!--        <classes>-->
-<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Web Scenarios Chrome Big Sur Test 4.2" enabled="true">
+        <parameter name="driver.name" value="perfectoRemoteDriver"/>
+        <parameter name="perfecto.capabilities.platformName" value="Mac"/>
+        <parameter name="perfecto.capabilities.platformVersion" value="macOS Big Sur"/>
+        <parameter name="perfecto.capabilities.browserName" value="Safari"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="14"/>
+        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+        <parameter name="perfecto.capabilities.location" value="NA-US-BOS"/>
+        <parameter name="appType" value="Web"/>
+        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+        <parameter name="env.resources" value="src/main/resources/common" />
+        <groups>
+            <run>
+                <include name="@ExpenseTracker" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
 
-<!--    <test name="Web Scenarios Safari Catalina Test 4.3" enabled="true">-->
-<!--        <parameter name="driver.name" value="perfectoRemoteDriver"/>-->
-<!--        <parameter name="perfecto.capabilities.platformName" value="Mac"/>-->
-<!--        <parameter name="perfecto.capabilities.platformVersion" value="macOS Catalina"/>-->
-<!--        <parameter name="perfecto.capabilities.browserName" value="Safari"/>-->
-<!--        <parameter name="perfecto.capabilities.browserVersion" value="13"/>-->
-<!--        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>-->
-<!--        <parameter name="perfecto.capabilities.location" value="NA-US-BOS"/>-->
-<!--        <parameter name="appType" value="Web"/>-->
-<!--        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>-->
-<!--        <parameter name="env.resources" value="src/main/resources/common" />-->
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="@ExpenseTracker" />-->
-<!--            </run>-->
-<!--        </groups>-->
-<!--        <classes>-->
-<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Web Scenarios Safari Catalina Test 4.3" enabled="true">
+        <parameter name="driver.name" value="perfectoRemoteDriver"/>
+        <parameter name="perfecto.capabilities.platformName" value="Mac"/>
+        <parameter name="perfecto.capabilities.platformVersion" value="macOS Catalina"/>
+        <parameter name="perfecto.capabilities.browserName" value="Safari"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="13"/>
+        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+        <parameter name="perfecto.capabilities.location" value="NA-US-BOS"/>
+        <parameter name="appType" value="Web"/>
+        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+        <parameter name="env.resources" value="src/main/resources/common" />
+        <groups>
+            <run>
+                <include name="@ExpenseTracker" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
 
 </suite>
