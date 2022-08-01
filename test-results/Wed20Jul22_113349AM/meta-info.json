@@ -1,6 +1,6 @@
 {
   "name": "Expense Tracker Demos",
-  "status": "pass",
+  "status": "fail",
   "tests": [
     "ExpenseTrackerDemos_Androiddevice24",
     "ExpenseTrackerDemos_iOSdevice15iPad",
@@ -21,10 +21,10 @@
     "ExpenseTrackerDemos_iOSdevice14",
     "ExpenseTrackerDemos_WebScenariosFirefoxTest32"
   ],
-  "total": 10,
-  "pass": 10,
-  "fail": 0,
+  "total": 18,
+  "pass": 15,
+  "fail": 3,
   "skip": 0,
   "startTime": 1658331229676,
-  "endTime": 1658331317660
+  "endTime": 1658331455640
 }

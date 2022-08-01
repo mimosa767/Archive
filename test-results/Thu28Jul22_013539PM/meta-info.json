@@ -1,0 +1,30 @@
+{
+  "name": "Expense Tracker Demos",
+  "status": "fail",
+  "tests": [
+    "ExpenseTrackerDemos_Androiddevice24",
+    "ExpenseTrackerDemos_iOSdevice15iPad",
+    "ExpenseTrackerDemos_Androiddevice25",
+    "ExpenseTrackerDemos_Androiddevice26",
+    "ExpenseTrackerDemos_WebScenariosSafariCatalinaTest43",
+    "ExpenseTrackerDemos_Androiddevice21",
+    "ExpenseTrackerDemos_Androiddevice22",
+    "ExpenseTrackerDemos_WebScenariosChromeTest31",
+    "ExpenseTrackerDemos_Androiddevice23",
+    "ExpenseTrackerDemos_WebScenariosEdgeTest33",
+    "ExpenseTrackerDemos_WebScenariosSafariMontereyTest41",
+    "ExpenseTrackerDemos_iOSdevice16",
+    "ExpenseTrackerDemos_iOSdevice11",
+    "ExpenseTrackerDemos_iOSdevice12",
+    "ExpenseTrackerDemos_WebScenariosChromeBigSurTest42",
+    "ExpenseTrackerDemos_iOSdevice13",
+    "ExpenseTrackerDemos_iOSdevice14",
+    "ExpenseTrackerDemos_WebScenariosFirefoxTest32"
+  ],
+  "total": 18,
+  "pass": 1,
+  "fail": 17,
+  "skip": 0,
+  "startTime": 1659029739806,
+  "endTime": 1659029969394
+}

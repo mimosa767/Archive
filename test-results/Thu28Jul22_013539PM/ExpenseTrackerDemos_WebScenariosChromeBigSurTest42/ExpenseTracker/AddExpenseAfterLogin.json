@@ -1,0 +1,447 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "loginToInvoiceApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://expensetracker.perfectomobile.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 644
+        },
+        {
+          "commandName": "maximizeCurrentWindow",
+          "args": [
+            "{}"
+          ],
+          "result": "{y=0, x=0, width=1280, height=1024}",
+          "subLogs": [],
+          "duration": 315
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#login_email > input, using=css selector}"
+          ],
+          "result": "id: node-38357C95-AA37-4D32-83C6-4A5A8A9D0F70",
+          "subLogs": [],
+          "duration": 243
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #login_email > input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #login_email > input",
+            "{\"id\":\"node-38357C95-AA37-4D32-83C6-4A5A8A9D0F70\",\"value\":[\"test@perfecto.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 369
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#login_password > input, using=css selector}"
+          ],
+          "result": "id: node-E0090EDC-C052-4F17-A797-D501C829C331",
+          "subLogs": [],
+          "duration": 207
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #login_password > input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #login_password > input",
+            "{\"id\":\"node-E0090EDC-C052-4F17-A797-D501C829C331\",\"value\":[\"test123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 418
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login_login_btn, using=name}"
+          ],
+          "result": "id: node-B66053EA-266F-47D1-AE4C-E270829AB2B8",
+          "subLogs": [],
+          "duration": 202
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{\"id\":\"node-B66053EA-266F-47D1-AE4C-E270829AB2B8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 99
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "addBasicExpense",
+      "args": [
+        "[Meal, 23.45, USD, Business]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#list_add_btn, using=css selector}"
+          ],
+          "result": "id: node-EFE0F43E-A5A8-4EDC-94F1-50A1711AC351",
+          "subLogs": [],
+          "duration": 193
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#add_head, using=css selector}"
+          ],
+          "result": "id: node-8231D724-D546-4BFD-9D0A-2871801AAF12",
+          "subLogs": [],
+          "duration": 274
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#alert-input-1-2 > div > div.alert-radio-label.sc-ion-alert-md, using=css selector}"
+          ],
+          "result": "id: node-E3FE3279-4A5A-40BA-8D24-CE0D7E5EB56C",
+          "subLogs": [],
+          "duration": 254
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #alert-input-1-2 > div > div.alert-radio-label.sc-ion-alert-md",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: #alert-input-1-2 > div > div.alert-radio-label.sc-ion-alert-md",
+            "{\"id\":\"node-E3FE3279-4A5A-40BA-8D24-CE0D7E5EB56C\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 108
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span, using=xpath}"
+          ],
+          "result": "id: node-59DC13C3-A76F-43A9-BC47-A6B4CD412EE4",
+          "subLogs": [],
+          "duration": 292
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span",
+            "{\"id\":\"node-59DC13C3-A76F-43A9-BC47-A6B4CD412EE4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 77
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#add_amount > input, using=css selector}"
+          ],
+          "result": "id: node-8967EDEB-21EE-4D7D-BF32-D4436E241C01",
+          "subLogs": [],
+          "duration": 312
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #add_amount > input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #add_amount > input",
+            "{\"id\":\"node-8967EDEB-21EE-4D7D-BF32-D4436E241C01\",\"value\":[\"23.45\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 181
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#add_category, using=css selector}"
+          ],
+          "result": "id: node-38CC00B5-B8A0-49FC-98B5-F236C4B6BAC5",
+          "subLogs": [],
+          "duration": 476
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/app-root/ion-app/ion-alert/div/div[3]/button[2]/div/div[2], using=xpath}"
+          ],
+          "result": "id: node-A090E120-1748-4D03-840B-2A2D22965DFF",
+          "subLogs": [],
+          "duration": 228
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[3]/button[2]/div/div[2]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[3]/button[2]/div/div[2]",
+            "{\"id\":\"node-A090E120-1748-4D03-840B-2A2D22965DFF\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 111
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span, using=xpath}"
+          ],
+          "result": "id: node-89A308DC-0CBA-4F5A-8D76-06511E1A7F83",
+          "subLogs": [],
+          "duration": 256
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span",
+            "{\"id\":\"node-89A308DC-0CBA-4F5A-8D76-06511E1A7F83\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 288
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#add_details > textarea, using=css selector}"
+          ],
+          "result": "id: node-C153CF29-54D9-4DD0-80EE-52840443235E",
+          "subLogs": [],
+          "duration": 196
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #add_details > textarea",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #add_details > textarea",
+            "{\"id\":\"node-C153CF29-54D9-4DD0-80EE-52840443235E\",\"value\":[\"Client Visit Bill\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 359
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "attachReceipt",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#add_save_btn, using=css selector}"
+          ],
+          "result": "id: node-2D4A0CAD-69CC-4DE4-8BB7-BCEE37F4CF97",
+          "subLogs": [],
+          "duration": 221
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "IAuditAccessibility",
+      "args": [
+        "[http://expensetracker.perfectomobile.com/]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "executeAsyncScript",
+          "args": [
+            "{args=[{}], script=var callback=arguments[arguments.length-1]; setTimeout( function() {callback(true);}, 2000);}"
+          ],
+          "result": "true",
+          "subLogs": [],
+          "duration": 2075
+        },
+        {
+          "commandName": "executeAsyncScript",
+          "args": [
+            "{args=[{}], script=var callback=arguments[arguments.length - 1];\nvar script=document.createElement('script');\nscript.src='https://cdnjs.cloudflare.com/ajax/libs/axe-core/3.5.3/axe.min.js';\nvar head=document.getElementsByTagName('head')[0];\nvar timeout=setTimeout( function() { callback(false); }, 30000 );\nscript.onerror = function() { callback(false); }\nscript.onload=script.onreadystatechange = function() {\n   if ( !this.readyState || this.readyState == 'loaded' || this.readyState == 'complete') {\n     clearTimeout(timeout);\n     script.onload = script.onreadystatechange = null;\n     head.removeChild(script);\n     callback( true );\n   }\n}\nhead.appendChild(script);}"
+          ],
+          "result": "true",
+          "subLogs": [],
+          "duration": 127
+        },
+        {
+          "commandName": "executeAsyncScript",
+          "args": [
+            "{args=[{}], script=document.perfectoAxeError = document.perfectoAxeResult = null;\nvar callback = arguments[arguments.length - 1];\naxe.run(function(err, results) {\n\tdocument.perfectoAxeError = err;\n\tdocument.perfectoAxeResults = results;\n\tcallback(true);\n});\n}"
+          ],
+          "result": "true",
+          "subLogs": [],
+          "duration": 482
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I logout of application",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I login to Expense Tracker app with username and password",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2509,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 9447,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I attach receipt",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1623,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I audit accessibility on page \"http://expensetracker.perfectomobile.com/\"",
+      "type": "TestStepFail",
+      "screenshot": "img/AddExpenseAfterLogin_5jkhbez4g55a48164.png",
+      "duration": 5508,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "java.util.ArrayList cannot be cast to java.lang.String",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I logout of application",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.ClassCastException: java.util.ArrayList cannot be cast to java.lang.String\n\tat .And I audit accessibility on page \"http://expensetracker.perfectomobile.com/\"(src/main/resources/scenarios/ExpenseTracker.feature:9)\n\tat com.quantum.utils.DeviceUtils.startAxe(DeviceUtils.java:888)\n\tat com.quantum.utils.DeviceUtils.checkAccessibility(DeviceUtils.java:782)\n\tat com.quantum.steps.PerfectoSteps.IAuditAccessibility(PerfectoSteps.java:82)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n"
+}
