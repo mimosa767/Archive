@@ -1,0 +1,101 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "loginToInvoiceApp",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"",
+      "args": [
+        "[Meal, 23.45, USD, Business]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I attach receipt",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I audit accessibility on page \"http://expensetracker.perfectomobile.com/\"",
+      "args": [
+        "[http://expensetracker.perfectomobile.com/]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I logout of application",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I login to Expense Tracker app with username and password",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 540,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I attach receipt",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I audit accessibility on page \"http://expensetracker.perfectomobile.com/\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I logout of application",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.\n\tat .Given I login to Expense Tracker app with username and password(src/main/resources/scenarios/ExpenseTracker.feature:6)\n\tat com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:168)\n\tat com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:478)\n\tat com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:253)\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:44)\n\tat com.quantum.utils.DeviceUtils.getQAFDriver(DeviceUtils.java:38)\n\tat com.quantum.steps.ExpenseTrackerStepDefs.loginToInvoiceApp(ExpenseTrackerStepDefs.java:174)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:c181:ed7d:6086:43a9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: driver.version: unknown\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:572)\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)\n\tat com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147)\n\tat com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:478)\n\tat com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:253)\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:44)\n\tat com.quantum.utils.DeviceUtils.getQAFDriver(DeviceUtils.java:38)\n\tat com.quantum.steps.ExpenseTrackerStepDefs.loginToInvoiceApp(ExpenseTrackerStepDefs.java:174)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:778)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\n\t... 4 more\nCaused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor\n\tat java.net.URLClassLoader.findClass(URLClassLoader.java:382)\n\tat java.lang.ClassLoader.loadClass(ClassLoader.java:424)\n\tat sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)\n\tat java.lang.ClassLoader.loadClass(ClassLoader.java:357)\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:96)\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)\n\t... 36 more\n"
+}

@@ -1,7 +1,7 @@
 {
   "total": 1,
   "pass": 0,
-  "fail": 0,
+  "fail": 1,
   "skip": 0,
   "classes": [
     "ExpenseTracker"
@@ -85,7 +85,7 @@
       "driver.capabilities.model": "iPad.*",
       "appType": "Native",
       "driver.capabilities.app": "PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa",
-      "resources": "src/main/resources/common",
+      "resources": "src/main/resources/ios",
       "driver.capabilities.bundleId": "io.perfecto.expense.tracker",
       "driver.capabilities.platformName": "iOS",
       "driver.name": "perfectoDriver",
@@ -104,5 +104,5 @@
     }
   },
   "startTime": 1658331229856,
-  "endTime": 1658331313610
+  "endTime": 1658331342049
 }
