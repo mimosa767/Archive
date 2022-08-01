@@ -1,0 +1,24 @@
+{
+  "name": "Expense Tracker Demos",
+  "status": "fail",
+  "tests": [
+    "ExpenseTrackerDemos_Androiddevice24",
+    "ExpenseTrackerDemos_iOSdevice15iPad",
+    "ExpenseTrackerDemos_Androiddevice25",
+    "ExpenseTrackerDemos_Androiddevice26",
+    "ExpenseTrackerDemos_iOSdevice16",
+    "ExpenseTrackerDemos_iOSdevice11",
+    "ExpenseTrackerDemos_iOSdevice12",
+    "ExpenseTrackerDemos_iOSdevice13",
+    "ExpenseTrackerDemos_iOSdevice14",
+    "ExpenseTrackerDemos_Androiddevice21",
+    "ExpenseTrackerDemos_Androiddevice22",
+    "ExpenseTrackerDemos_Androiddevice23"
+  ],
+  "total": 12,
+  "pass": 0,
+  "fail": 12,
+  "skip": 0,
+  "startTime": 1659373894546,
+  "endTime": 1659374097537
+}
