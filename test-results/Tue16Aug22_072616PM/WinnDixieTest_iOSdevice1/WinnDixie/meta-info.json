@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WinnDixieLogin",
+          "@WinnDixie"
+        ],
+        "lineNo": 5,
+        "name": "Login to Winn Dixie",
+        "reference": "src/main/resources/scenarios/WinnDixie.feature",
+        "resultFileName": "LoginToWinnDixie",
+        "sign": "src.main.resources.scenarios.WinnDixie.feature.Login to Winn Dixie()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1660692376964,
+      "duration": 27978,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

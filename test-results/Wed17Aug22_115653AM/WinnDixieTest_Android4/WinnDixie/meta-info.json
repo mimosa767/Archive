@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@AndroidLogin",
+          "@WinnDixie"
+        ],
+        "lineNo": 12,
+        "name": "Login to Winn-Dixie App",
+        "reference": "src/main/resources/scenarios/WinnDixie.feature",
+        "resultFileName": "LoginToWinnDixieApp",
+        "sign": "src.main.resources.scenarios.WinnDixie.feature.Login to Winn-Dixie App()[pri:1003, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1660751873137,
+      "duration": 14343,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

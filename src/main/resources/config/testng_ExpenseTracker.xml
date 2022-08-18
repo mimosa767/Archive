@@ -2,7 +2,6 @@
 <suite name="Expense Tracker Demos" verbose="0" parallel="tests" thread-count="100" group-by-instances="true">
     <listeners>
         <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
-        <!--<listener class-name="com.quantum.listeners.TestListener" />-->
     </listeners>
 
     <test name="iOS device 1.1" enabled="true">
@@ -10,12 +9,9 @@
         <parameter name="driver.capabilities.platformName" value="iOS"/>
         <parameter name="driver.capabilities.model" value="iPhone.*"/>
         <parameter name="driver.capabilities.platformVersion" value=".*"/>
-<!--        <parameter name="driver.capabilities.deviceName" value="00008101-000C55403684001E"/>-->
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
         <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.sensorInstrument" value="true"/>
-<!--        <parameter name="driver.capabilities.automationName" value="PerfectoMobile"/>-->
-<!--        <parameter name="driver.additional.capabilities" value="{'captureHAR':true, 'takesScreenshot':false, ‘screenshotOnError':true, 'outputVideo':false}" />-->
         <parameter name="appType" value="Native" />
         <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
         <parameter name="env.resources" value="src/main/resources/ios"/>
@@ -114,7 +110,7 @@
     <test name="iOS device 1.6" enabled="true">
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="iOS"/>
-<!--        <parameter name="driver.capabilities.model" value="iPhone.*"/>-->
+        <parameter name="driver.capabilities.model" value="iPhone.*"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
         <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.sensorInstrument" value="true"/>
@@ -219,7 +215,6 @@
     <test name="Android device 2.5" enabled="true">
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="Android"/>
-<!--        <parameter name="driver.capabilities.platformVersion" value="10"/>-->
         <parameter name="driver.capabilities.model" value=".*"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
         <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
@@ -267,7 +262,6 @@
         <parameter name="perfecto.capabilities.browserVersion" value="100"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
-<!--        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
         <parameter name="appType" value="Web"/>
         <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
         <parameter name="env.resources" value="src/main/resources/common"/>
@@ -289,7 +283,6 @@
         <parameter name="perfecto.capabilities.browserVersion" value="98"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
-<!--        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
         <parameter name="appType" value="Web"/>
         <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
         <parameter name="env.resources" value="src/main/resources/common"/>
@@ -311,7 +304,6 @@
         <parameter name="perfecto.capabilities.browserVersion" value="99"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
-<!--        <parameter name="perfecto.additional.capabilities" value="{'captureHAR':true}" />-->
         <parameter name="appType" value="Web"/>
         <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
         <parameter name="env.resources" value="src/main/resources/common" />

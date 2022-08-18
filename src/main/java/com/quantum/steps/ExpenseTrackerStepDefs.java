@@ -229,7 +229,7 @@ public class ExpenseTrackerStepDefs {
             String identifier = (String) ConfigurationManager.getBundle().getProperty(appPackage);
 
             CommonUtils.click("attachment.link");
-            DeviceUtils.startImageInjection("PUBLIC:ExpenseTracker/Images/CoffeeReceipt.jpg", identifier, "identifier");
+            DeviceUtils.startImageInjection("PUBLIC:Praveen/ExpenseTracker/Images/CoffeeReceipt.jpg", identifier, "identifier");
             CommonUtils.click("camera.button");
 
             try {Thread.currentThread().sleep(2000);}catch (Exception ex) {}

@@ -1,0 +1,13 @@
+{
+  "name": "Winn Dixie Test",
+  "status": "unstable",
+  "tests": [
+    "WinnDixieTest_iOSdevice1"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "startTime": 1660692376867,
+  "endTime": 1660692434117
+}

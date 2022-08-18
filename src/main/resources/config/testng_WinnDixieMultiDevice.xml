@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Two Devices Demo Suite" verbose="0" parallel="tests" thread-count="100">
+    <listeners>
+        <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+    </listeners>
+
+    <test name="Multiple devices"  enabled="true">
+
+        <parameter name="driverNameList" value="perfectoRemote,perfectodevii"/>
+
+        <parameter name="perfecto.capabilities.platformName" value="Windows"/>
+        <parameter name="perfecto.capabilities.platformVersion" value="10"/>
+        <parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="latest"/>
+        <parameter name="perfecto.capabilities.resolution" value="1600x1200"/>
+        <parameter name="perfecto.capabilities.location" value="EU Frankfurt"/>
+
+        <parameter name="perfectodevii.capabilities.platformName" value="Android"/>
+        <parameter name="perfectodevii.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+
+        <groups>
+            <run>
+                <include name="@2WinnDixieDevicesDemo"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+</suite>
