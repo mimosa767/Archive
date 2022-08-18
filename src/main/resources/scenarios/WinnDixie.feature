@@ -25,11 +25,11 @@
         @AndroidLoggedIn
         Scenario: I verify all menu buttons are working as expected
           Given I start application by id "com.biloholdings.mywinndixie.prod"
-          Then I click on ".*" and ignore errors
-          And I click on ".*" and ignore errors
-          Then I click on ".*" and ignore errors
-          Then I click on ".*" and ignore errors
-          Then I click on ".*" and ignore errors
+          Then I click on "home" and ignore errors
+          And I click on "savings" and ignore errors
+          Then I click on "rewards" and ignore errors
+          Then I click on "list" and ignore errors
+          Then I click on "more" and ignore errors
 
           @2WinnDixieDevicesDemo
           Scenario: I register with Winn-Dixie
