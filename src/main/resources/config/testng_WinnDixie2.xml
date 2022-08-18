@@ -1,0 +1,167 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Winn Dixie Test" verbose="0" parallel="tests" thread-count="15" group-by-instances="true">
+    <listeners>
+        <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+    </listeners>
+
+    <test name="Android" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.platformName" value="Android"/>
+        <parameter name="driver.capabilities.manufacturer" value="Samsung"/>
+        <parameter name="driver.capabilities.model" value="Galaxy S22"/>
+        <!--        <parameter name="driver.capabilities.deviceName" value="R3CT106TGKH"/>-->
+        <parameter name="driver.capabilities.app" value="PUBLIC:Winn-Dixie_base.apk"/>
+        <parameter name="driver.capabilities.appPackage" value="com.biloholdings.mywinndixie.prod"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="appType" value="Native" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <parameter name="driver.capabilities.description" value="(?i)(free)"/>
+        <groups>
+            <run>
+                <include name="@AndroidLoggedIn"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+<!--    <test name="Android2" enabled="true">-->
+<!--        <parameter name="driver.name" value="perfectoDriver"/>-->
+<!--        <parameter name="driver.capabilities.platformName" value="Android"/>-->
+<!--        <parameter name="driver.capabilities.manufacturer" value="Samsung"/>-->
+<!--        <parameter name="driver.capabilities.model" value="Galaxy S22"/>-->
+<!--        &lt;!&ndash;        <parameter name="driver.capabilities.deviceName" value="R3CT106TGKH"/>&ndash;&gt;-->
+<!--        <parameter name="driver.capabilities.app" value="PUBLIC:Winn-Dixie_base.apk"/>-->
+<!--        <parameter name="driver.capabilities.appPackage" value="com.biloholdings.mywinndixie.prod"/>-->
+<!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
+<!--        <parameter name="appType" value="Native" />-->
+<!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--        <parameter name="env.resources" value="src/main/resources/android"/>-->
+<!--        <parameter name="driver.capabilities.description" value="(?i)(free)"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@AndroidLoggedIn"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+<!--    <test name="Android3" enabled="true">-->
+<!--        <parameter name="driver.name" value="perfectoDriver"/>-->
+<!--        <parameter name="driver.capabilities.platformName" value="Android"/>-->
+<!--        <parameter name="driver.capabilities.manufacturer" value="Samsung"/>-->
+<!--        <parameter name="driver.capabilities.model" value="Galaxy S.*"/>-->
+<!--        &lt;!&ndash;        <parameter name="driver.capabilities.deviceName" value="R3CT106TGKH"/>&ndash;&gt;-->
+<!--        <parameter name="driver.capabilities.app" value="PUBLIC:Winn-Dixie_base.apk"/>-->
+<!--        <parameter name="driver.capabilities.appPackage" value="com.biloholdings.mywinndixie.prod"/>-->
+<!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
+<!--        <parameter name="appType" value="Native" />-->
+<!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--        <parameter name="env.resources" value="src/main/resources/android"/>-->
+<!--        <parameter name="driver.capabilities.description" value="(?i)(free)"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@AndroidLogin"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+<!--    <test name="Android4" enabled="true">-->
+<!--        <parameter name="driver.name" value="perfectoDriver"/>-->
+<!--        <parameter name="driver.capabilities.platformName" value="Android"/>-->
+<!--        <parameter name="driver.capabilities.manufacturer" value="Samsung"/>-->
+<!--        <parameter name="driver.capabilities.model" value="Galaxy S.*"/>-->
+<!--        &lt;!&ndash;        <parameter name="driver.capabilities.deviceName" value="R3CT106TGKH"/>&ndash;&gt;-->
+<!--        <parameter name="driver.capabilities.app" value="PUBLIC:Winn-Dixie_base.apk"/>-->
+<!--        <parameter name="driver.capabilities.appPackage" value="com.biloholdings.mywinndixie.prod"/>-->
+<!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
+<!--        <parameter name="appType" value="Native" />-->
+<!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--        <parameter name="env.resources" value="src/main/resources/android"/>-->
+<!--        <parameter name="driver.capabilities.description" value="(?i)(free)"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@AndroidLogin"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+<!--    <test name="Android5" enabled="true">-->
+<!--        <parameter name="driver.name" value="perfectoDriver"/>-->
+<!--        <parameter name="driver.capabilities.platformName" value="Android"/>-->
+<!--        <parameter name="driver.capabilities.manufacturer" value="Samsung"/>-->
+<!--        <parameter name="driver.capabilities.model" value="Galaxy S.*"/>-->
+<!--        &lt;!&ndash;        <parameter name="driver.capabilities.deviceName" value="R3CT106TGKH"/>&ndash;&gt;-->
+<!--        <parameter name="driver.capabilities.app" value="PUBLIC:Winn-Dixie_base.apk"/>-->
+<!--        <parameter name="driver.capabilities.appPackage" value="com.biloholdings.mywinndixie.prod"/>-->
+<!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
+<!--        <parameter name="appType" value="Native" />-->
+<!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--        <parameter name="env.resources" value="src/main/resources/android"/>-->
+<!--        <parameter name="driver.capabilities.description" value="(?i)(free)"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@AndroidLogin"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Android6" enabled="true">-->
+<!--        <parameter name="driver.name" value="perfectoDriver"/>-->
+<!--        <parameter name="driver.capabilities.platformName" value="Android"/>-->
+<!--        <parameter name="driver.capabilities.manufacturer" value="Samsung"/>-->
+<!--        <parameter name="driver.capabilities.model" value="Galaxy S.*"/>-->
+<!--        &lt;!&ndash;        <parameter name="driver.capabilities.deviceName" value="R3CT106TGKH"/>&ndash;&gt;-->
+<!--        <parameter name="driver.capabilities.app" value="PUBLIC:Winn-Dixie_base.apk"/>-->
+<!--        <parameter name="driver.capabilities.appPackage" value="com.biloholdings.mywinndixie.prod"/>-->
+<!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
+<!--        <parameter name="appType" value="Native" />-->
+<!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--        <parameter name="env.resources" value="src/main/resources/android"/>-->
+<!--        <parameter name="driver.capabilities.description" value="(?i)(free)"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@AndroidLogin"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test name="iOS device 1" enabled="false">-->
+<!--        <parameter name="driver.name" value="perfectoDriver"/>-->
+<!--        <parameter name="driver.capabilities.platformName" value="iOS"/>-->
+<!--        <parameter name="driver.capabilities.deviceName" value="00008101-000979000291001E"/>-->
+<!--        <parameter name="appType" value="Native" />-->
+<!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>-->
+<!--        <parameter name="env.resources" value="src/main/resources/ios"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@WinnDixieLogin"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
