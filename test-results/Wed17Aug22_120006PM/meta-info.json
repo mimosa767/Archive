@@ -1,0 +1,18 @@
+{
+  "name": "Winn Dixie Test",
+  "status": "pass",
+  "tests": [
+    "WinnDixieTest_Android",
+    "WinnDixieTest_Android2",
+    "WinnDixieTest_Android3",
+    "WinnDixieTest_Android4",
+    "WinnDixieTest_Android5",
+    "WinnDixieTest_Android6"
+  ],
+  "total": 6,
+  "pass": 6,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1660752006480,
+  "endTime": 1660752202755
+}
