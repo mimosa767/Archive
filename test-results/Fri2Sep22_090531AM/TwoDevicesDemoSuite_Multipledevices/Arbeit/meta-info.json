@@ -1,0 +1,29 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@ArebeitTwoPhones",
+          "@WinnDixie"
+        ],
+        "lineNo": 21,
+        "name": "I call phone A with phone B and answer the phone call with phone B",
+        "Perfecto-report": "<a href=\"https://demo.app.perfectomobile.com/reporting/library?externalId[0]=ca073fac-727e-4724-af90-3076ee49155a\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/Arbeit.feature",
+        "resultFileName": "ICallPhoneAWithPhoneBAndAnswerThePhoneCallWit",
+        "sign": "src.main.resources.scenarios.Arbeit.feature.I call phone A with phone B and answer the phone call with phone B()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1662123931172,
+      "duration": 63455,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@AndroidLogin",
+          "@WinnDixie"
+        ],
+        "lineNo": 12,
+        "name": "Login to Winn-Dixie App",
+        "Perfecto-report": "<a href=\"https://demo.app.perfectomobile.com/reporting/library?externalId[0]=5157fe67-7195-485b-b0fb-a83d0e562fe1\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/WinnDixie.feature",
+        "resultFileName": "LoginToWinnDixieApp",
+        "sign": "src.main.resources.scenarios.WinnDixie.feature.Login to Winn-Dixie App()[pri:1003, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1660878571580,
+      "duration": 384591,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

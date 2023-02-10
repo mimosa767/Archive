@@ -1,0 +1,13 @@
+{
+  "name": "WinnDixie Test Suite",
+  "status": "pass",
+  "tests": [
+    "WinnDixieTestSuite_Android"
+  ],
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1662177402623,
+  "endTime": 1662177466681
+}

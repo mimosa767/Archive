@@ -19,7 +19,7 @@
         <parameter name="driver.capabilities.description" value="(?i)(free)"/>
         <groups>
             <run>
-                <include name="@AndroidLogin"/>
+                <include name="@WinnDixieNewLogin"/>
             </run>
         </groups>
         <classes>
@@ -42,7 +42,7 @@
         <parameter name="driver.capabilities.description" value="(?i)(free)"/>
         <groups>
             <run>
-                <include name="@AndroidLogin"/>
+                <include name="@WinnDixieNewLogin"/>
             </run>
         </groups>
         <classes>
@@ -64,10 +64,10 @@
         <parameter name="appType" value="Native" />
         <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
         <parameter name="env.resources" value="src/main/resources/android"/>
-        <parameter name="driver.capabilities.description" value="(?i)(free)"/>
+<!--        <parameter name="driver.capabilities.description" value="(?i)(free)"/>-->
         <groups>
             <run>
-                <include name="@AndroidLogin"/>
+                <include name="@WinnDixieNewLogin"/>
             </run>
         </groups>
         <classes>
@@ -89,10 +89,9 @@
         <parameter name="appType" value="Native" />
         <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
         <parameter name="env.resources" value="src/main/resources/android"/>
-        <parameter name="driver.capabilities.description" value="(?i)(free)"/>
         <groups>
             <run>
-                <include name="@AndroidLogin"/>
+                <include name="@WinnDixieNewLogin"/>
             </run>
         </groups>
         <classes>
@@ -114,16 +113,16 @@
         <parameter name="appType" value="Native" />
         <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
         <parameter name="env.resources" value="src/main/resources/android"/>
-        <parameter name="driver.capabilities.description" value="(?i)(free)"/>
         <groups>
             <run>
-                <include name="@AndroidLogin"/>
+                <include name="@WinnDixieNewLogin"/>
             </run>
         </groups>
         <classes>
             <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
         </classes>
     </test>
+
     <test name="Android6" enabled="true">
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="Android"/>
@@ -136,10 +135,31 @@
         <parameter name="appType" value="Native" />
         <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
         <parameter name="env.resources" value="src/main/resources/android"/>
-        <parameter name="driver.capabilities.description" value="(?i)(free)"/>
         <groups>
             <run>
-                <include name="@AndroidLogin"/>
+                <include name="@WinnDixieNewLogin"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="Android7" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.platformName" value="Android"/>
+        <parameter name="driver.capabilities.manufacturer" value="Samsung"/>
+        <parameter name="driver.capabilities.model" value="Galaxy S.*"/>
+        <!--        <parameter name="driver.capabilities.deviceName" value="R3CT106TGKH"/>-->
+        <parameter name="driver.capabilities.app" value="PUBLIC:Winn-Dixie_base.apk"/>
+        <parameter name="driver.capabilities.appPackage" value="com.biloholdings.mywinndixie.prod"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="appType" value="Native" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@WinnDixieNewLogin"/>
             </run>
         </groups>
         <classes>
@@ -157,7 +177,7 @@
 <!--        <parameter name="env.resources" value="src/main/resources/ios"/>-->
 <!--        <groups>-->
 <!--            <run>-->
-<!--                <include name="@WinnDixieLogin"/>-->
+<!--                <include name="@WinnDixieNewLogin"/>-->
 <!--            </run>-->
 <!--        </groups>-->
 <!--        <classes>-->

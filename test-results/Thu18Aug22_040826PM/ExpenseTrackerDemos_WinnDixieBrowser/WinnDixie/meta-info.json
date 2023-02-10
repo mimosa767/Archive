@@ -1,0 +1,29 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@2WinnDixieWebFlow",
+          "@WinnDixie"
+        ],
+        "lineNo": 43,
+        "name": "I use the web browser to update Winn-Dixie",
+        "Perfecto-report": "<a href=\"https://demo.app.perfectomobile.com/reporting/library?externalId[0]=e921ee23-28f1-4705-85c0-17e5d042668f\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/WinnDixie.feature",
+        "resultFileName": "IUseTheWebBrowserToUpdateWinnDixie",
+        "sign": "src.main.resources.scenarios.WinnDixie.feature.I use the web browser to update Winn-Dixie()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1660853306199,
+      "duration": 74230,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

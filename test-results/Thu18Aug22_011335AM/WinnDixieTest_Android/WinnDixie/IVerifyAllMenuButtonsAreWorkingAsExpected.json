@@ -1,0 +1,671 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.biloholdings.mywinndixie.prod]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 47
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[whileUsing]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 770
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 304
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 467
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[10]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[allow]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 354
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 431
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[5]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[getStarted]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@content-desc=\"GetStartedButton\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 431
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@content-desc=\"GetStartedButton\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@content-desc=\"GetStartedButton\"]",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 451
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[5]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.switchWebviewContext",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=WEBVIEW}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 51
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iLoginToPaneraBreadApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//input[@id=\"signInName\"])[1], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 698
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: (//input[@id=\"signInName\"])[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: (//input[@id=\"signInName\"])[1]",
+            "{\"id\":\"3\",\"value\":[\"spenn6@gmail.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 442
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[signinButton]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"next\"], using=xpath}"
+              ],
+              "result": "id: 4",
+              "subLogs": [],
+              "duration": 445
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.xpath: //*[@id=\"next\"]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@id=\"next\"]",
+                "{\"id\":\"4\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 382
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Password123!, passwordField]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "Element with by xpath '//*[@id=\"password\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+              "subLogs": [],
+              "duration": 662
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "id: 5",
+              "subLogs": [],
+              "duration": 637
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.xpath: //*[@id=\"password\"]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //*[@id=\"password\"]",
+                "{\"id\":\"5\",\"value\":[\"Password123!\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 434
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[signinButton]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"next\"], using=xpath}"
+              ],
+              "result": "id: 6",
+              "subLogs": [],
+              "duration": 588
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.xpath: //*[@id=\"next\"]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@id=\"next\"]",
+                "{\"id\":\"6\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 628
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[savings]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"SAVINGS\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"SAVINGS\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 629
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"SAVINGS\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"SAVINGS\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 579
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"SAVINGS\"], using=xpath}"
+          ],
+          "result": "Failed to execute command webpage.element find: findElements command failed. Reason: handset server: Connection error\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:0:0:0:5383%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:Winn-Dixie_base.apk, appPackage: com.biloholdings.mywinndixi..., assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, description: (?i)(free), deviceName: R5CT20GEHHT, deviceScreenSize: 1080x2340, deviceSessionId: 885a0632-3dc8-4809-a909-c44..., driverClass: io.appium.java_client.andro..., engineExternalExecId: 885a0632-3dc8-4809-a909-c44..., entityType: appium_driver, executionId: 885a0632-3dc8-4809-a909-c44..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, manufacturer: Samsung, mcmExecutionId: stephenp@perfectomobile.com..., model: Galaxy S22, password: , pixelRatio: 3.0, platform: ANDROID, platformName: Android, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 8200310, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , statBarHeight: 81, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, user: , viewportRect: {left=0, top=81, width=1080..., webdriver.remote.sessionid: 885a0632-3dc8-4809-a909-c44...}\nSession ID: 885a0632-3dc8-4809-a909-c44a1a5409be\n*** Element info: {Using=xpath, value=//*[@text=\"SAVINGS\"]}",
+          "subLogs": [],
+          "duration": 150892
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"SAVINGS\"]",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //*[@text=\"SAVINGS\"]",
+          "subLogs": [],
+          "duration": -1352512100
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text=\"SAVINGS\"], using=xpath}"
+          ],
+          "result": "Failed to execute command webpage.element find: findElements command failed. Reason: handset server: Connection error\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:0:0:0:5383%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:Winn-Dixie_base.apk, appPackage: com.biloholdings.mywinndixi..., assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, description: (?i)(free), deviceName: R5CT20GEHHT, deviceScreenSize: 1080x2340, deviceSessionId: 885a0632-3dc8-4809-a909-c44..., driverClass: io.appium.java_client.andro..., engineExternalExecId: 885a0632-3dc8-4809-a909-c44..., entityType: appium_driver, executionId: 885a0632-3dc8-4809-a909-c44..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, manufacturer: Samsung, mcmExecutionId: stephenp@perfectomobile.com..., model: Galaxy S22, password: , pixelRatio: 3.0, platform: ANDROID, platformName: Android, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 8200310, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , statBarHeight: 81, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, user: , viewportRect: {left=0, top=81, width=1080..., webdriver.remote.sessionid: 885a0632-3dc8-4809-a909-c44...}\nSession ID: 885a0632-3dc8-4809-a909-c44a1a5409be\n*** Element info: {Using=xpath, value=//*[@text=\"SAVINGS\"]}",
+          "subLogs": [],
+          "duration": 118852
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[rewards]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"REWARDS\"], using=xpath}"
+          ],
+          "result": "Failed to execute command webpage.element find: findElements command failed. Reason: handset server: Connection error\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:0:0:0:5383%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:Winn-Dixie_base.apk, appPackage: com.biloholdings.mywinndixi..., assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, description: (?i)(free), deviceName: R5CT20GEHHT, deviceScreenSize: 1080x2340, deviceSessionId: 885a0632-3dc8-4809-a909-c44..., driverClass: io.appium.java_client.andro..., engineExternalExecId: 885a0632-3dc8-4809-a909-c44..., entityType: appium_driver, executionId: 885a0632-3dc8-4809-a909-c44..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, manufacturer: Samsung, mcmExecutionId: stephenp@perfectomobile.com..., model: Galaxy S22, password: , pixelRatio: 3.0, platform: ANDROID, platformName: Android, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 8200310, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , statBarHeight: 81, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, user: , viewportRect: {left=0, top=81, width=1080..., webdriver.remote.sessionid: 885a0632-3dc8-4809-a909-c44...}\nSession ID: 885a0632-3dc8-4809-a909-c44a1a5409be\n*** Element info: {Using=xpath, value=//*[@text=\"REWARDS\"]}",
+          "subLogs": [],
+          "duration": 117944
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"REWARDS\"]",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //*[@text=\"REWARDS\"]",
+          "subLogs": [],
+          "duration": -1352275178
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text=\"REWARDS\"], using=xpath}"
+          ],
+          "result": "Failed to execute command webpage.element find: findElements command failed. Reason: handset server: Connection error\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:0:0:0:5383%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:Winn-Dixie_base.apk, appPackage: com.biloholdings.mywinndixi..., assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, description: (?i)(free), deviceName: R5CT20GEHHT, deviceScreenSize: 1080x2340, deviceSessionId: 885a0632-3dc8-4809-a909-c44..., driverClass: io.appium.java_client.andro..., engineExternalExecId: 885a0632-3dc8-4809-a909-c44..., entityType: appium_driver, executionId: 885a0632-3dc8-4809-a909-c44..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, manufacturer: Samsung, mcmExecutionId: stephenp@perfectomobile.com..., model: Galaxy S22, password: , pixelRatio: 3.0, platform: ANDROID, platformName: Android, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 8200310, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , statBarHeight: 81, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, user: , viewportRect: {left=0, top=81, width=1080..., webdriver.remote.sessionid: 885a0632-3dc8-4809-a909-c44...}\nSession ID: 885a0632-3dc8-4809-a909-c44a1a5409be\n*** Element info: {Using=xpath, value=//*[@text=\"REWARDS\"]}",
+          "subLogs": [],
+          "duration": 118866
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[list]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Failed to execute command webpage.element find: findElements command failed. Reason: handset server: Connection error\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:0:0:0:5383%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:Winn-Dixie_base.apk, appPackage: com.biloholdings.mywinndixi..., assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, description: (?i)(free), deviceName: R5CT20GEHHT, deviceScreenSize: 1080x2340, deviceSessionId: 885a0632-3dc8-4809-a909-c44..., driverClass: io.appium.java_client.andro..., engineExternalExecId: 885a0632-3dc8-4809-a909-c44..., entityType: appium_driver, executionId: 885a0632-3dc8-4809-a909-c44..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, manufacturer: Samsung, mcmExecutionId: stephenp@perfectomobile.com..., model: Galaxy S22, password: , pixelRatio: 3.0, platform: ANDROID, platformName: Android, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 8200310, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , statBarHeight: 81, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, user: , viewportRect: {left=0, top=81, width=1080..., webdriver.remote.sessionid: 885a0632-3dc8-4809-a909-c44...}\nSession ID: 885a0632-3dc8-4809-a909-c44a1a5409be\n*** Element info: {Using=xpath, value=//*[@text=\"LIST\"]}",
+          "subLogs": [],
+          "duration": 118084
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"LIST\"]",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //*[@text=\"LIST\"]",
+          "subLogs": [],
+          "duration": -1352038085
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Failed to execute command webpage.element find: findElements command failed. Reason: handset server: Connection error\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:0:0:0:5383%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:Winn-Dixie_base.apk, appPackage: com.biloholdings.mywinndixi..., assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, description: (?i)(free), deviceName: R5CT20GEHHT, deviceScreenSize: 1080x2340, deviceSessionId: 885a0632-3dc8-4809-a909-c44..., driverClass: io.appium.java_client.andro..., engineExternalExecId: 885a0632-3dc8-4809-a909-c44..., entityType: appium_driver, executionId: 885a0632-3dc8-4809-a909-c44..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, manufacturer: Samsung, mcmExecutionId: stephenp@perfectomobile.com..., model: Galaxy S22, password: , pixelRatio: 3.0, platform: ANDROID, platformName: Android, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 8200310, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , statBarHeight: 81, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, user: , viewportRect: {left=0, top=81, width=1080..., webdriver.remote.sessionid: 885a0632-3dc8-4809-a909-c44...}\nSession ID: 885a0632-3dc8-4809-a909-c44a1a5409be\n*** Element info: {Using=xpath, value=//*[@text=\"LIST\"]}",
+          "subLogs": [],
+          "duration": 118553
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[more]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"MORE\"], using=xpath}"
+          ],
+          "result": "Failed to execute command webpage.element find: findElements command failed. Reason: handset server: Connection error\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:0:0:0:5383%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:Winn-Dixie_base.apk, appPackage: com.biloholdings.mywinndixi..., assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, description: (?i)(free), deviceName: R5CT20GEHHT, deviceScreenSize: 1080x2340, deviceSessionId: 885a0632-3dc8-4809-a909-c44..., driverClass: io.appium.java_client.andro..., engineExternalExecId: 885a0632-3dc8-4809-a909-c44..., entityType: appium_driver, executionId: 885a0632-3dc8-4809-a909-c44..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, manufacturer: Samsung, mcmExecutionId: stephenp@perfectomobile.com..., model: Galaxy S22, password: , pixelRatio: 3.0, platform: ANDROID, platformName: Android, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 8200310, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , statBarHeight: 81, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, user: , viewportRect: {left=0, top=81, width=1080..., webdriver.remote.sessionid: 885a0632-3dc8-4809-a909-c44...}\nSession ID: 885a0632-3dc8-4809-a909-c44a1a5409be\n*** Element info: {Using=xpath, value=//*[@text=\"MORE\"]}",
+          "subLogs": [],
+          "duration": 118414
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"MORE\"]",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //*[@text=\"MORE\"]",
+          "subLogs": [],
+          "duration": -1351801013
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text=\"MORE\"], using=xpath}"
+          ],
+          "result": "Failed to execute command webpage.element find: findElements command failed. Reason: handset server: Connection error\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:0:0:0:5383%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:Winn-Dixie_base.apk, appPackage: com.biloholdings.mywinndixi..., assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, description: (?i)(free), deviceName: R5CT20GEHHT, deviceScreenSize: 1080x2340, deviceSessionId: 885a0632-3dc8-4809-a909-c44..., driverClass: io.appium.java_client.andro..., engineExternalExecId: 885a0632-3dc8-4809-a909-c44..., entityType: appium_driver, executionId: 885a0632-3dc8-4809-a909-c44..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, manufacturer: Samsung, mcmExecutionId: stephenp@perfectomobile.com..., model: Galaxy S22, password: , pixelRatio: 3.0, platform: ANDROID, platformName: Android, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 8200310, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , statBarHeight: 81, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, user: , viewportRect: {left=0, top=81, width=1080..., webdriver.remote.sessionid: 885a0632-3dc8-4809-a909-c44...}\nSession ID: 885a0632-3dc8-4809-a909-c44a1a5409be\n*** Element info: {Using=xpath, value=//*[@text=\"MORE\"]}",
+          "subLogs": [],
+          "duration": 118109
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "close",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 54
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by id \"com.biloholdings.mywinndixie.prod\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 299,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"whileUsing\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2562,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"10\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10006,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"allow\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 787,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"5\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5005,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"getStarted\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 885,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"5\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5005,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I switch to webview context",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 52,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I login to Winn Dixie app",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 6249,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'signinButton'",
+          "type": "TestStepPass",
+          "screenshot": null,
+          "duration": 831,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'Password123!' into 'passwordField'",
+          "type": "TestStepPass",
+          "screenshot": null,
+          "duration": 2739,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'signinButton'",
+          "type": "TestStepPass",
+          "screenshot": null,
+          "duration": 1219,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I click on \"savings\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 272972,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"rewards\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 236818,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"list\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 236646,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"more\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 236529,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

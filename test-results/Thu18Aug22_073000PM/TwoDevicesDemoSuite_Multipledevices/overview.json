@@ -1,0 +1,51 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "classes": null,
+  "envInfo": {
+    "browser-desired-capabilities": null,
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Version": "3.0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34"
+    },
+    "run-parameters": {
+      "perfectodevii.capabilities.driverClass": "io.appium.java_client.android.AndroidDriver",
+      "perfectodevii.capabilities.env.resources": "src/main/resources/android",
+      "perfectodevii.capabilities.driver.capabilities.description": "(?i)(free)",
+      "perfectodevii.capabilities.appType": "Native",
+      "perfecto.capabilities.browserVersion": "100",
+      "perfectodevii.capabilities.manufacturer": "Samsung",
+      "perfectodevii.capabilities.model": "Galaxy S22",
+      "perfecto.capabilities.resolution": "1280x1024",
+      "resources": "src/main/resources/common",
+      "perfecto.capabilities.platformName": "Windows",
+      "driverNameList": "perfectoRemote,perfectodevii",
+      "perfecto.capabilities.platformVersion": "10",
+      "perfectodevii.capabilities.platformName": "Android",
+      "perfectodevii.capabilities.sensorInstrument": "true",
+      "perfecto.capabilities.browserName": "Chrome",
+      "perfecto.capabilities.driverClass": "org.openqa.selenium.WebDriver",
+      "perfectodevii.capabilities.app": "PUBLIC:Winn-Dixie_base.apk",
+      "perfectodevii.capabilities.appPackage": "com.biloholdings.mywinndixie.prod",
+      "perfecto.capabilities.appType": "Web",
+      "perfecto.capabilities.env.resources": "src/main/resources/common"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_202",
+      "os.arch": "x86_64",
+      "host": "spenn0821",
+      "os.name": "Mac OS X",
+      "user.name": "spenn02",
+      "os.version": "10.16"
+    }
+  },
+  "startTime": 1660865401043,
+  "endTime": 0
+}

@@ -1,0 +1,29 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@AndroidLoggedIn",
+          "@WinnDixie"
+        ],
+        "lineNo": 26,
+        "name": "I verify all menu buttons are working as expected",
+        "Perfecto-report": "<a href=\"https://demo.app.perfectomobile.com/reporting/library?externalId[0]=c1300d04-db4d-4976-809a-f60dfef5a970\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/WinnDixie.feature",
+        "resultFileName": "IVerifyAllMenuButtonsAreWorkingAsExpected",
+        "sign": "src.main.resources.scenarios.WinnDixie.feature.I verify all menu buttons are working as expected()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1660800730578,
+      "duration": 87168,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

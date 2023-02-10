@@ -1,0 +1,85 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.snapchat.android]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 52
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[1]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "IStartNetworkVirtualisationWithHAR",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "IStopNetworkVirtualisation",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by id \"com.snapchat.android\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 212,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"1\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1006,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I start network virtualization with HAR capture",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 8099,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I stop network virtualization",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 4062,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

@@ -1,0 +1,693 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.biloholdings.mywinndixie.prod]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 49
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[whileUsing]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 4279
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 488
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[10]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[allow]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 341
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 488
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[5]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[getStarted]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@content-desc=\"GetStartedButton\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 701
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@content-desc=\"GetStartedButton\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@content-desc=\"GetStartedButton\"]",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 468
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[5]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.switchWebviewContext",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=WEBVIEW}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 45
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iLoginToPaneraBreadApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//input[@id=\"signInName\"])[1], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 766
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: (//input[@id=\"signInName\"])[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: (//input[@id=\"signInName\"])[1]",
+            "{\"id\":\"3\",\"value\":[\"spenn6@gmail.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 450
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[signinButton]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"next\"], using=xpath}"
+              ],
+              "result": "id: 4",
+              "subLogs": [],
+              "duration": 574
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.xpath: //*[@id=\"next\"]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@id=\"next\"]",
+                "{\"id\":\"4\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 425
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Password123!, passwordField]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "Element with by xpath '//*[@id=\"password\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+              "subLogs": [],
+              "duration": 598
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "id: 5",
+              "subLogs": [],
+              "duration": 808
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.xpath: //*[@id=\"password\"]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //*[@id=\"password\"]",
+                "{\"id\":\"5\",\"value\":[\"Password123!\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 457
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[signinButton]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"next\"], using=xpath}"
+              ],
+              "result": "id: 6",
+              "subLogs": [],
+              "duration": 461
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.xpath: //*[@id=\"next\"]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@id=\"next\"]",
+                "{\"id\":\"6\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 410
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.switchNativeContext",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 47
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[savings]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"SAVINGS\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"SAVINGS\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 597
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"SAVINGS\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"SAVINGS\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 1171
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"SAVINGS\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"SAVINGS\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 366
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"SAVINGS\"], using=xpath}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 6334
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"SAVINGS\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"SAVINGS\"]",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 684
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[rewards]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"REWARDS\"], using=xpath}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 1114
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"REWARDS\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"REWARDS\"]",
+            "{\"id\":\"8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 535
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[list]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "id: 9",
+          "subLogs": [],
+          "duration": 1069
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"LIST\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"LIST\"]",
+            "{\"id\":\"9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1253
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[more]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"MORE\"], using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 1010
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"MORE\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"MORE\"]",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 683
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by id \"com.biloholdings.mywinndixie.prod\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 302,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"whileUsing\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 4783,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"10\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10005,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"allow\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 832,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"5\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5005,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"getStarted\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1174,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"5\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5004,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I switch to webview context",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 47,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I login to Winn Dixie app",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 6300,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'signinButton'",
+          "type": "TestStepPass",
+          "screenshot": null,
+          "duration": 1002,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'Password123!' into 'passwordField'",
+          "type": "TestStepPass",
+          "screenshot": null,
+          "duration": 2873,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'signinButton'",
+          "type": "TestStepPass",
+          "screenshot": null,
+          "duration": 875,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I switch to native context",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 48,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"savings\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 12169,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"rewards\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1652,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"list\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2325,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"more\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1695,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

@@ -1,0 +1,228 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "loginToInvoiceApp",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_email, using=id}"
+          ],
+          "result": "Element with by id 'io.perfecto.expense.tracker:id/login_email' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 494
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_email, using=id}"
+          ],
+          "result": "Element with by id 'io.perfecto.expense.tracker:id/login_email' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 316
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_email, using=id}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 414
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_email",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_email",
+            "{\"id\":\"0\",\"value\":[\"test@perfecto.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1730
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_password, using=id}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 532
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_password",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_password",
+            "{\"id\":\"1\",\"value\":[\"test123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1288
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_biometric_check_box, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 534
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_biometric_check_box",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_biometric_check_box",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 523
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_login_btn, using=id}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 717
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_login_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_login_btn",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "Failed to execute command application.element click: clickElement command failed. Reason: handset server: element not found\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:0:0:0:c9e6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., appPackage: io.perfecto.expense.tracker, assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, deviceName: 1C101FDEE00BJ6, deviceScreenSize: 1440x3120, deviceSessionId: a59a8df7-027b-4f5b-99f7-736..., driverClass: io.appium.java_client.andro..., engineExternalExecId: a59a8df7-027b-4f5b-99f7-736..., entityType: appium_driver, executionId: a59a8df7-027b-4f5b-99f7-736..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, mcmExecutionId: stephenp@perfectomobile.com..., model: .*, password: , pixelRatio: 3.5, platform: ANDROID, platformName: Android, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 8200310, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , startActivity: io.perfecto.expense.tracker..., statBarHeight: 145, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, user: , viewportRect: {left=0, top=145, width=144..., webdriver.remote.sessionid: a59a8df7-027b-4f5b-99f7-736...}\nSession ID: a59a8df7-027b-4f5b-99f7-736c077708fb",
+          "subLogs": [],
+          "duration": 1393
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_login_btn, using=id}"
+          ],
+          "result": "[id: 4]",
+          "subLogs": [],
+          "duration": 612
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"",
+      "args": [
+        "[Meal, 23.45, USD, Business]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I attach receipt",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I logout of application",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I login to Expense Tracker app with username and password",
+      "type": "TestStepFail",
+      "screenshot": "img/AddExpenseAfterLogin_1xibfsqu9o0ri60046.png",
+      "duration": 12341,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Execute script is not supported.\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:0:0:0:c9e6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., appPackage: io.perfecto.expense.tracker, assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, deviceName: 1C101FDEE00BJ6, deviceScreenSize: 1440x3120, deviceSessionId: a59a8df7-027b-4f5b-99f7-736..., driverClass: io.appium.java_client.andro..., engineExternalExecId: a59a8df7-027b-4f5b-99f7-736..., entityType: appium_driver, executionId: a59a8df7-027b-4f5b-99f7-736..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, mcmExecutionId: stephenp@perfectomobile.com..., model: .*, password: , pixelRatio: 3.5, platform: ANDROID, platformName: Android, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 8200310, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , startActivity: io.perfecto.expense.tracker..., statBarHeight: 145, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, user: , viewportRect: {left=0, top=145, width=144..., webdriver.remote.sessionid: a59a8df7-027b-4f5b-99f7-736...}\nSession ID: a59a8df7-027b-4f5b-99f7-736c077708fb",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I attach receipt",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I logout of application",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Execute script is not supported.\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:0:0:0:c9e6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., appPackage: io.perfecto.expense.tracker, assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, deviceName: 1C101FDEE00BJ6, deviceScreenSize: 1440x3120, deviceSessionId: a59a8df7-027b-4f5b-99f7-736..., driverClass: io.appium.java_client.andro..., engineExternalExecId: a59a8df7-027b-4f5b-99f7-736..., entityType: appium_driver, executionId: a59a8df7-027b-4f5b-99f7-736..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, mcmExecutionId: stephenp@perfectomobile.com..., model: .*, password: , pixelRatio: 3.5, platform: ANDROID, platformName: Android, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 8200310, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , startActivity: io.perfecto.expense.tracker..., statBarHeight: 145, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, user: , viewportRect: {left=0, top=145, width=144..., webdriver.remote.sessionid: a59a8df7-027b-4f5b-99f7-736...}\nSession ID: a59a8df7-027b-4f5b-99f7-736c077708fb\n\tat .Given I login to Expense Tracker app with username and password(src/main/resources/scenarios/ExpenseTracker.feature:6)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:233)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:571)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.executeScript(QAFExtendedWebElement.java:1246)\n\tat com.qmetry.qaf.automation.ui.webdriver.ElementMetaDataListener.scrollToElement(ElementMetaDataListener.java:187)\n\tat com.qmetry.qaf.automation.ui.webdriver.ElementMetaDataListener.onFailure(ElementMetaDataListener.java:181)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.onFailure(QAFExtendedWebElement.java:535)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:271)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat com.perfecto.CommonUtils.click(CommonUtils.java:410)\n\tat com.quantum.steps.ExpenseTrackerStepDefs.loginToInvoiceApp(ExpenseTrackerStepDefs.java:142)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: java.lang.UnsupportedOperationException: Execute script is not supported.\n\tat com.perfectomobile.selenium.nativeapp.MobileNativeApplication.executeScript(MobileNativeApplication.java:112)\n\tat com.perfectomobile.selenium.server.PerfectoMobileDriver.executeScript(PerfectoMobileDriver.java:1031)\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeScript(ExecuteScript.java:403)\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:71)\n\tat com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:28)\n\tat org.openqa.selenium.remote.server.handler.WebDriverHandler.handle(WebDriverHandler.java:41)\n\tat org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:125)\n\tat org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:200)\n\tat org.openqa.selenium.remote.server.PerfectoMobileSession.execute(PerfectoMobileSession.java:72)\n\tat org.openqa.selenium.remote.server.MobileWebDriverServlet.lambda$handle$2(MobileWebDriverServlet.java:303)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\t... 1 more\n"
+}

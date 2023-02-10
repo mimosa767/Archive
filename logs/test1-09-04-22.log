@@ -1,0 +1,327 @@
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:170) - ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Version=3.0, qaf-Build-Time=26-Jul-2020 22:16:34}
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:222) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/common. Found property files to load: 6
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:236) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/common. Found property files to load: 0
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory (ScenarioFactory.java:76) - scenario.file.loc[Ljava.lang.String;@306f16f3
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/WebSearch.feature
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Cafe24.feature
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/WinnDixie.feature
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/AudioCalls.feature
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/ExpenseTracker.feature
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Arbeit.feature
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Calculator.feature
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Maps.feature
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/MultiDevice.feature
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/VirtualDevices.feature
+[03.09.2022] [00:00:16] INFO [main] com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory (ScenarioFactory.java:82) - total test found: 1
+[03.09.2022] [00:00:17] INFO [TestNG] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:453) - Adding resources from: src/main/resources/android
+[03.09.2022] [00:00:17] INFO [TestNG] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:222) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/android. Found property files to load: 6
+[03.09.2022] [00:00:17] INFO [TestNG] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:236) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/android. Found property files to load: 0
+[03.09.2022] [00:00:17] INFO [TestNG] com.qmetry.qaf.automation.core.QAFTestBase (QAFTestBase.java:471) - Initializing Driver...browser_str:perfectoDriver,base_url:http://localhost,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+[03.09.2022] [00:00:17] INFO [TestNG] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:85) - Driver: perfectoDriver
+[03.09.2022] [00:00:17] INFO [TestNG] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:427) - Direct Driver Connect
+[03.09.2022] [00:00:26] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing setTimeout parameters: {"implicit":0}
+[03.09.2022] [00:00:26] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: setTimeout[ param-1: {implicit=0}] Result: null
+[03.09.2022] [00:00:26] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.core.QAFTestBase (QAFTestBase.java:481) - driver init done
+[03.09.2022] [00:00:26] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"jobName":"PerfectoDemo","jobBranch":"master","customFields":[],"name":"I open up my messenger application and receive text messages","projectName":"Archive","jobNumber":8200310,"projectVersion":"1.0","tags":["WinnDixie Test Suite","Android"," @WinnDixie "," @ArbeitSendReceiveSMS"]}],"script":"mobile:test:start"}
+[03.09.2022] [00:00:27] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.client.Scenario (Scenario.java:284) - 
+
+Executing scenario: I open up my messenger application and receive text messages - 
+[03.09.2022] [00:00:27] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.JavaStepFinder (JavaStepFinder.java:69) - pkg: com.qmetry.qaf.automation.step
+[03.09.2022] [00:00:27] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.JavaStepFinder (JavaStepFinder.java:69) - pkg: com.quantum.steps
+[03.09.2022] [00:00:27] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:71) - Invoking Teststep: Given I start application by id "com.samsung.android.messaging" with arguments: [com.samsung.android.messaging]
+[03.09.2022] [00:00:27] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"com.samsung.android.messaging\""}],"script":"mobile:step:start"}
+[03.09.2022] [00:00:27] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"identifier":"com.samsung.android.messaging"}],"script":"mobile:application:open"}
+[03.09.2022] [00:00:27] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing switchToContext parameters: {"name":"NATIVE_APP"}
+[03.09.2022] [00:00:27] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: switchToContext[ param-1: {name=NATIVE_APP}] Result: null
+[03.09.2022] [00:00:27] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:91) - Completed Teststep: Given I start application by id "com.samsung.android.messaging" with arguments: [com.samsung.android.messaging]
+[03.09.2022] [00:00:27] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:71) - Invoking Teststep: Then I wait for "45" seconds with arguments: [45]
+[03.09.2022] [00:00:27] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"name":"Then I wait for \"45\" seconds"}],"script":"mobile:step:start"}
+[03.09.2022] [00:01:12] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:91) - Completed Teststep: Then I wait for "45" seconds with arguments: [45]
+[03.09.2022] [00:01:12] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.client.Scenario (Scenario.java:223) - Competed scenario: I open up my messenger application and receive text messages with status SUCCESS
+[03.09.2022] [00:01:12] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+[03.09.2022] [00:01:13] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing quit parameters: {}
+[03.09.2022] [00:01:13] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{}],"script":"mobile:execution:close"}
+[03.09.2022] [00:01:22] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing close parameters: {}
+[03.09.2022] [00:01:22] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: close[ param-1: {}] Result: null
+[03.09.2022] [00:01:22] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: quit[ param-1: {}] Result: null
+[03.09.2022] [00:01:22] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:103) - UI-driver tear down complete...
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:170) - ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Version=3.0, qaf-Build-Time=26-Jul-2020 22:16:34}
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:222) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/common. Found property files to load: 6
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:236) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/common. Found property files to load: 0
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory (ScenarioFactory.java:76) - scenario.file.loc[Ljava.lang.String;@649bec2e
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/WebSearch.feature
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Cafe24.feature
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/WinnDixie.feature
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/AudioCalls.feature
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/ExpenseTracker.feature
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Arbeit.feature
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Calculator.feature
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Maps.feature
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/MultiDevice.feature
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/VirtualDevices.feature
+[03.09.2022] [13:19:06] INFO [main] com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory (ScenarioFactory.java:82) - total test found: 1
+[03.09.2022] [13:19:06] INFO [TestNG] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:453) - Adding resources from: src/main/resources/android
+[03.09.2022] [13:19:06] INFO [TestNG] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:222) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/android. Found property files to load: 6
+[03.09.2022] [13:19:06] INFO [TestNG] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:236) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/android. Found property files to load: 0
+[03.09.2022] [13:19:06] INFO [TestNG] com.qmetry.qaf.automation.core.QAFTestBase (QAFTestBase.java:471) - Initializing Driver...browser_str:perfectoDriver,base_url:http://localhost,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+[03.09.2022] [13:19:06] INFO [TestNG] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:85) - Driver: perfectoDriver
+[03.09.2022] [13:19:06] INFO [TestNG] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:427) - Direct Driver Connect
+[03.09.2022] [13:19:17] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing setTimeout parameters: {"implicit":0}
+[03.09.2022] [13:19:17] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: setTimeout[ param-1: {implicit=0}] Result: null
+[03.09.2022] [13:19:17] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.core.QAFTestBase (QAFTestBase.java:481) - driver init done
+[03.09.2022] [13:19:17] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"jobName":"PerfectoDemo","jobBranch":"master","customFields":[],"name":"I open up my messenger application and receive text messages","projectName":"Archive","jobNumber":8200310,"projectVersion":"1.0","tags":["WinnDixie Test Suite","Android"," @WinnDixie "," @ArbeitSendReceiveSMS"]}],"script":"mobile:test:start"}
+[03.09.2022] [13:19:17] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.client.Scenario (Scenario.java:284) - 
+
+Executing scenario: I open up my messenger application and receive text messages - 
+[03.09.2022] [13:19:17] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.JavaStepFinder (JavaStepFinder.java:69) - pkg: com.qmetry.qaf.automation.step
+[03.09.2022] [13:19:17] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.JavaStepFinder (JavaStepFinder.java:69) - pkg: com.quantum.steps
+[03.09.2022] [13:19:18] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:71) - Invoking Teststep: Given I start application by id "com.samsung.android.messaging" with arguments: [com.samsung.android.messaging]
+[03.09.2022] [13:19:18] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"com.samsung.android.messaging\""}],"script":"mobile:step:start"}
+[03.09.2022] [13:19:18] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"identifier":"com.samsung.android.messaging"}],"script":"mobile:application:open"}
+[03.09.2022] [13:19:18] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing switchToContext parameters: {"name":"NATIVE_APP"}
+[03.09.2022] [13:19:18] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: switchToContext[ param-1: {name=NATIVE_APP}] Result: null
+[03.09.2022] [13:19:18] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:91) - Completed Teststep: Given I start application by id "com.samsung.android.messaging" with arguments: [com.samsung.android.messaging]
+[03.09.2022] [13:19:18] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:71) - Invoking Teststep: Then I wait for "45" seconds with arguments: [45]
+[03.09.2022] [13:19:18] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"name":"Then I wait for \"45\" seconds"}],"script":"mobile:step:start"}
+[03.09.2022] [13:20:03] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:91) - Completed Teststep: Then I wait for "45" seconds with arguments: [45]
+[03.09.2022] [13:20:03] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.client.Scenario (Scenario.java:223) - Competed scenario: I open up my messenger application and receive text messages with status SUCCESS
+[03.09.2022] [13:20:03] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+[03.09.2022] [13:20:04] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing quit parameters: {}
+[03.09.2022] [13:20:04] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{}],"script":"mobile:execution:close"}
+[03.09.2022] [13:20:14] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing close parameters: {}
+[03.09.2022] [13:20:14] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: close[ param-1: {}] Result: null
+[03.09.2022] [13:20:14] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: quit[ param-1: {}] Result: null
+[03.09.2022] [13:20:14] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:103) - UI-driver tear down complete...
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:170) - ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Version=3.0, qaf-Build-Time=26-Jul-2020 22:16:34}
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:222) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/common. Found property files to load: 6
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:236) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/common. Found property files to load: 0
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory (ScenarioFactory.java:76) - scenario.file.loc[Ljava.lang.String;@693fe6c9
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/WebSearch.feature
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Cafe24.feature
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/WinnDixie.feature
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/AudioCalls.feature
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/ExpenseTracker.feature
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Arbeit.feature
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Calculator.feature
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Maps.feature
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/MultiDevice.feature
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/VirtualDevices.feature
+[03.09.2022] [13:22:04] INFO [main] com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory (ScenarioFactory.java:82) - total test found: 1
+[03.09.2022] [13:22:04] INFO [TestNG] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:453) - Adding resources from: src/main/resources/android
+[03.09.2022] [13:22:04] INFO [TestNG] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:222) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/android. Found property files to load: 6
+[03.09.2022] [13:22:04] INFO [TestNG] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:236) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/android. Found property files to load: 0
+[03.09.2022] [13:22:04] INFO [TestNG] com.qmetry.qaf.automation.core.QAFTestBase (QAFTestBase.java:471) - Initializing Driver...browser_str:perfectoDriver,base_url:http://localhost,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+[03.09.2022] [13:22:04] INFO [TestNG] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:85) - Driver: perfectoDriver
+[03.09.2022] [13:22:04] INFO [TestNG] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:427) - Direct Driver Connect
+[03.09.2022] [13:22:13] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing setTimeout parameters: {"implicit":0}
+[03.09.2022] [13:22:13] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: setTimeout[ param-1: {implicit=0}] Result: null
+[03.09.2022] [13:22:13] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.core.QAFTestBase (QAFTestBase.java:481) - driver init done
+[03.09.2022] [13:22:13] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"jobName":"PerfectoDemo","jobBranch":"master","customFields":[],"name":"I open up my messenger application and receive text messages","projectName":"Archive","jobNumber":8200310,"projectVersion":"1.0","tags":["WinnDixie Test Suite","Android"," @WinnDixie "," @ArbeitSendReceiveSMS"]}],"script":"mobile:test:start"}
+[03.09.2022] [13:22:13] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.client.Scenario (Scenario.java:284) - 
+
+Executing scenario: I open up my messenger application and receive text messages - 
+[03.09.2022] [13:22:13] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.JavaStepFinder (JavaStepFinder.java:69) - pkg: com.qmetry.qaf.automation.step
+[03.09.2022] [13:22:13] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.JavaStepFinder (JavaStepFinder.java:69) - pkg: com.quantum.steps
+[03.09.2022] [13:22:13] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:71) - Invoking Teststep: Given I start application by id "com.samsung.android.messaging" with arguments: [com.samsung.android.messaging]
+[03.09.2022] [13:22:13] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"com.samsung.android.messaging\""}],"script":"mobile:step:start"}
+[03.09.2022] [13:22:13] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"identifier":"com.samsung.android.messaging"}],"script":"mobile:application:open"}
+[03.09.2022] [13:22:14] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing switchToContext parameters: {"name":"NATIVE_APP"}
+[03.09.2022] [13:22:14] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: switchToContext[ param-1: {name=NATIVE_APP}] Result: null
+[03.09.2022] [13:22:14] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:91) - Completed Teststep: Given I start application by id "com.samsung.android.messaging" with arguments: [com.samsung.android.messaging]
+[03.09.2022] [13:22:14] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:71) - Invoking Teststep: Then I wait for "45" seconds with arguments: [45]
+[03.09.2022] [13:22:14] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"name":"Then I wait for \"45\" seconds"}],"script":"mobile:step:start"}
+[03.09.2022] [13:22:59] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:91) - Completed Teststep: Then I wait for "45" seconds with arguments: [45]
+[03.09.2022] [13:22:59] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.step.client.Scenario (Scenario.java:223) - Competed scenario: I open up my messenger application and receive text messages with status SUCCESS
+[03.09.2022] [13:22:59] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+[03.09.2022] [13:22:59] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing quit parameters: {}
+[03.09.2022] [13:22:59] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{}],"script":"mobile:execution:close"}
+[03.09.2022] [13:23:09] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing close parameters: {}
+[03.09.2022] [13:23:09] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: close[ param-1: {}] Result: null
+[03.09.2022] [13:23:09] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: quit[ param-1: {}] Result: null
+[03.09.2022] [13:23:09] INFO [[GalaxyS9+ 3356423251463098]] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:103) - UI-driver tear down complete...
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:170) - ISFW build info: {qaf-Type=core, qaf-Revision=0, qaf-Version=3.0, qaf-Build-Time=26-Jul-2020 22:16:34}
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:222) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/common. Found property files to load: 6
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:236) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/common. Found property files to load: 0
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory (ScenarioFactory.java:76) - scenario.file.loc[Ljava.lang.String;@27ff5d15
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/WebSearch.feature
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Cafe24.feature
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/WinnDixie.feature
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/AudioCalls.feature
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/ExpenseTracker.feature
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Arbeit.feature
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Calculator.feature
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/Maps.feature
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/MultiDevice.feature
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.step.client.text.BehaviorScanner (GherkinFileParser.java:109) - loading feature file: /Users/spenn02/IdeaProjects/Archive/src/main/resources/scenarios/VirtualDevices.feature
+[03.09.2022] [13:27:24] INFO [main] com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory (ScenarioFactory.java:82) - total test found: 1
+[03.09.2022] [13:27:24] INFO [TestNG] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:453) - Adding resources from: src/main/resources/android
+[03.09.2022] [13:27:24] INFO [TestNG] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:222) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/android. Found property files to load: 6
+[03.09.2022] [13:27:24] INFO [TestNG] com.qmetry.qaf.automation.core.ConfigurationManager (ConfigurationManager.java:236) - Resource dir: /Users/spenn02/IdeaProjects/Archive/src/main/resources/android. Found property files to load: 0
+[03.09.2022] [13:27:24] INFO [TestNG] com.qmetry.qaf.automation.core.QAFTestBase (QAFTestBase.java:471) - Initializing Driver...browser_str:perfectodevivDriver,base_url:http://localhost,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+[03.09.2022] [13:27:24] INFO [TestNG] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:85) - Driver: perfectodevivDriver
+[03.09.2022] [13:27:24] INFO [TestNG] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:427) - Direct Driver Connect
+[03.09.2022] [13:27:34] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing setTimeout parameters: {"implicit":0}
+[03.09.2022] [13:27:34] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: setTimeout[ param-1: {implicit=0}] Result: null
+[03.09.2022] [13:27:34] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.core.QAFTestBase (QAFTestBase.java:481) - driver init done
+[03.09.2022] [13:27:34] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.core.QAFTestBase (QAFTestBase.java:471) - Initializing Driver...browser_str:perfectodeviivDriver,base_url:http://localhost,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+[03.09.2022] [13:27:34] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:85) - Driver: perfectodeviivDriver
+[03.09.2022] [13:27:34] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.UiDriverFactory (UiDriverFactory.java:427) - Direct Driver Connect
+[03.09.2022] [13:27:55] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing setTimeout parameters: {"implicit":0}
+[03.09.2022] [13:27:55] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: setTimeout[ param-1: {implicit=0}] Result: null
+[03.09.2022] [13:27:55] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.core.QAFTestBase (QAFTestBase.java:481) - driver init done
+[03.09.2022] [13:27:55] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"externalIdAliases":"[{\"externalId\":\"8f6f8526-3aa3-42e3-b670-3dc3071652ef\",\"alias\":\"perfectodeviv\"},{\"externalId\":\"b9e3f82d-01c2-469f-bb3e-70a4aadf739c\",\"alias\":\"perfectodeviiv\"}]"}],"script":"mobile:execution:multiple"}
+[03.09.2022] [13:27:55] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"jobName":"PerfectoDemo","jobBranch":"master","customFields":[],"name":"I call phone A with phone B and answer the phone call with phone B","projectName":"Archive","jobNumber":8200310,"projectVersion":"1.0","tags":["Multiple devices","Two Devices Demo Suite"," @WinnDixie "," @ArebeitTwoSMSPhones"]}],"script":"mobile:test:start"}
+[03.09.2022] [13:27:55] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.step.client.Scenario (Scenario.java:284) - 
+
+Executing scenario: I call phone A with phone B and answer the phone call with phone B - 
+[03.09.2022] [13:27:55] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.step.JavaStepFinder (JavaStepFinder.java:69) - pkg: com.qmetry.qaf.automation.step
+[03.09.2022] [13:27:55] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.step.JavaStepFinder (JavaStepFinder.java:69) - pkg: com.quantum.steps
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:71) - Invoking Teststep: Given I switch to driver "perfectodeviiv" with arguments: [perfectodeviiv]
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"name":"Given I switch to driver \"perfectodeviiv\""}],"script":"mobile:step:start"}
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:91) - Completed Teststep: Given I switch to driver "perfectodeviiv" with arguments: [perfectodeviiv]
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:71) - Invoking Teststep: Then I start application by id "com.samsung.android.messaging" with arguments: [com.samsung.android.messaging]
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"name":"Then I start application by id \"com.samsung.android.messaging\""}],"script":"mobile:step:start"}
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"identifier":"com.samsung.android.messaging"}],"script":"mobile:application:open"}
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing switchToContext parameters: {"name":"NATIVE_APP"}
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: switchToContext[ param-1: {name=NATIVE_APP}] Result: null
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:91) - Completed Teststep: Then I start application by id "com.samsung.android.messaging" with arguments: [com.samsung.android.messaging]
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:71) - Invoking Teststep: Then I switch to driver "perfectodeviv" with arguments: [perfectodeviv]
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"name":"Then I switch to driver \"perfectodeviv\""}],"script":"mobile:step:start"}
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:91) - Completed Teststep: Then I switch to driver "perfectodeviv" with arguments: [perfectodeviv]
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:71) - Invoking Teststep: Then I start application by id "com.samsung.android.messaging" with arguments: [com.samsung.android.messaging]
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"name":"Then I start application by id \"com.samsung.android.messaging\""}],"script":"mobile:step:start"}
+[03.09.2022] [13:27:56] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"identifier":"com.samsung.android.messaging"}],"script":"mobile:application:open"}
+[03.09.2022] [13:27:57] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing switchToContext parameters: {"name":"NATIVE_APP"}
+[03.09.2022] [13:27:57] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:86) - command: switchToContext[ param-1: {name=NATIVE_APP}] Result: null
+[03.09.2022] [13:27:57] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:91) - Completed Teststep: Then I start application by id "com.samsung.android.messaging" with arguments: [com.samsung.android.messaging]
+[03.09.2022] [13:27:57] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.step.TestStepListener (TestStepListener.java:71) - Invoking Teststep: Then I click on "android.keypad.button" and ignore errors with arguments: [android.keypad.button]
+[03.09.2022] [13:27:57] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{"name":"Then I click on \"android.keypad.button\" and ignore errors"}],"script":"mobile:step:start"}
+[03.09.2022] [13:27:57] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:155) - Executing findElement element: By.xpath: //*[@text="Keypad"] parameters: {}
+[03.09.2022] [13:27:57] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:27:58] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:27:59] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:00] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:01] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:01] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:02] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:03] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:04] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:04] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:05] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:05] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:06] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:07] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:08] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:08] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:09] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:09] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:10] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:11] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:12] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:12] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:13] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:13] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:14] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:15] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:16] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:16] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:17] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:17] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:18] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:19] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:20] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:20] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:21] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:21] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:22] INFO [Thread-1] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing quit parameters: {}
+[03.09.2022] [13:28:22] INFO [[GalaxyS22 9887BC443241585150]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing executeScript parameters: {"args":[{}],"script":"mobile:execution:close"}
+[03.09.2022] [13:28:22] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:23] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:24] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:24] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds
+[03.09.2022] [13:28:25] INFO [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:106) - Executing findElement parameters: {"using":"xpath","value":"//*[@text=\"Keypad\"]"}
+[03.09.2022] [13:28:25] ERROR [[GalaxyS22 3356423251463098]] com.qmetry.qaf.automation.ui.WebDriverCommandLogger (WebDriverCommandLogger.java:128) - command: findElement[ param-1: {value=//*[@text="Keypad"], using=xpath}] Result: Element with by xpath '//*[@text="Keypad"]' wasn't found.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+Driver info: driver.version: PerfectoMobileDriver
+Command duration or timeout: 0 milliseconds

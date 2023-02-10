@@ -1,0 +1,809 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[android.whileUsing]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 1129
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 548
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[allow]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 500
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 482
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "IStartNetworkVirtualisationWithProfile",
+      "args": [
+        "[3g_umts_average]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "IStartDeviceLogging",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[getStarted]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@content-desc=\"GetStartedButton\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 367
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@content-desc=\"GetStartedButton\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@content-desc=\"GetStartedButton\"]",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 524
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.switchWebviewContext",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=WEBVIEW}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 51
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iLoginToPaneraBreadApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//input[@id=\"signInName\"])[1], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 9843
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: (//input[@id=\"signInName\"])[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: (//input[@id=\"signInName\"])[1]",
+            "{\"id\":\"3\",\"value\":[\"spenn6@gmail.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 439
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[signinButton]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"next\"], using=xpath}"
+              ],
+              "result": "id: 4",
+              "subLogs": [],
+              "duration": 486
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.xpath: //*[@id=\"next\"]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@id=\"next\"]",
+                "{\"id\":\"4\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 455
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Password123!, passwordField]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "Element with by xpath '//*[@id=\"password\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+              "subLogs": [],
+              "duration": 477
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "Element with by xpath '//*[@id=\"password\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+              "subLogs": [],
+              "duration": 542
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "Element with by xpath '//*[@id=\"password\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+              "subLogs": [],
+              "duration": 519
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "Element with by xpath '//*[@id=\"password\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+              "subLogs": [],
+              "duration": 473
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "Element with by xpath '//*[@id=\"password\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+              "subLogs": [],
+              "duration": 501
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "Element with by xpath '//*[@id=\"password\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+              "subLogs": [],
+              "duration": 459
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "Element with by xpath '//*[@id=\"password\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+              "subLogs": [],
+              "duration": 478
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "Element with by xpath '//*[@id=\"password\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+              "subLogs": [],
+              "duration": 463
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"password\"], using=xpath}"
+              ],
+              "result": "id: 5",
+              "subLogs": [],
+              "duration": 7842
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.xpath: //*[@id=\"password\"]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //*[@id=\"password\"]",
+                "{\"id\":\"5\",\"value\":[\"Password123!\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 423
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[signinButton]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@id=\"next\"], using=xpath}"
+              ],
+              "result": "id: 6",
+              "subLogs": [],
+              "duration": 445
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.xpath: //*[@id=\"next\"]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@id=\"next\"]",
+                "{\"id\":\"6\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 397
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[3]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.switchNativeContext",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 47
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[list]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 355
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 320
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 323
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 330
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 423
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 418
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 391
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 310
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 284
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 1325
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 320
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 342
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 313
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 303
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 361
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 313
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 297
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 670
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 329
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 321
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 297
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text=\"LIST\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 308
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"LIST\"]",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //*[@text=\"LIST\"]",
+          "subLogs": [],
+          "duration": -1221739678
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text=\"LIST\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 303
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[2]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "IStopDeviceLogging",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "IStopNetworkVirtualisation",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I click on \"android.whileUsing\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1703,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"allow\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 988,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I start network virtualization with \"3g_umts_average\" profile",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3853,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I start device logging",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 243,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"getStarted\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 896,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I switch to webview context",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 53,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I login to Winn Dixie app",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 33647,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'signinButton'",
+          "type": "TestStepPass",
+          "screenshot": null,
+          "duration": 945,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'Password123!' into 'passwordField'",
+          "type": "TestStepPass",
+          "screenshot": null,
+          "duration": 20259,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'signinButton'",
+          "type": "TestStepPass",
+          "screenshot": null,
+          "duration": 846,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I wait for \"3\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3011,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I switch to native context",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 48,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"list\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 31619,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"2\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2009,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I stop device logging",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 560,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I stop network virtualization",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5553,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

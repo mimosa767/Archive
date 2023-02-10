@@ -1,0 +1,29 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WinnDixieMultideviceFlow",
+          "@WinnDixie"
+        ],
+        "lineNo": 81,
+        "name": "I make changes in Web app and verify in Mobile app",
+        "Perfecto-report": "<a href=\"https://demo.app.perfectomobile.com/reporting/library?externalId[0]=12e5de71-d857-423c-bb5c-95feffa3bd70\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/WinnDixie.feature",
+        "resultFileName": "IMakeChangesInWebAppAndVerifyInMobileApp",
+        "sign": "src.main.resources.scenarios.WinnDixie.feature.I make changes in Web app and verify in Mobile app()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1660871638307,
+      "duration": 179508,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

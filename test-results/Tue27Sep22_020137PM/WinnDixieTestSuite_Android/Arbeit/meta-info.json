@@ -1,0 +1,29 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@ArbeitOnePhoneWait",
+          "@WinnDixie"
+        ],
+        "lineNo": 43,
+        "name": "I open up a phone and wait for a call",
+        "Perfecto-report": "<a href=\"https://demo.app.perfectomobile.com/reporting/library?externalId[0]=1890ef17-f30a-4100-b3bf-dbe5786eb36d\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/Arbeit.feature",
+        "resultFileName": "IOpenUpAPhoneAndWaitForACall",
+        "sign": "src.main.resources.scenarios.Arbeit.feature.I open up a phone and wait for a call()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1664301697955,
+      "duration": 55468,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

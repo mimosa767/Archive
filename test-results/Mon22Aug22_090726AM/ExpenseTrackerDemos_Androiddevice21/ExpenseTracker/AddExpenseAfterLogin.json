@@ -1,0 +1,450 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "loginToInvoiceApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_email, using=id}"
+          ],
+          "result": "Element with by id 'io.perfecto.expense.tracker:id/login_email' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 2085
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_email, using=id}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 1525
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_email",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_email",
+            "{\"id\":\"0\",\"value\":[\"test@perfecto.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1780
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_password, using=id}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 627
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_password",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_password",
+            "{\"id\":\"1\",\"value\":[\"test123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1740
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_biometric_check_box, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 850
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_biometric_check_box",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_biometric_check_box",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 474
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_login_btn, using=id}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 720
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_login_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_login_btn",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 514
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@label='OK']' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 652
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "addBasicExpense",
+      "args": [
+        "[Meal, 23.45, USD, Business]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/list_add_btn, using=id}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 1433
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/list_add_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/list_add_btn",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 454
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/add_head, using=id}"
+          ],
+          "result": "Element with by id 'io.perfecto.expense.tracker:id/add_head' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 1067
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/add_head, using=id}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 433
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_head",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_head",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 496
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Meal'], using=xpath}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 1037
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "id: 6",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 414
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/add_amount, using=id}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 916
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_amount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_amount",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 813
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/add_amount, using=id}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 424
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_amount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_amount",
+            "{\"id\":\"8\",\"value\":[\"23.45\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1793
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/signup_currency, using=id}"
+          ],
+          "result": "id: 9",
+          "subLogs": [],
+          "duration": 723
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/signup_currency",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/signup_currency",
+            "{\"id\":\"9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 591
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@text,USD)], using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 1095
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "id: 10",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 441
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/spinner_category, using=id}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 732
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/spinner_category",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/spinner_category",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 463
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Business'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='Business']' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 473
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And I attach receipt",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I logout of application",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I login to Expense Tracker app with username and password",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 22117,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"",
+      "type": "TestStepFail",
+      "screenshot": "img/AddExpenseAfterLogin_mn47pcs5kumm17158.png",
+      "duration": 15347,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Element with by xpath '//*[@text='Business']' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I attach receipt",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I logout of application",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.NoSuchElementException: Element with by xpath '//*[@text='Business']' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds\n\tat .And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"(src/main/resources/scenarios/ExpenseTracker.feature:7)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:233)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:396)\n\tat com.quantum.steps.ExpenseTrackerStepDefs.addBasicExpense(ExpenseTrackerStepDefs.java:107)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: org.openqa.selenium.NoSuchElementException: Element with by xpath '//*[@text='Business']' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:8090:ef97:5790:7c18%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: driver.version: PerfectoMobileDriver\n\tat com.perfectomobile.selenium.MobileApplication.getSingleElement(MobileApplication.java:337)\n\tat com.perfectomobile.selenium.MobileApplication.findElementByXPath(MobileApplication.java:193)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat com.perfectomobile.selenium.MobileApplication.findElement(MobileApplication.java:132)\n\tat com.perfectomobile.selenium.server.PerfectoMobileDriver.findElement(PerfectoMobileDriver.java:1206)\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:49)\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:32)\n\tat org.openqa.selenium.remote.server.handler.WebDriverHandler.handle(WebDriverHandler.java:41)\n\tat org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:125)\n\tat org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:200)\n\tat org.openqa.selenium.remote.server.PerfectoMobileSession.execute(PerfectoMobileSession.java:72)\n\tat org.openqa.selenium.remote.server.MobileWebDriverServlet.lambda$handle$2(MobileWebDriverServlet.java:303)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\t... 1 more\n"
+}
