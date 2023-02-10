@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@CMTwoPhones",
+          "@WinnDixie"
+        ],
+        "lineNo": 71,
+        "name": "I message phone A with phone B and see the request on phone B",
+        "reference": "src/main/resources/scenarios/Arbeit.feature",
+        "resultFileName": "IMessagePhoneAWithPhoneBAndSeeTheRequestOnPho",
+        "sign": "src.main.resources.scenarios.Arbeit.feature.I message phone A with phone B and see the request on phone B()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1666196879571,
+      "duration": 51320,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

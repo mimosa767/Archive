@@ -1,0 +1,29 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@EverbridgeTwoSMSPhones",
+          "@WinnDixie"
+        ],
+        "lineNo": 54,
+        "name": "I text phone A with phone B",
+        "Perfecto-report": "<a href=\"https://demo.app.perfectomobile.com/reporting/library?externalId[0]=40181b3e-e229-41a9-a34a-01ee36a1cf11\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/Arbeit.feature",
+        "resultFileName": "ITextPhoneAWithPhoneB",
+        "sign": "src.main.resources.scenarios.Arbeit.feature.I text phone A with phone B()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1666200959822,
+      "duration": 22418,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.samsung.android.dialer]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 47
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[android.keypad.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"Keypad\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 906
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"Keypad\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"Keypad\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 782
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[six.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"6\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 585
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"6\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"6\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 512
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[seven.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"7\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1043
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"7\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"7\"]",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 532
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[eight.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"8\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 465
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"8\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"8\"]",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 578
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[six.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"6\"], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 592
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"6\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"6\"]",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 470
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[six.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"6\"], using=xpath}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 571
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"6\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"6\"]",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 638
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[two.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"2\"], using=xpath}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 537
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"2\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"2\"]",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 491
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[zero.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"0\"], using=xpath}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 592
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"0\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"0\"]",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 514
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[zero.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"0\"], using=xpath}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 704
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"0\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"0\"]",
+            "{\"id\":\"8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 793
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[zero.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"0\"], using=xpath}"
+          ],
+          "result": "id: 9",
+          "subLogs": [],
+          "duration": 751
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"0\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"0\"]",
+            "{\"id\":\"9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 526
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[three.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"3\"], using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 581
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"3\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"3\"]",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 592
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[call.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.samsung.android.dialer:id/dialButtonImage\"], using=xpath}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 627
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.samsung.android.dialer:id/dialButtonImage\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.samsung.android.dialer:id/dialButtonImage\"]",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 496
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[15]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by id \"com.samsung.android.dialer\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 234,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"android.keypad.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1707,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"six.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1103,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"seven.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1580,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"eight.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1048,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"six.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1067,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"six.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1212,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"two.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1033,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"zero.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1112,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"zero.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1501,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"zero.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1281,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"three.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1178,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"call.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1129,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"15\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 15006,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

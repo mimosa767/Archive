@@ -1,0 +1,190 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.switchToDriver",
+      "args": [
+        "[perfectodeviiv]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.google.android.apps.messaging]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 60
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.closeAppById",
+      "args": [
+        "[com.google.android.apps.messaging]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.google.android.apps.messaging]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 58
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.switchToDriver",
+      "args": [
+        "[perfectodeviv]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.google.android.apps.messaging]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 56
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[15]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.switchToDriver",
+      "args": [
+        "[perfectodeviiv]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[15]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I switch to driver \"perfectodeviiv\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I start application by id \"com.google.android.apps.messaging\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 231,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I close application by id \"com.google.android.apps.messaging\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 606,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I start application by id \"com.google.android.apps.messaging\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 213,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I switch to driver \"perfectodeviv\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I start application by id \"com.google.android.apps.messaging\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 499,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"15\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 15008,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Given I switch to driver \"perfectodeviiv\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"15\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 15006,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

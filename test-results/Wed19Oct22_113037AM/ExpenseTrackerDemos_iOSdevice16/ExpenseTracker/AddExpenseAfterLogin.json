@@ -1,0 +1,713 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "loginToInvoiceApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login_email, using=name}"
+          ],
+          "result": "id: 11000000-0000-0000-F4F7-000000000000",
+          "subLogs": [],
+          "duration": 120545
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: login_email",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: login_email",
+            "{\"id\":\"11000000-0000-0000-F4F7-000000000000\",\"value\":[\"test@perfecto.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 60881
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login_password, using=name}"
+          ],
+          "result": "id: 14000000-0000-0000-F4F7-000000000000",
+          "subLogs": [],
+          "duration": 120592
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: login_password",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: login_password",
+            "{\"id\":\"14000000-0000-0000-F4F7-000000000000\",\"value\":[\"test123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 60893
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeSwitch, using=xpath}"
+          ],
+          "result": "id: 17000000-0000-0000-F4F7-000000000000",
+          "subLogs": [],
+          "duration": 120632
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeSwitch",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeSwitch",
+            "{\"id\":\"17000000-0000-0000-F4F7-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 60588
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login_login_btn, using=name}"
+          ],
+          "result": "id: 15000000-0000-0000-F4F7-000000000000",
+          "subLogs": [],
+          "duration": 120578
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{\"id\":\"15000000-0000-0000-F4F7-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 60528
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label='OK'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: Appium, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: 00008030-000354201A50802E, deviceSessionId: stephenp@perfectomobile.com..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 1f75fb02-da46-4334-bd3f-632..., entityType: appium_driver, executionId: stephenp@perfectomobile.com..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 15.4.1, pureAppiumFlow: true, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 8200310, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11602, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: 00008030-000354201A50802E, user: , webStorageEnabled: false, xcuitestFindOptimizations: true}\nSession ID: 601585ff-3888-4b1d-9cd0-91a14734fd29\n*** Element info: {Using=xpath, value=//*[@label='OK']}\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 120579
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=OK, using=name}"
+          ],
+          "result": "id: 9B000000-0000-0000-F4F7-000000000000",
+          "subLogs": [],
+          "duration": 120629
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: OK",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: OK",
+            "{\"id\":\"9B000000-0000-0000-F4F7-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 60549
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login_login_btn, using=name}"
+          ],
+          "result": "id: 15000000-0000-0000-F4F7-000000000000",
+          "subLogs": [],
+          "duration": 120645
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{\"id\":\"15000000-0000-0000-F4F7-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 60542
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "addBasicExpense",
+      "args": [
+        "[Meal, 23.45, USD, Business]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=list_add_btn, using=name}"
+          ],
+          "result": "id: BC000000-0000-0000-F4F7-000000000000",
+          "subLogs": [],
+          "duration": 120513
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: list_add_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: list_add_btn",
+            "{\"id\":\"BC000000-0000-0000-F4F7-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 60522
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=edit_head, using=name}"
+          ],
+          "result": "id: C8000000-0000-0000-F4F7-000000000000",
+          "subLogs": [],
+          "duration": 120524
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: edit_head",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: edit_head",
+            "{\"id\":\"C8000000-0000-0000-F4F7-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 60590
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: E4000000-0000-0000-F4F7-000000000000",
+          "subLogs": [],
+          "duration": 120736
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{\"name\":\"value\",\"id\":\"E4000000-0000-0000-F4F7-000000000000\"}"
+          ],
+          "result": "getElementAttribute:- Select -",
+          "subLogs": [],
+          "duration": 60327
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: E4000000-0000-0000-F4F7-000000000000",
+          "subLogs": [],
+          "duration": 120656
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{\"name\":\"value\",\"id\":\"E4000000-0000-0000-F4F7-000000000000\"}"
+          ],
+          "result": "getElementAttribute:Taxi",
+          "subLogs": [],
+          "duration": 60285
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: E4000000-0000-0000-F4F7-000000000000",
+          "subLogs": [],
+          "duration": 120725
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{\"name\":\"value\",\"id\":\"E4000000-0000-0000-F4F7-000000000000\"}"
+          ],
+          "result": "getElementAttribute:Flight",
+          "subLogs": [],
+          "duration": 60284
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: E4000000-0000-0000-F4F7-000000000000",
+          "subLogs": [],
+          "duration": 120683
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@name=\"edit_head\"]' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 1313
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"edit_head\"]",
+            "{\"id\":\"-1\",\"value\":[\"Meal\"]}"
+          ],
+          "result": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //*[@name=\"edit_head\"]",
+          "subLogs": [],
+          "duration": -251163280
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name=\"edit_head\"], using=xpath}"
+          ],
+          "result": "{message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}",
+          "subLogs": [],
+          "duration": 25
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And I attach receipt",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I logout of application",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I login to Expense Tracker app with username and password",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1218896,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"",
+      "type": "TestStepFail",
+      "screenshot": "img/AddExpenseAfterLogin_j6mxvsx5zqow64622.png",
+      "duration": 1213811,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //*[@name=\"edit_head\"]",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I attach receipt",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I logout of application",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: By.xpath: //*[@name=\"edit_head\"]\n\tat .And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"(src/main/resources/scenarios/ExpenseTracker.feature:7)\n\tat com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:168)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:213)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:302)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:249)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat com.perfecto.CommonUtils.sendKeys(CommonUtils.java:85)\n\tat com.quantum.steps.ExpenseTrackerStepDefs.addBasicExpense(ExpenseTrackerStepDefs.java:84)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {message=Invalid request! session 1f75fb02-da46-4334-bd3f-6320cabe18fc wasn't found, error: Failed to get session with id 1f75fb02-da46-4334-bd3f-6320cabe18fc - session is null}\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2600:1700:8df0:7080:0:0:0:2f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: driver.version: QAFExtendedWebDriver\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:396)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:78)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:78)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)\n\tat com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:213)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:302)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:249)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat com.perfecto.CommonUtils.sendKeys(CommonUtils.java:85)\n\tat com.quantum.steps.ExpenseTrackerStepDefs.addBasicExpense(ExpenseTrackerStepDefs.java:84)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:778)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\n\t... 4 more\nCaused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:331)\n\t... 44 more\n"
+}

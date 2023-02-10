@@ -1,0 +1,98 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.samsung.android.dialer]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 41
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[android.keypad.button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"Keypad\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 1230
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"Keypad\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"Keypad\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 398
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[45]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by id \"com.samsung.android.dialer\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 767,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"android.keypad.button\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1660,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"45\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 45008,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

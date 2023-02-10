@@ -1,0 +1,84 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "WinnDixie"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "automationName": "Appium",
+      "cssSelectorsEnabled": true,
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "javascriptEnabled": true,
+      "platformName": "Android",
+      "securityToken": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE2NTc1NjMyODAsImp0aSI6IjZiZTBkMTY0LWEzODMtNGUwZC1iYmJjLWM0YjJiZjBmNTg0YyIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiNjEwM2FhZjktOTdkNC00YjgwLThmZTYtZDNhYmRlNTJhM2JiIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiIwNGM3YzA2Yi02MTVhLTRhZGUtOGYwZi1jMTUzZDdmYWRiYjYiLCJzZXNzaW9uX3N0YXRlIjoiNjM3ZGQyNTEtNWI3ZS00NTlkLTk5MDgtZDY3ZWZhYmE5YjEzIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MifQ.guCb3NHpOboo1SGBE93gp2w0uknKl7D6jrCDUmw-YGQ",
+      "takesScreenshot": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://demo.app.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=b334b29e-155a-4ea3-bb54-640652f50c19",
+      "se:cdpVersion": "104.0.5112.102",
+      "timeouts": "{implicit=0, pageLoad=300000, script=30000}",
+      "streamInfo": "{\n  \"url\": \"https://demo.web.us.perfectomobile.com/fast/view/?sessionId\\u003db334b29e-155a-4ea3-bb54-640652f50c19@@100.66.239.197@@1660850898162@3d61ef38-0722-4330-848c-ace26f0df6c1\",\n  \"type\": \"JS_STREAM\",\n  \"authenticationType\": \"PERFECTO_HEADER\"\n}",
+      "resolution": "1600x1200",
+      "platform": "WINDOWS",
+      "goog:chromeOptions": "{debuggerAddress=localhost:50885}",
+      "webauthn:extension:credBlob": "true",
+      "acceptInsecureCerts": "false",
+      "browserVersion": "104",
+      "platformVersion": "10",
+      "automationName": "Appium",
+      "browserName": "Chrome",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "platformName": "WINDOWS",
+      "setWindowRect": "true",
+      "webauthn:extension:largeBlob": "true",
+      "networkConnectionEnabled": "false",
+      "stopUrl": "https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/session/b334b29e-155a-4ea3-bb54-640652f50c19",
+      "chrome": "{chromedriverVersion=104.0.5112.20 (9ac43f954ebb5ba04ccafa8b188ac8f917d8c255-refs/branch-heads/5112@{#188}), userDataDir=C:\\Users\\Perfecto\\AppData\\Local\\Temp\\1\\scoped_dir5004_742412947}",
+      "testGridReportUrl": "https://demo.app.perfectomobile.com/reporting/library?externalId[0]=b334b29e-155a-4ea3-bb54-640652f50c19",
+      "pageLoadStrategy": "normal",
+      "unhandledPromptBehavior": "dismiss and notify",
+      "strictFileInteractability": "false",
+      "version": "104",
+      "se:cdp": "ws://100.69.133.125:8082/session/c8c9172963ea8aa7f6c5482a671aa991/se/cdp",
+      "executionId": "b334b29e-155a-4ea3-bb54-640652f50c19",
+      "proxy": "Proxy()",
+      "webdriver.remote.sessionid": "b334b29e-155a-4ea3-bb54-640652f50c19",
+      "location": "EU Frankfurt",
+      "cssSelectorsEnabled": "true",
+      "webauthn:virtualAuthenticators": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Version": "3.0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34"
+    },
+    "run-parameters": {
+      "driverNameList": "perfectoRemote,perfectodevii",
+      "perfecto.capabilities.platformVersion": "10",
+      "perfectodevii.capabilities.platformName": "Android",
+      "perfectodevii.capabilities.driverClass": "io.appium.java_client.android.AndroidDriver",
+      "perfecto.capabilities.browserName": "Chrome",
+      "perfecto.capabilities.browserVersion": "latest",
+      "perfecto.capabilities.location": "EU Frankfurt",
+      "perfecto.capabilities.resolution": "1600x1200",
+      "perfecto.capabilities.platformName": "Windows"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_202",
+      "os.arch": "x86_64",
+      "host": "spenn0821",
+      "os.name": "Mac OS X",
+      "user.name": "spenn02",
+      "os.version": "10.16"
+    }
+  },
+  "startTime": 1660850789805,
+  "endTime": 1660850848820
+}

@@ -1,0 +1,412 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "loginToInvoiceApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://expensetracker.perfectomobile.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 3237
+        },
+        {
+          "commandName": "maximizeCurrentWindow",
+          "args": [
+            "{}"
+          ],
+          "result": "{height=1000, width=1296, x=-8, y=-8}",
+          "subLogs": [],
+          "duration": 286
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#login_email > input, using=css selector}"
+          ],
+          "result": "id: 94114fe8-8a96-4fa2-a333-b9966f191e03",
+          "subLogs": [],
+          "duration": 358
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #login_email > input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #login_email > input",
+            "{\"id\":\"94114fe8-8a96-4fa2-a333-b9966f191e03\",\"value\":[\"test@perfecto.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 272
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#login_password > input, using=css selector}"
+          ],
+          "result": "id: 71918b7c-20a9-4e99-a6d1-3a5704c157fa",
+          "subLogs": [],
+          "duration": 328
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #login_password > input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #login_password > input",
+            "{\"id\":\"71918b7c-20a9-4e99-a6d1-3a5704c157fa\",\"value\":[\"test123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 99
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login_login_btn, using=name}"
+          ],
+          "result": "id: 27f26859-a3e6-4e50-8f2d-eb98e72da694",
+          "subLogs": [],
+          "duration": 243
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{\"id\":\"27f26859-a3e6-4e50-8f2d-eb98e72da694\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 187
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "addBasicExpense",
+      "args": [
+        "[Meal, 23.45, USD, Business]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#list_add_btn, using=css selector}"
+          ],
+          "result": "id: b19f7b18-9c90-4568-bc87-6ee122dd52a1",
+          "subLogs": [],
+          "duration": 506
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#add_head, using=css selector}"
+          ],
+          "result": "id: 5e22c870-6f40-4f2e-bea5-622a7af18d0b",
+          "subLogs": [],
+          "duration": 414
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#alert-input-1-2 > div > div.alert-radio-label.sc-ion-alert-md, using=css selector}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#alert-input-1-2 > div > div.alert-radio-label.sc-ion-alert-md\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2600:1700:8df0:2160:2035:59a8:f8e:e065%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: 1757f862-6ed1-4bea-b8bb-f6a..., goog:chromeOptions: {debuggerAddress: localhost:51326}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:bidiEnabled: false, se:cdp: ws://100.66.168.95:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1757f862-6ed1-4bea-b8bb-f6a...}\nSession ID: 1757f862-6ed1-4bea-b8bb-f6aa84f9963d\n*** Element info: {Using=css selector, value=#alert-input-1-2 > div > div.alert-radio-label.sc-ion-alert-md}",
+          "subLogs": [],
+          "duration": 394
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#alert-input-1-2 > div > div.alert-radio-label.sc-ion-alert-md, using=css selector}"
+          ],
+          "result": "id: 6f888f9d-af24-4dc0-b788-c21994f83beb",
+          "subLogs": [],
+          "duration": 339
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #alert-input-1-2 > div > div.alert-radio-label.sc-ion-alert-md",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: #alert-input-1-2 > div > div.alert-radio-label.sc-ion-alert-md",
+            "{\"id\":\"6f888f9d-af24-4dc0-b788-c21994f83beb\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 311
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span, using=xpath}"
+          ],
+          "result": "id: da95e999-3f15-4a3b-9df9-8c99d998fa2a",
+          "subLogs": [],
+          "duration": 433
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span",
+            "{\"id\":\"da95e999-3f15-4a3b-9df9-8c99d998fa2a\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 79
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#add_amount > input, using=css selector}"
+          ],
+          "result": "id: 57d3b98b-780f-4f17-82c4-3f16d51dcc3f",
+          "subLogs": [],
+          "duration": 440
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #add_amount > input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #add_amount > input",
+            "{\"id\":\"57d3b98b-780f-4f17-82c4-3f16d51dcc3f\",\"value\":[\"23.45\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 151
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#add_category, using=css selector}"
+          ],
+          "result": "id: e34c9554-691d-4941-a0d1-28c4f22b4597",
+          "subLogs": [],
+          "duration": 325
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/app-root/ion-app/ion-alert/div/div[3]/button[2]/div/div[2], using=xpath}"
+          ],
+          "result": "id: 4481a789-f5cd-4b2d-bf51-66057c783af7",
+          "subLogs": [],
+          "duration": 433
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[3]/button[2]/div/div[2]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[3]/button[2]/div/div[2]",
+            "{\"id\":\"4481a789-f5cd-4b2d-bf51-66057c783af7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 201
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span, using=xpath}"
+          ],
+          "result": "id: d48089cc-21d6-4874-b5b4-e33c1f6e04e5",
+          "subLogs": [],
+          "duration": 377
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span",
+            "{\"id\":\"d48089cc-21d6-4874-b5b4-e33c1f6e04e5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 87
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#add_details > textarea, using=css selector}"
+          ],
+          "result": "id: 517fce7a-0e4a-4415-bc23-0fd3ed2f81f1",
+          "subLogs": [],
+          "duration": 372
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #add_details > textarea",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #add_details > textarea",
+            "{\"id\":\"517fce7a-0e4a-4415-bc23-0fd3ed2f81f1\",\"value\":[\"Client Visit Bill\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 169
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "attachReceipt",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#add_save_btn, using=css selector}"
+          ],
+          "result": "id: 736c8a27-63ea-4b6a-b25f-378c2c80d2ab",
+          "subLogs": [],
+          "duration": 289
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "logout",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=body > app-root > ion-app > ion-split-pane > ion-menu > ion-content > ion-list > ion-menu-toggle:nth-child(4) > ion-item > ion-icon, using=css selector}"
+          ],
+          "result": "id: 59b59f39-5247-4c2f-a66e-45e569c91e17",
+          "subLogs": [],
+          "duration": 416
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I login to Expense Tracker app with username and password",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5021,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 11609,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I attach receipt",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1556,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I logout of application",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1531,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

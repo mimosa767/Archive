@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@ArebeitTwoPhones",
+          "@WinnDixie"
+        ],
+        "lineNo": 21,
+        "name": "I call phone A with phone B and answer the phone call with phone B",
+        "reference": "src/main/resources/scenarios/Arbeit.feature",
+        "resultFileName": "ICallPhoneAWithPhoneBAndAnswerThePhoneCallWit",
+        "sign": "src.main.resources.scenarios.Arbeit.feature.I call phone A with phone B and answer the phone call with phone B()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1661996310309,
+      "duration": 66173,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

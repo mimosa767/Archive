@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Two Devices Demo Suite" verbose="0" parallel="tests" thread-count="100">
+    <listeners>
+        <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+    </listeners>
+
+    <test name="Multiple devices"  enabled="true">
+
+        <parameter name="driverNameList" value="perfectodeviv,perfectodeviiv"/>
+
+
+<!--        <parameter name="perfectodeviv.capabilities.platformName" value="Android"/>-->
+<!--        <parameter name="perfectodeviv.capabilities.manufacturer" value="Samsung"/>-->
+<!--        <parameter name="perfectodeviv.capabilities.model" value="Galaxy S22"/>-->
+        <parameter name="perfectodeviv.capabilities.deviceName" value="3356423251463098"/>
+        <parameter name="perfectodeviv.capabilities.appPackage" value="com.samsung.android.dialer"/>
+        <parameter name="perfectodeviv.capabilities.sensorInstrument" value="true"/>
+        <parameter name="perfectodeviv.capabilities.appType" value="Native"/>
+        <parameter name="perfectodeviv.env.resources" value="src/main/resources/android"/>
+        <parameter name="perfectodeviv.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+
+
+
+        <parameter name="perfectodeviiv.capabilities.platformName" value="Android"/>
+        <parameter name="perfectodeviiv.capabilities.manufacturer" value="Samsung"/>
+        <parameter name="perfectodeviiv.capabilities.model" value="Galaxy S22"/>
+        <parameter name="perfectodeviiv.capabilities.deviceName" value="9887BC443241585150"/>
+        <parameter name="perfectodeviiv.capabilities.appPackage" value="com.samsung.android.dialer"/>
+        <parameter name="perfectodeviiv.capabilities.sensorInstrument" value="true"/>
+        <parameter name="perfectodeviiv.capabilities.appType" value="Native"/>
+        <parameter name="perfectodeviiv.env.resources" value="src/main/resources/android"/>
+        <parameter name="perfectodeviiv.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+
+
+        <groups>
+            <run>
+                <include name="@EverbridgeTwoSMSPhones"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+</suite>

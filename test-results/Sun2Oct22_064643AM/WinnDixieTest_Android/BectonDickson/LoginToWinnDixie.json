@@ -1,0 +1,85 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.snapchat.android]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 52
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I wait \"1000\" seconds",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I start network virtualization with HAR capture",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I stop network virtualization",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by id \"com.snapchat.android\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 236,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait \"1000\" seconds :: Not Found.",
+      "type": "Warn",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I start network virtualization with HAR capture",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I stop network virtualization",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Then I wait \"1000\" seconds@src/main/resources/scenarios/BectonDickson.feature#7 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\n\tat .Then I wait \"1000\" seconds(src/main/resources/scenarios/BectonDickson.feature:7)\n"
+}

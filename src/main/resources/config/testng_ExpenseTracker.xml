@@ -259,7 +259,7 @@
         <parameter name="perfecto.capabilities.platformName" value="Windows"/>
         <parameter name="perfecto.capabilities.platformVersion" value="10"/>
         <parameter name="perfecto.capabilities.browserName" value="Chrome"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="100"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="109"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
         <parameter name="appType" value="Web"/>
@@ -280,7 +280,7 @@
         <parameter name="perfecto.capabilities.platformName" value="Windows"/>
         <parameter name="perfecto.capabilities.platformVersion" value="10"/>
         <parameter name="perfecto.capabilities.browserName" value="Firefox"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="98"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="109"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
         <parameter name="appType" value="Web"/>
@@ -301,7 +301,7 @@
         <parameter name="perfecto.capabilities.platformName" value="Windows"/>
         <parameter name="perfecto.capabilities.platformVersion" value="10"/>
         <parameter name="perfecto.capabilities.browserName" value="Edge"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="99"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="109"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
         <parameter name="appType" value="Web"/>

@@ -1,0 +1,29 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Arbeit",
+          "@WinnDixie"
+        ],
+        "lineNo": 147,
+        "name": "I call phone A with phone B",
+        "Perfecto-report": "<a href=\"https://demo.app.perfectomobile.com/reporting/library?externalId[0]=fe57c8c0-78ad-45eb-9d2b-ef921ff7a0c1\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/WinnDixie.feature",
+        "resultFileName": "ICallPhoneAWithPhoneB",
+        "sign": "src.main.resources.scenarios.WinnDixie.feature.I call phone A with phone B()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1661943024602,
+      "duration": 40451,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.snapchat.android]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 42
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[1]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "IStartNetworkVirtualisationWithHAR",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[addVideoButton]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.snapchat.android:id/ngs_memories_icon_thumbnail\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 801
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.snapchat.android:id/ngs_memories_icon_thumbnail\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.snapchat.android:id/ngs_memories_icon_thumbnail\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2162
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[1]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[cameraRollButton]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"Camera Roll\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 1750
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"Camera Roll\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"Camera Roll\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 585
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[1]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[videoSelection]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.snapchat.android:id/memories_page_grid\"]/android.view.ViewGroup[2]/android.widget.FrameLayout[1], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 305
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.snapchat.android:id/memories_page_grid\"]/android.view.ViewGroup[2]/android.widget.FrameLayout[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.snapchat.android:id/memories_page_grid\"]/android.view.ViewGroup[2]/android.widget.FrameLayout[1]",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 409
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[1]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[editButton]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.snapchat.android:id/initial_button\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 1697
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.snapchat.android:id/initial_button\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.snapchat.android:id/initial_button\"]",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 499
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[1]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[snapConatainer]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='snapConatainer' or @id='snapConatainer' or @value='snapConatainer'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@name='snapConatainer' or @id='snapConatainer' or @value='snapConatainer']' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 10626
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='snapConatainer' or @id='snapConatainer' or @value='snapConatainer'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@name='snapConatainer' or @id='snapConatainer' or @value='snapConatainer']' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 10414
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='snapConatainer' or @id='snapConatainer' or @value='snapConatainer'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@name='snapConatainer' or @id='snapConatainer' or @value='snapConatainer']' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 10410
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@name='snapConatainer' or @id='snapConatainer' or @value='snapConatainer']",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //*[@name='snapConatainer' or @id='snapConatainer' or @value='snapConatainer']",
+          "subLogs": [],
+          "duration": -1737471303
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='snapConatainer' or @id='snapConatainer' or @value='snapConatainer'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 10481
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[2]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "ISwipeRightALot",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[5]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "ISwipeRightALot",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[5]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "IStopNetworkVirtualisation",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.closeAppById",
+      "args": [
+        "[com.snapchat.android]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by id \"com.snapchat.android\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 246,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"1\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1008,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I start network virtualization with HAR capture",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 6978,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"addVideoButton\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2992,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"1\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1003,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"cameraRollButton\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2342,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"1\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1005,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"videoSelection\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 723,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"1\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1003,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"editButton\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2201,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"1\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1006,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"snapConatainer\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 43948,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"2\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2006,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I swipe right a lot",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1437,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"5\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5006,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I swipe right a lot",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1432,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"5\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5006,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I stop network virtualization",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5906,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I close application by id \"com.snapchat.android\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 662,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

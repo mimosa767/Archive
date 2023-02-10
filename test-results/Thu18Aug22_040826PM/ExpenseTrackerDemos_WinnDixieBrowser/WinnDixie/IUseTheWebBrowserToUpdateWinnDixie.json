@@ -1,0 +1,531 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.switchToDriver",
+      "args": [
+        "[perfectoRemote]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.navigateToURL",
+      "args": [
+        "[https://www.winndixie.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.winndixie.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 10287
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[winn.button.originallogin]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@class='welcome__flow-cta'], using=xpath}"
+          ],
+          "result": "id: 00584c38-d3a6-4e1e-ad62-2c17923bfea4",
+          "subLogs": [],
+          "duration": 2857
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@class='welcome__flow-cta']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@class='welcome__flow-cta']",
+            "{\"id\":\"00584c38-d3a6-4e1e-ad62-2c17923bfea4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 4631
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iClickAndIgnore",
+      "args": [
+        "[winn.button.login]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 445
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 262
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 366
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 325
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 346
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 317
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 490
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 283
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 385
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 282
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 284
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 290
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 273
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 325
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 267
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 292
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 288
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 293
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 318
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 563
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 308
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 629
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='btn--loginregister']\"}\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2601:c6:1:79a0:a153:f1eb:3146:6e3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 100, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: e921ee23-28f1-4705-85c0-17e..., goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:cdp: ws://100.66.142.79:8082/ses..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e921ee23-28f1-4705-85c0-17e...}\nSession ID: e921ee23-28f1-4705-85c0-17e5d042668f\n*** Element info: {Using=xpath, value=//span[@class='btn--loginregister']}",
+          "subLogs": [],
+          "duration": 301
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //span[@class='btn--loginregister']",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //span[@class='btn--loginregister']",
+          "subLogs": [],
+          "duration": -1298982392
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[@class='btn--loginregister'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 345
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iLoginToWinnDixieApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='signInName'], using=xpath}"
+          ],
+          "result": "id: 91fc6a02-e96c-4e6c-bac0-6262ab8ad6fe",
+          "subLogs": [],
+          "duration": 362
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //input[@id='signInName']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='signInName']",
+            "{\"id\":\"91fc6a02-e96c-4e6c-bac0-6262ab8ad6fe\",\"value\":[\"spenn6@gmail.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 253
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[winn.signin.button]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//button[@id='next'], using=xpath}"
+              ],
+              "result": "id: ea71aa7d-34ac-4c40-9a0c-89a9ccfd0713",
+              "subLogs": [],
+              "duration": 361
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.xpath: //button[@id='next']",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //button[@id='next']",
+                "{\"id\":\"ea71aa7d-34ac-4c40-9a0c-89a9ccfd0713\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1542
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Password123!, winn.password.field]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@id='password'], using=xpath}"
+              ],
+              "result": "id: 4c4e1269-977d-46d4-853f-ef2d3a1de08b",
+              "subLogs": [],
+              "duration": 313
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.xpath: //input[@id='password']",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@id='password']",
+                "{\"id\":\"4c4e1269-977d-46d4-853f-ef2d3a1de08b\",\"value\":[\"Password123!\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 165
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[winn.signin.button]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//button[@id='next'], using=xpath}"
+              ],
+              "result": "id: caf8e2f1-adbf-4b9f-bef3-5723909d91ca",
+              "subLogs": [],
+              "duration": 276
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.xpath: //button[@id='next']",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //button[@id='next']",
+                "{\"id\":\"caf8e2f1-adbf-4b9f-bef3-5723909d91ca\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 429
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I switch to driver \"perfectoRemote\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I open browser to webpage \"https://www.winndixie.com/\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10292,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"winn.button.originallogin\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 7506,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"winn.button.login\" and ignore errors",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 30395,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I login to the Winn Dixie Web Application",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 18871,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'winn.signin.button'",
+          "type": "TestStepPass",
+          "screenshot": null,
+          "duration": 1907,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'Password123!' into 'winn.password.field'",
+          "type": "TestStepPass",
+          "screenshot": null,
+          "duration": 480,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'winn.signin.button'",
+          "type": "TestStepPass",
+          "screenshot": null,
+          "duration": 708,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": null
+}

@@ -1,0 +1,29 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@CMSReceiveSMS",
+          "@WinnDixie"
+        ],
+        "lineNo": 66,
+        "name": "I open up my messenger application and receive text messages",
+        "Perfecto-report": "<a href=\"https://demo.app.perfectomobile.com/reporting/library?externalId[0]=ce32f01c-a3fe-4a78-a1c3-34aab0858021\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/Arbeit.feature",
+        "resultFileName": "IOpenUpMyMessengerApplicationAndReceiveTextMe",
+        "sign": "src.main.resources.scenarios.Arbeit.feature.I open up my messenger application and receive text messages()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1666200732494,
+      "duration": 56457,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

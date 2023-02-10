@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WinnDixieNewLoginNetworkSimulation",
+          "@WinnDixie"
+        ],
+        "lineNo": 131,
+        "name": "iPhone12 Under 3G Network Conditions",
+        "reference": "src/main/resources/scenarios/WinnDixie.feature",
+        "resultFileName": "IPhone12Under3GNetworkConditions",
+        "sign": "src.main.resources.scenarios.WinnDixie.feature.iPhone12 Under 3G Network Conditions()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1660930491654,
+      "duration": 120967,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

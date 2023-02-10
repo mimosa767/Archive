@@ -1,0 +1,13 @@
+{
+  "name": "Expense Tracker Demos",
+  "status": "unstable",
+  "tests": [
+    "ExpenseTrackerDemos_Android"
+  ],
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1660855992380,
+  "endTime": 1660855992445
+}

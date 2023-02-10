@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WinnDixieNewLogin",
+          "@WinnDixie"
+        ],
+        "lineNo": 5,
+        "name": "Login Scales to 6 Concurrent for Fastback",
+        "reference": "src/main/resources/scenarios/WinnDixie.feature",
+        "resultFileName": "LoginScalesTo6ConcurrentForFastback",
+        "sign": "src.main.resources.scenarios.WinnDixie.feature.Login Scales to 6 Concurrent for Fastback()[pri:1005, instance:com.qmetry.qaf.automation.step.client.Scenario@3ed]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1660882054258,
+      "duration": 155354,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
