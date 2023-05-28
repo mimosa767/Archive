@@ -1,0 +1,190 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.switchToDriver",
+      "args": [
+        "[perfectodeviiv]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.samsung.android.messaging]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 127
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.closeAppById",
+      "args": [
+        "[com.samsung.android.messaging]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.samsung.android.messaging]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 35
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.switchToDriver",
+      "args": [
+        "[perfectodeviv]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.samsung.android.messaging]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 52
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[15]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.switchToDriver",
+      "args": [
+        "[perfectodeviiv]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[15]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I switch to driver \"perfectodeviiv\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I start application by id \"com.samsung.android.messaging\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 331,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I close application by id \"com.samsung.android.messaging\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 494,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I start application by id \"com.samsung.android.messaging\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 266,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I switch to driver \"perfectodeviv\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I start application by id \"com.samsung.android.messaging\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 436,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"15\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 15007,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Given I switch to driver \"perfectodeviiv\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait for \"15\" seconds",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 15005,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Two Devices Demo Suite",
+  "status": "fail",
+  "tests": [
+    "TwoDevicesDemoSuite_Multipledevices"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "startTime": 1676492552759,
+  "endTime": 1676492555645
+}

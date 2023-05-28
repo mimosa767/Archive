@@ -1,0 +1,87 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "ExpenseTracker"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "automationName": "Appium",
+      "browserName": "Safari",
+      "browserVersion": "13",
+      "cssSelectorsEnabled": true,
+      "driverClass": "org.openqa.selenium.WebDriver",
+      "javascriptEnabled": true,
+      "location": "NA-US-BOS",
+      "platformName": "Mac",
+      "platformVersion": "macOS Catalina",
+      "resolution": "1280x1024",
+      "securityToken": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE2NTc1NjMyODAsImp0aSI6IjZiZTBkMTY0LWEzODMtNGUwZC1iYmJjLWM0YjJiZjBmNTg0YyIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiNjEwM2FhZjktOTdkNC00YjgwLThmZTYtZDNhYmRlNTJhM2JiIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiIwNGM3YzA2Yi02MTVhLTRhZGUtOGYwZi1jMTUzZDdmYWRiYjYiLCJzZXNzaW9uX3N0YXRlIjoiNjM3ZGQyNTEtNWI3ZS00NTlkLTk5MDgtZDY3ZWZhYmE5YjEzIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MifQ.guCb3NHpOboo1SGBE93gp2w0uknKl7D6jrCDUmw-YGQ",
+      "takesScreenshot": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://demo.app.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=a1d989c2-aa1e-455a-be84-f2423a9338ca",
+      "se:cdpEnabled": "false",
+      "streamInfo": "{\n  \"url\": \"https://demo.web.us.perfectomobile.com/fast/view/?sessionId\\u003da1d989c2-aa1e-455a-be84-f2423a9338ca@@100.66.226.17@@1676031162390@6405b0cd-d745-4bee-8e59-db738918ca2d\",\n  \"type\": \"JS_STREAM\",\n  \"authenticationType\": \"PERFECTO_HEADER\"\n}",
+      "resolution": "1280x1024",
+      "platform": "MAC",
+      "driverClass": "org.openqa.selenium.WebDriver",
+      "acceptInsecureCerts": "false",
+      "browserVersion": "13",
+      "platformVersion": "macOS Catalina",
+      "safari:useSimulator": "false",
+      "automationName": "Appium",
+      "safari:platformVersion": "10.15.7",
+      "browserName": "Safari",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "safari:automaticInspection": "false",
+      "platformName": "MAC",
+      "setWindowRect": "true",
+      "stopUrl": "https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/session/a1d989c2-aa1e-455a-be84-f2423a9338ca",
+      "testGridReportUrl": "https://demo.app.perfectomobile.com/reporting/library?externalId[0]=a1d989c2-aa1e-455a-be84-f2423a9338ca",
+      "safari:diagnose": "false",
+      "strictFileInteractability": "false",
+      "executionId": "a1d989c2-aa1e-455a-be84-f2423a9338ca",
+      "safari:automaticProfiling": "false",
+      "webdriver.remote.sessionid": "a1d989c2-aa1e-455a-be84-f2423a9338ca",
+      "safari:platformBuildVersion": "19H2",
+      "webkit:WebRTC": "{DisableICECandidateFiltering=false, DisableInsecureMediaCapture=false}",
+      "location": "NA-US-BOS",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Version": "3.0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34"
+    },
+    "run-parameters": {
+      "perfecto.capabilities.platformVersion": "macOS Catalina",
+      "perfecto.capabilities.browserName": "Safari",
+      "perfecto.capabilities.driverClass": "org.openqa.selenium.WebDriver",
+      "env.resources": "src/main/resources/common",
+      "perfecto.capabilities.browserVersion": "13",
+      "appType": "Web",
+      "perfecto.capabilities.location": "NA-US-BOS",
+      "perfecto.capabilities.resolution": "1280x1024",
+      "resources": "src/main/resources/common",
+      "driver.name": "perfectoRemoteDriver",
+      "perfecto.capabilities.platformName": "Mac"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_202",
+      "os.arch": "x86_64",
+      "host": "spenn0821",
+      "os.name": "Mac OS X",
+      "user.name": "spenn02",
+      "os.version": "10.16"
+    }
+  },
+  "startTime": 1676031157558,
+  "endTime": 1676031179877
+}

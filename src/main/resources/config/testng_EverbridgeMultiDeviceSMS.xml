@@ -34,7 +34,7 @@
 
         <groups>
             <run>
-                <include name="@EverbridgeTwoSMSPhones"/>
+                <include name="@EverbridgeTwoSMSPhonesA"/>
             </run>
         </groups>
         <classes>
