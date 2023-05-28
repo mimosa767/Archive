@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@3DevicesDemo",
+          "@MultiDevice"
+        ],
+        "lineNo": 14,
+        "name": "3 Devices Demo",
+        "reference": "src/main/resources/scenarios/MultiDevice.feature",
+        "resultFileName": "3DevicesDemo",
+        "sign": "src.main.resources.scenarios.MultiDevice.feature.3 Devices Demo()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1676492601868,
+      "duration": 50368,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

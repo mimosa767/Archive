@@ -62,6 +62,19 @@
       Given I switch to driver "perfectodeviiv"
       Then I wait for "15" seconds
 
+    @EverbridgeTwoSMSPhonesA
+    Scenario: I text phone A with phone B
+      Given I switch to driver "perfectodeviiv"
+      Then I start application by id "com.samsung.android.messaging"
+      Then I close application by id "com.samsung.android.messaging"
+      Then I start application by id "com.samsung.android.messaging"
+      Then I switch to driver "perfectodeviv"
+      Then I start application by id "com.samsung.android.messaging"
+      Then I wait for "15" seconds
+      Given I switch to driver "perfectodeviiv"
+      Then I wait for "15" seconds
+
+
       @CMSReceiveSMS
       Scenario: I open up my messenger application and receive text messages
         Given I start application by id "com.samsung.android.messaging"

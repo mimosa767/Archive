@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Expense Tracker Demos" verbose="0" parallel="tests" thread-count="100" group-by-instances="true">
+    <listeners>
+        <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+    </listeners>
+    <test name="WinnDixieBrowser" enabled="true">
+        <parameter name="driver.name" value="perfectoRemoteDriver"/>
+        <parameter name="perfecto.capabilities.platformName" value="Windows"/>
+        <parameter name="perfecto.capabilities.platformVersion" value="10"/>
+        <parameter name="perfecto.capabilities.browserName" value="Chrome"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="100"/>
+        <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
+        <parameter name="perfecto.capabilities.location" value="US East"/>
+        <parameter name="appType" value="Web"/>
+        <parameter name="perfecto.capabilities.driverClass" value="org.openqa.selenium.WebDriver"/>
+        <parameter name="env.resources" value="src/main/resources/common"/>
+        <groups>
+            <run>
+                <include name="VystarWebFlow"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
+
+</suite>
