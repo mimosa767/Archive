@@ -1,0 +1,93 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "ExpenseTracker"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "automationName": "Appium",
+      "browserName": "Firefox",
+      "browserVersion": "109",
+      "cssSelectorsEnabled": true,
+      "driverClass": "org.openqa.selenium.WebDriver",
+      "javascriptEnabled": true,
+      "location": "US East",
+      "platformName": "Windows",
+      "platformVersion": "10",
+      "resolution": "1280x1024",
+      "securityToken": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE2NTc1NjMyODAsImp0aSI6IjZiZTBkMTY0LWEzODMtNGUwZC1iYmJjLWM0YjJiZjBmNTg0YyIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiNjEwM2FhZjktOTdkNC00YjgwLThmZTYtZDNhYmRlNTJhM2JiIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiIwNGM3YzA2Yi02MTVhLTRhZGUtOGYwZi1jMTUzZDdmYWRiYjYiLCJzZXNzaW9uX3N0YXRlIjoiNjM3ZGQyNTEtNWI3ZS00NTlkLTk5MDgtZDY3ZWZhYmE5YjEzIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MifQ.guCb3NHpOboo1SGBE93gp2w0uknKl7D6jrCDUmw-YGQ",
+      "takesScreenshot": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://demo.app.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=6b9d813b-5d7c-4384-a2c8-4bb9de1d05df",
+      "moz:geckodriverVersion": "0.31.0",
+      "timeouts": "{implicit=0, pageLoad=300000, script=30000}",
+      "streamInfo": "{\n  \"url\": \"https://demo.web.us.perfectomobile.com/fast/view/?sessionId\\u003d6b9d813b-5d7c-4384-a2c8-4bb9de1d05df@@100.66.234.110@@1686163779743@7145e50c-adfd-4b50-a4e8-abea5aed264f\",\n  \"type\": \"JS_STREAM\",\n  \"authenticationType\": \"PERFECTO_HEADER\"\n}",
+      "moz:firefoxOptions": "{binary=C:\\Browsers\\Firefox\\109\\firefox.exe, profile=UEsDBBQACAgIADaWx1YAAAAAAAAAAAAAAAAHAAAAdXNlci5qc51WyW7bMBC99ysKn1qgJrK0l/aUpilQIGiKGkGPBEWOJMYUyXKx4r/vUEvs2DKV9GRLmiFnefPeRA+OWgflu0XhTItPxLMSuv9SV6RhqmUOCGhWKBCLD29Lpjy8//Im7jwFC2hjjQvJpQamQt0/EzTaSD7jryG0xq1JHYIltpa+3i7TZ8u8XyrQVajR8eLTp+duY8AOmMAfAQF4APFdOh+uMBauAN2Ci4fhmgbzeqS8dqYB6rmTNlAXNQ2ySS6XZ9MXBVZ4guXQd/paGQ/T2YzWwrRaGSbwLs2qVNjatH9q0CusVqrUtLvFoGzw6TLaGMHUTO1hE4xRnoBzxnGjvVH75T5O38tKG41Va6ApwK26R5/PxYP3Eq2CQSw48BHrVmKglDvm67yvknpNjAVN4TGA00ylZr4aQWVq6++opy9roRBObvCZcQ7Yzqgxc49woBxc8JOVeOqU9FaxLYib87PVT4PISa39OG2Mr8Sd/iM19tefnxGJF5n737fosWCFieFzoZheL44x1ydEmVL0wWMxUpyyL/1xbI9WYrnRlrS1DKCkD3jA3yjdKSQkGKxlIMM0jajD5BIWsgVQDBuDA5CHmk+4jZbUODUWz6YtKJ4mKLrU0sVByqnbukMNiRYbDERjacvtPZq8mkeiTaN0kw0PeHQybBEpCvAf8cFJHqhxspKaWqMk3+ahqqHFsSNDPpluPgu0P5mkl6tYNLIblV/dy6sOjC/jzcljshk/TefQmNQUtDzBXrs5xDTbDr/Hg2jKEu1gyaz1BNFnWlpsqYCSRRWm6WQsO/d2wM90tMd4yKJthDNiH5kquC3pmbGzv5izzR49VuTm/vaKXBK2a9Jxeg9sw3qFyJLqYSvGGcnjaBQ+zpAJNrBMUGBq+SLRPM7ZwUMngNkAe4in0PLH73WLxWC+9Syy4gigRFjn8xJ5h1CbPbtQhq87cntRxzwwx+sBP3Py25Ae5UTExma7h2h/ESafAceg2jgpppn1iIwOWehyGgk9ay/HMUQ4hTijzYPtCYoZdp35JWdPQX2n7zsFRSqKHWdnK5dgMh3E3gyZXvK6XeiHvu7XlZNb2qBdtGMtgWXUFU06MAOSGlA2eQ18/a0nrq/9l9fLGmFCyBQxm1GEyeX5f5dmZaoqvRy2uawG7M1Sl/E1ciQLspAqoU/Lqg7qhOrtuY43/g/F0XEQSIP7YQfERdopHRzUaLfSpBUUgY2L5MxOs5t7Vfpo+1Vgt238A1BLBwjbq6ZPpQMAAL4MAABQSwECFAAUAAgICAA2lsdW26umT6UDAAC+DAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAADaAwAAAAA=}",
+      "moz:headless": "false",
+      "resolution": "1280x1024",
+      "platform": "WINDOWS",
+      "se:bidi": "ws://100.66.169.234:8082/session/84a212d8-d092-4599-ab8a-94ee64783812/se/bidi",
+      "moz:useNonSpecCompliantPointerOrigin": "false",
+      "acceptInsecureCerts": "false",
+      "browserVersion": "109",
+      "platformVersion": "10",
+      "moz:processID": "5164",
+      "browserName": "Firefox",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "platformName": "WINDOWS",
+      "setWindowRect": "true",
+      "moz:profile": "C:\\Users\\Perfecto\\AppData\\Local\\Temp\\1\\rust_mozprofileQoq1f2",
+      "stopUrl": "https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/session/6b9d813b-5d7c-4384-a2c8-4bb9de1d05df",
+      "testGridReportUrl": "https://demo.app.perfectomobile.com/reporting/library?externalId[0]=6b9d813b-5d7c-4384-a2c8-4bb9de1d05df",
+      "pageLoadStrategy": "normal",
+      "unhandledPromptBehavior": "dismiss and notify",
+      "strictFileInteractability": "false",
+      "moz:windowless": "false",
+      "executionId": "6b9d813b-5d7c-4384-a2c8-4bb9de1d05df",
+      "proxy": "Proxy()",
+      "moz:accessibilityChecks": "false",
+      "moz:shutdownTimeout": "60000",
+      "location": "US East",
+      "moz:buildID": "20230112150232",
+      "moz:platformVersion": "10.0",
+      "cssSelectorsEnabled": "true",
+      "moz:webdriverClick": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Version": "3.0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34"
+    },
+    "run-parameters": {
+      "perfecto.capabilities.platformVersion": "10",
+      "perfecto.capabilities.browserName": "Firefox",
+      "perfecto.capabilities.driverClass": "org.openqa.selenium.WebDriver",
+      "env.resources": "src/main/resources/common",
+      "perfecto.capabilities.browserVersion": "109",
+      "appType": "Web",
+      "perfecto.capabilities.location": "US East",
+      "perfecto.capabilities.resolution": "1280x1024",
+      "resources": "src/main/resources/common",
+      "driver.name": "perfectoRemoteDriver",
+      "perfecto.capabilities.platformName": "Windows"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_202",
+      "os.arch": "x86_64",
+      "host": "spenn0821",
+      "os.name": "Mac OS X",
+      "user.name": "spenn02",
+      "os.version": "10.16"
+    }
+  },
+  "startTime": 1686163744450,
+  "endTime": 1686163786471
+}

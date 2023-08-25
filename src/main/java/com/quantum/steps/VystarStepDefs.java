@@ -10,8 +10,8 @@ public class VystarStepDefs {
     @When("^I login to Vysar app")
 
     public void iLoginToPaneraBreadApp() throws InterruptedException {
-        String username = "penn@stephenpenn.com";
-        String password = "Password123!";
+        String username = "perforce7";
+        String password = "Vystar767!";
 
         CommonStep.sendKeys(username, "winndixie.username");
         CommonStep.click("signinButton");

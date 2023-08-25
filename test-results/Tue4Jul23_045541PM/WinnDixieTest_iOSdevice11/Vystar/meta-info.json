@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@VystarNewLogin",
+          "@Vystar"
+        ],
+        "lineNo": 5,
+        "name": "Login Scales to 6 Concurrent for Fastback",
+        "reference": "src/main/resources/scenarios/Vystar.feature",
+        "resultFileName": "LoginScalesTo6ConcurrentForFastback",
+        "sign": "src.main.resources.scenarios.Vystar.feature.Login Scales to 6 Concurrent for Fastback()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1688504141742,
+      "duration": 24341,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
