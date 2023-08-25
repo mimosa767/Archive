@@ -3,17 +3,19 @@ Feature: Vystar Test Suite
 
 @VystarNewLogin
 Scenario: Login Scales to 6 Concurrent for Fastback
-Given I click on "android.whileUsing" and ignore errors
-Then I click on "allow" and ignore errors
-And I start device logging
-And I click on "getStarted" and ignore errors
-Then I switch to webview context
-When I login to Winn Dixie app
-Then I switch to native context
-Then I click on "list" and ignore errors
-And I click on "myShoppingList" and ignore errors
-And I click on "genericItem" and ignore errors
-Then I stop device logging
+Given I start application by id "org.vystarcu.vystar"
+Then I wait for "5" seconds
+#And I click on "android.whileUsing" and ignore errors
+#Then I click on "allow" and ignore errors
+#And I start device logging
+#And I click on "getStarted" and ignore errors
+#Then I switch to webview context
+#When I login to Winn Dixie app
+#Then I switch to native context
+#Then I click on "list" and ignore errors
+#And I click on "myShoppingList" and ignore errors
+#And I click on "genericItem" and ignore errors
+#Then I stop device logging
 
 @VystarWebFlow
 Scenario: I use the web browser to update Winn-Dixie

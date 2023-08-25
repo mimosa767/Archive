@@ -9,7 +9,7 @@
         <parameter name="driver.capabilities.platformName" value="Android"/>
         <parameter name="driver.capabilities.manufacturer" value="Samsung"/>
         <parameter name="driver.capabilities.model" value="Galaxy S22"/>
-        <!--        <parameter name="driver.capabilities.deviceName" value="R3CT106TGKH"/>-->
+<!--                <parameter name="driver.capabilities.deviceName" value="R3CT106TGKH"/>-->
         <parameter name="driver.capabilities.app" value="PUBLIC:Winn-Dixie_base.apk"/>
         <parameter name="driver.capabilities.appPackage" value="com.biloholdings.mywinndixie.prod"/>
         <parameter name="driver.capabilities.sensorInstrument" value="true"/>
