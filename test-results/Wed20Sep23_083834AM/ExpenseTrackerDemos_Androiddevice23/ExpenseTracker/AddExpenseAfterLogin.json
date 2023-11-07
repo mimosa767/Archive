@@ -1,0 +1,694 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "loginToInvoiceApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_email, using=id}"
+          ],
+          "result": "Element with by id 'io.perfecto.expense.tracker:id/login_email' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 773
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_email, using=id}"
+          ],
+          "result": "Element with by id 'io.perfecto.expense.tracker:id/login_email' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 511
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_email, using=id}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 496
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_email",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_email",
+            "{\"id\":\"0\",\"value\":[\"test@perfecto.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1798
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_password, using=id}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 874
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_password",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_password",
+            "{\"id\":\"1\",\"value\":[\"test123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1829
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_biometric_check_box, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 756
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_biometric_check_box",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_biometric_check_box",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 691
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/login_login_btn, using=id}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 924
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_login_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/login_login_btn",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 912
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@label='OK']' wasn't found.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: driver.version: PerfectoMobileDriver\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 469
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "addBasicExpense",
+      "args": [
+        "[Meal, 23.45, USD, Business]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/list_add_btn, using=id}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 482
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/list_add_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/list_add_btn",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 605
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/add_head, using=id}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 1334
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_head",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_head",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 775
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Meal'], using=xpath}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 681
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "id: 6",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 606
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/add_amount, using=id}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 1012
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_amount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_amount",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 898
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/add_amount, using=id}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 638
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_amount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_amount",
+            "{\"id\":\"8\",\"value\":[\"23.45\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1316
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/signup_currency, using=id}"
+          ],
+          "result": "id: 9",
+          "subLogs": [],
+          "duration": 845
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/signup_currency",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/signup_currency",
+            "{\"id\":\"9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 592
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@text,USD)], using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 862
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "id: 10",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 566
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/spinner_category, using=id}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 757
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/spinner_category",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/spinner_category",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 677
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Business'], using=xpath}"
+          ],
+          "result": "id: 12",
+          "subLogs": [],
+          "duration": 754
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "id: 12",
+            "{\"id\":\"12\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 499
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "attachReceipt",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/add_attach_btn, using=id}"
+          ],
+          "result": "id: 13",
+          "subLogs": [],
+          "duration": 877
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_attach_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_attach_btn",
+            "{\"id\":\"13\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 645
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/btn_attach_camera, using=id}"
+          ],
+          "result": "id: 14",
+          "subLogs": [],
+          "duration": 526
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/btn_attach_camera",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/btn_attach_camera",
+            "{\"id\":\"14\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 572
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=android:id/button1, using=id}"
+          ],
+          "result": "id: 15",
+          "subLogs": [],
+          "duration": 484
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: android:id/button1",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: android:id/button1",
+            "{\"id\":\"15\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 630
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/view_view_attach_btn, using=id}"
+          ],
+          "result": "id: 16",
+          "subLogs": [],
+          "duration": 1019
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/view_view_attach_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/view_view_attach_btn",
+            "{\"id\":\"16\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 665
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 821
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=io.perfecto.expense.tracker:id/add_save_btn, using=id}"
+          ],
+          "result": "id: 17",
+          "subLogs": [],
+          "duration": 1047
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_save_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: io.perfecto.expense.tracker:id/add_save_btn",
+            "{\"id\":\"17\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 570
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "logout",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@content-desc=\"Open Drawer\"], using=xpath}"
+          ],
+          "result": "id: 18",
+          "subLogs": [],
+          "duration": 535
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@content-desc=\"Open Drawer\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@content-desc=\"Open Drawer\"]",
+            "{\"id\":\"18\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 570
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"Logout\"], using=xpath}"
+          ],
+          "result": "id: 19",
+          "subLogs": [],
+          "duration": 1260
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@text=\"Logout\"]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"Logout\"]",
+            "{\"id\":\"19\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 655
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=android:id/button1, using=id}"
+          ],
+          "result": "id: 20",
+          "subLogs": [],
+          "duration": 900
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: android:id/button1",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: android:id/button1",
+            "{\"id\":\"20\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 634
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I login to Expense Tracker app with username and password",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 22486,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 14470,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I attach receipt",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 18112,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I logout of application",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 4660,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

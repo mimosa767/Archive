@@ -262,7 +262,7 @@
         <parameter name="perfecto.capabilities.platformName" value="Windows"/>
         <parameter name="perfecto.capabilities.platformVersion" value="10"/>
         <parameter name="perfecto.capabilities.browserName" value="Chrome"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="109"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="119"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
         <parameter name="appType" value="Web"/>
@@ -283,7 +283,7 @@
         <parameter name="perfecto.capabilities.platformName" value="Windows"/>
         <parameter name="perfecto.capabilities.platformVersion" value="10"/>
         <parameter name="perfecto.capabilities.browserName" value="Firefox"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="109"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="119"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
         <parameter name="appType" value="Web"/>
@@ -304,7 +304,7 @@
         <parameter name="perfecto.capabilities.platformName" value="Windows"/>
         <parameter name="perfecto.capabilities.platformVersion" value="10"/>
         <parameter name="perfecto.capabilities.browserName" value="Edge"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="109"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="119"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
         <parameter name="appType" value="Web"/>
@@ -365,9 +365,9 @@
     <test name="Web Scenarios Safari Catalina Test 4.3" enabled="true">
         <parameter name="driver.name" value="perfectoRemoteDriver"/>
         <parameter name="perfecto.capabilities.platformName" value="Mac"/>
-        <parameter name="perfecto.capabilities.platformVersion" value="macOS Catalina"/>
+        <parameter name="perfecto.capabilities.platformVersion" value="macOS Big Sur"/>
         <parameter name="perfecto.capabilities.browserName" value="Safari"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="13"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="14"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="NA-US-BOS"/>
         <parameter name="appType" value="Web"/>
@@ -383,127 +383,127 @@
         </classes>
     </test>
 
-<!--        <test name="iOS device 1.1" enabled="true">-->
-<!--            <parameter name="driver.name" value="perfectoDriver"/>-->
-<!--            <parameter name="driver.capabilities.platformName" value="iOS"/>-->
-<!--            <parameter name="driver.capabilities.model" value="iPhone.*"/>-->
-<!--            <parameter name="driver.capabilities.platformVersion" value=".*"/>-->
-<!--            <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>-->
-<!--            <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>-->
-<!--            <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
-<!--            <parameter name="appType" value="Native" />-->
-<!--            <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>-->
-<!--            <parameter name="env.resources" value="src/main/resources/ios"/>-->
-<!--            <groups>-->
-<!--                <run>-->
-<!--                    <include name="@ExpenseTracker"/>-->
-<!--                </run>-->
-<!--            </groups>-->
-<!--            <classes>-->
-<!--                <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
-<!--            </classes>-->
-<!--        </test>-->
+        <test name="iOS device 1.1" enabled="true">
+            <parameter name="driver.name" value="perfectoDriver"/>
+            <parameter name="driver.capabilities.platformName" value="iOS"/>
+            <parameter name="driver.capabilities.model" value="iPhone.*"/>
+            <parameter name="driver.capabilities.platformVersion" value=".*"/>
+            <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+            <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+            <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+            <parameter name="appType" value="Native" />
+            <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+            <parameter name="env.resources" value="src/main/resources/ios"/>
+            <groups>
+                <run>
+                    <include name="@ExpenseTracker"/>
+                </run>
+            </groups>
+            <classes>
+                <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+            </classes>
+        </test>
 
-<!--        <test name="iOS device 1.2" enabled="true">-->
-<!--            <parameter name="driver.name" value="perfectoDriver"/>-->
-<!--            <parameter name="driver.capabilities.platformName" value="iOS"/>-->
-<!--            <parameter name="driver.capabilities.model" value="iPhone.*"/>-->
-<!--            <parameter name="driver.capabilities.platformVersion" value=".*"/>-->
-<!--            <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>-->
-<!--            <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>-->
-<!--            <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
-<!--            <parameter name="appType" value="Native" />-->
-<!--            <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>-->
-<!--            <parameter name="env.resources" value="src/main/resources/ios"/>-->
-<!--            <groups>-->
-<!--                <run>-->
-<!--                    <include name="@ExpenseTracker"/>-->
-<!--                </run>-->
-<!--            </groups>-->
-<!--            <classes>-->
-<!--                <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
-<!--            </classes>-->
-<!--        </test>-->
+        <test name="iOS device 1.2" enabled="true">
+            <parameter name="driver.name" value="perfectoDriver"/>
+            <parameter name="driver.capabilities.platformName" value="iOS"/>
+            <parameter name="driver.capabilities.model" value="iPhone.*"/>
+            <parameter name="driver.capabilities.platformVersion" value=".*"/>
+            <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+            <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+            <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+            <parameter name="appType" value="Native" />
+            <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+            <parameter name="env.resources" value="src/main/resources/ios"/>
+            <groups>
+                <run>
+                    <include name="@ExpenseTracker"/>
+                </run>
+            </groups>
+            <classes>
+                <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+            </classes>
+        </test>
 
-<!--        <test name="iOS device 1.3" enabled="true">-->
-<!--            <parameter name="driver.name" value="perfectoDriver"/>-->
-<!--            <parameter name="driver.capabilities.platformName" value="iOS"/>-->
-<!--            <parameter name="driver.capabilities.model" value="iPhone.*"/>-->
-<!--            <parameter name="driver.capabilities.platformVersion" value="13.*"/>-->
-<!--            <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>-->
-<!--            <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>-->
-<!--            <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
-<!--            <parameter name="appType" value="Native" />-->
-<!--            <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>-->
-<!--            <parameter name="env.resources" value="src/main/resources/ios"/>-->
-<!--            <groups>-->
-<!--                <run>-->
-<!--                    <include name="@ExpenseTracker"/>-->
-<!--                </run>-->
-<!--            </groups>-->
-<!--            <classes>-->
-<!--                <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
-<!--            </classes>-->
-<!--        </test>-->
+        <test name="iOS device 1.3" enabled="true">
+            <parameter name="driver.name" value="perfectoDriver"/>
+            <parameter name="driver.capabilities.platformName" value="iOS"/>
+            <parameter name="driver.capabilities.model" value="iPhone.*"/>
+            <parameter name="driver.capabilities.platformVersion" value="12.*"/>
+            <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+            <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+            <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+            <parameter name="appType" value="Native" />
+            <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+            <parameter name="env.resources" value="src/main/resources/ios"/>
+            <groups>
+                <run>
+                    <include name="@ExpenseTracker"/>
+                </run>
+            </groups>
+            <classes>
+                <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+            </classes>
+        </test>
 
-    <!--    <test name="iOS device 1.4" enabled="true">-->
-    <!--        <parameter name="driver.name" value="perfectoDriver"/>-->
-    <!--        <parameter name="driver.capabilities.platformName" value="iOS"/>-->
-    <!--        <parameter name="driver.capabilities.model" value="iPhone.*"/>-->
-    <!--        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>-->
-    <!--        <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>-->
-    <!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
-    <!--        <parameter name="appType" value="Native" />-->
-    <!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>-->
-    <!--        <parameter name="env.resources" value="src/main/resources/ios"/>-->
-    <!--        <groups>-->
-    <!--            <run>-->
-    <!--                <include name="@ExpenseTracker"/>-->
-    <!--            </run>-->
-    <!--        </groups>-->
-    <!--        <classes>-->
-    <!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
-    <!--        </classes>-->
-    <!--    </test>-->
+        <test name="iOS device 1.4" enabled="true">
+            <parameter name="driver.name" value="perfectoDriver"/>
+            <parameter name="driver.capabilities.platformName" value="iOS"/>
+            <parameter name="driver.capabilities.model" value="iPhone.*"/>
+            <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+            <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+            <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+            <parameter name="appType" value="Native" />
+            <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+            <parameter name="env.resources" value="src/main/resources/ios"/>
+            <groups>
+                <run>
+                    <include name="@ExpenseTracker"/>
+                </run>
+            </groups>
+            <classes>
+                <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+            </classes>
+        </test>
 
-    <!--    <test name="iOS device 1.5 iPad" enabled="true">-->
-    <!--        <parameter name="driver.name" value="perfectoDriver"/>-->
-    <!--        <parameter name="driver.capabilities.platformName" value="iOS"/>-->
-    <!--        <parameter name="driver.capabilities.model" value="iPad.*"/>-->
-    <!--        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>-->
-    <!--        <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>-->
-    <!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
-    <!--        <parameter name="appType" value="Native" />-->
-    <!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>-->
-    <!--        <parameter name="env.resources" value="src/main/resources/ios"/>-->
-    <!--        <groups>-->
-    <!--            <run>-->
-    <!--                <include name="@ExpenseTracker"/>-->
-    <!--            </run>-->
-    <!--        </groups>-->
-    <!--        <classes>-->
-    <!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
-    <!--        </classes>-->
-    <!--    </test>-->
+        <test name="iOS device 1.5 iPad" enabled="true">
+            <parameter name="driver.name" value="perfectoDriver"/>
+            <parameter name="driver.capabilities.platformName" value="iOS"/>
+            <parameter name="driver.capabilities.model" value="iPad.*"/>
+            <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+            <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+            <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+            <parameter name="appType" value="Native" />
+            <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+            <parameter name="env.resources" value="src/main/resources/ios"/>
+            <groups>
+                <run>
+                    <include name="@ExpenseTracker"/>
+                </run>
+            </groups>
+            <classes>
+                <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+            </classes>
+        </test>
 
-    <!--    <test name="iOS device 1.6" enabled="true">-->
-    <!--        <parameter name="driver.name" value="perfectoDriver"/>-->
-    <!--        <parameter name="driver.capabilities.platformName" value="iOS"/>-->
-    <!--        <parameter name="driver.capabilities.model" value="iPhone.*"/>-->
-    <!--        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>-->
-    <!--        <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>-->
-    <!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
-    <!--        <parameter name="appType" value="Native" />-->
-    <!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>-->
-    <!--        <parameter name="env.resources" value="src/main/resources/ios"/>-->
-    <!--        <groups>-->
-    <!--            <run>-->
-    <!--                <include name="@ExpenseTracker"/>-->
-    <!--            </run>-->
-    <!--        </groups>-->
-    <!--        <classes>-->
-    <!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
-    <!--        </classes>-->
-    <!--    </test>-->
+        <test name="iOS device 1.6" enabled="true">
+            <parameter name="driver.name" value="perfectoDriver"/>
+            <parameter name="driver.capabilities.platformName" value="iOS"/>
+            <parameter name="driver.capabilities.model" value="iPhone.*"/>
+            <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+            <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+            <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+            <parameter name="appType" value="Native" />
+            <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+            <parameter name="env.resources" value="src/main/resources/ios"/>
+            <groups>
+                <run>
+                    <include name="@ExpenseTracker"/>
+                </run>
+            </groups>
+            <classes>
+                <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+            </classes>
+        </test>
 
 </suite>
