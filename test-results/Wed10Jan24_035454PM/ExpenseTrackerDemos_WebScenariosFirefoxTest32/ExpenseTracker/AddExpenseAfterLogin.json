@@ -1,0 +1,322 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "loginToInvoiceApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://expensetracker.perfectomobile.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2844
+        },
+        {
+          "commandName": "maximizeCurrentWindow",
+          "args": [
+            "{}"
+          ],
+          "result": "{x=-8, y=-8, width=1296, height=1000}",
+          "subLogs": [],
+          "duration": 90
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#login_email > input, using=css selector}"
+          ],
+          "result": "id: 41311e7f-14b6-45a8-80a6-97f4ac8d8643",
+          "subLogs": [],
+          "duration": 587
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #login_email > input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #login_email > input",
+            "{\"id\":\"41311e7f-14b6-45a8-80a6-97f4ac8d8643\",\"value\":[\"test@perfecto.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 306
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#login_password > input, using=css selector}"
+          ],
+          "result": "id: da7b6d9f-e671-475b-a978-a6e335426a72",
+          "subLogs": [],
+          "duration": 267
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #login_password > input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #login_password > input",
+            "{\"id\":\"da7b6d9f-e671-475b-a978-a6e335426a72\",\"value\":[\"test123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 115
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login_login_btn, using=name}"
+          ],
+          "result": "id: c2e2d498-749e-42ae-bcae-f6428b94e84f",
+          "subLogs": [],
+          "duration": 398
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{\"id\":\"c2e2d498-749e-42ae-bcae-f6428b94e84f\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 361
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "addBasicExpense",
+      "args": [
+        "[Meal, 23.45, USD, Business]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#list_add_btn, using=css selector}"
+          ],
+          "result": "id: 9875b5f0-60c7-42a8-8d13-168df072af58",
+          "subLogs": [],
+          "duration": 257
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#add_head, using=css selector}"
+          ],
+          "result": "id: c7c2d3b3-4d3e-446e-acf2-b0a7561313ed",
+          "subLogs": [],
+          "duration": 222
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#alert-input-1-2 > div > div.alert-radio-label.sc-ion-alert-md, using=css selector}"
+          ],
+          "result": "id: c060adeb-9fe1-402e-818d-86c370a31813",
+          "subLogs": [],
+          "duration": 553
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #alert-input-1-2 > div > div.alert-radio-label.sc-ion-alert-md",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: #alert-input-1-2 > div > div.alert-radio-label.sc-ion-alert-md",
+            "{\"id\":\"c060adeb-9fe1-402e-818d-86c370a31813\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 357
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span, using=xpath}"
+          ],
+          "result": "id: 7bdd9eab-eebf-4fa5-881d-fe93e473347b",
+          "subLogs": [],
+          "duration": 283
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/app-root/ion-app/ion-alert/div/div[4]/button[2]/span",
+            "{\"id\":\"7bdd9eab-eebf-4fa5-881d-fe93e473347b\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 287
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#add_amount > input, using=css selector}"
+          ],
+          "result": "id: 1986d750-60af-4542-a9c5-5d83f8d3aa63",
+          "subLogs": [],
+          "duration": 261
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #add_amount > input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #add_amount > input",
+            "{\"id\":\"1986d750-60af-4542-a9c5-5d83f8d3aa63\",\"value\":[\"23.45\"]}"
+          ],
+          "result": "Element <input class=\"native-input sc-ion-input-md\" name=\"add_amount\" type=\"number\"> is not reachable by keyboard\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2600:1700:8df0:2160:0:0:0:2f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, automationName: Appium, browserName: Firefox, browserVersion: 119, cssSelectorsEnabled: true, driverClass: org.openqa.selenium.WebDriver, executionId: 70a76972-5a43-483b-9694-9c2..., javascriptEnabled: true, location: US East, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:firefoxOptions: {binary: C:\\Browsers\\Firefox\\119\\fir..., profile: UEsDBBQACAgIAAGnKlgAAAAAAAA...}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4316, moz:profile: C:\\Users\\Perfecto\\AppData\\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:bidi: ws://100.66.175.203:8082/se..., setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 70a76972-5a43-483b-9694-9c2e47178ad4",
+          "subLogs": [],
+          "duration": 262
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=#add_amount > input, using=css selector}"
+          ],
+          "result": "[id: 1986d750-60af-4542-a9c5-5d83f8d3aa63]",
+          "subLogs": [],
+          "duration": 300
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And I attach receipt",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I logout of application",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I login to Expense Tracker app with username and password",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 4974,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"",
+      "type": "TestStepFail",
+      "screenshot": "img/AddExpenseAfterLogin_1h6rs20gbo7iu61549.png",
+      "duration": 7596,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Element <input class=\"native-input sc-ion-input-md\" name=\"add_amount\" type=\"number\"> is not reachable by keyboard\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2600:1700:8df0:2160:0:0:0:2f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, automationName: Appium, browserName: Firefox, browserVersion: 119, cssSelectorsEnabled: true, driverClass: org.openqa.selenium.WebDriver, executionId: 70a76972-5a43-483b-9694-9c2..., javascriptEnabled: true, location: US East, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:firefoxOptions: {binary: C:\\Browsers\\Firefox\\119\\fir..., profile: UEsDBBQACAgIAAGnKlgAAAAAAAA...}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4316, moz:profile: C:\\Users\\Perfecto\\AppData\\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:bidi: ws://100.66.175.203:8082/se..., setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 70a76972-5a43-483b-9694-9c2e47178ad4",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I attach receipt",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I logout of application",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.ElementNotInteractableException: Element <input class=\"native-input sc-ion-input-md\" name=\"add_amount\" type=\"number\"> is not reachable by keyboard\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'spenn0821', ip: '2600:1700:8df0:2160:0:0:0:2f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, automationName: Appium, browserName: Firefox, browserVersion: 119, cssSelectorsEnabled: true, driverClass: org.openqa.selenium.WebDriver, executionId: 70a76972-5a43-483b-9694-9c2..., javascriptEnabled: true, location: US East, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:firefoxOptions: {binary: C:\\Browsers\\Firefox\\119\\fir..., profile: UEsDBBQACAgIAAGnKlgAAAAAAAA...}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4316, moz:profile: C:\\Users\\Perfecto\\AppData\\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://demo.app.perfectomo..., resolution: 1280x1024, se:bidi: ws://100.66.175.203:8082/se..., setWindowRect: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\n  \"url\": \"https://demo.we..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 70a76972-5a43-483b-9694-9c2e47178ad4\n\tat .And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"(src/main/resources/scenarios/ExpenseTracker.feature:7)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:255)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:276)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat com.perfecto.CommonUtils.sendKeys(CommonUtils.java:85)\n\tat com.quantum.steps.ExpenseTrackerStepDefs.addBasicExpense(ExpenseTrackerStepDefs.java:51)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n"
+}
