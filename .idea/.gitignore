@@ -1,3 +1,5 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+logs/isfw.log
+logs/scenario.log
