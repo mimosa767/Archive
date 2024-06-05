@@ -1,0 +1,996 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "loginToInvoiceApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login_email, using=name}"
+          ],
+          "result": "id: 15000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 730
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: login_email",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: login_email",
+            "{\"id\":\"15000000-0000-0000-7520-000000000000\",\"value\":[\"test@perfecto.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 2370
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login_password, using=name}"
+          ],
+          "result": "id: 18000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 868
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: login_password",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: login_password",
+            "{\"id\":\"18000000-0000-0000-7520-000000000000\",\"value\":[\"test123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1143
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeSwitch, using=xpath}"
+          ],
+          "result": "id: 1B000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 666
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeSwitch",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeSwitch",
+            "{\"id\":\"1B000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 946
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login_login_btn, using=name}"
+          ],
+          "result": "id: 19000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 588
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{\"id\":\"19000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1176
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label='OK'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: XCUITest, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: F8CC61DD12F92A7A856E02E9E2C..., deviceSessionId: stephenp@perfectomobile.com..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 4d9aff5d-a07b-4196-b70b-f84..., entityType: appium_driver, executionId: stephenp@perfectomobile.com..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 12.4.1, pureAppiumFlow: true, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 16155203, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11608, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: f8cc61dd12f92a7a856e02e9e2c..., user: , webStorageEnabled: false, xcuitestFindOptimizations: true}\nSession ID: d4c1387a-2c06-4e33-a872-27859242acc0\n*** Element info: {Using=xpath, value=//*[@label='OK']}\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 1008
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=OK, using=name}"
+          ],
+          "result": "id: 92000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 601
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: OK",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: OK",
+            "{\"id\":\"92000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1445
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login_login_btn, using=name}"
+          ],
+          "result": "id: 19000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 586
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: login_login_btn",
+            "{\"id\":\"19000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1138
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "addBasicExpense",
+      "args": [
+        "[Meal, 23.45, USD, Business]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=list_add_btn, using=name}"
+          ],
+          "result": "id: B1000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 592
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: list_add_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: list_add_btn",
+            "{\"id\":\"B1000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1201
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=edit_head, using=name}"
+          ],
+          "result": "id: C1000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 594
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: edit_head",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: edit_head",
+            "{\"id\":\"C1000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1343
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: D9000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 729
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{\"name\":\"value\",\"id\":\"D9000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "getElementAttribute:- Select -",
+          "subLogs": [],
+          "duration": 522
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: D9000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 649
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{\"name\":\"value\",\"id\":\"D9000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "getElementAttribute:Taxi",
+          "subLogs": [],
+          "duration": 687
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: D9000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 893
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{\"name\":\"value\",\"id\":\"D9000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "getElementAttribute:Flight",
+          "subLogs": [],
+          "duration": 486
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: D9000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 628
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{\"name\":\"value\",\"id\":\"D9000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "getElementAttribute:Meal",
+          "subLogs": [],
+          "duration": 350
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=edit_amount, using=name}"
+          ],
+          "result": "id: C4000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 619
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: edit_amount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: edit_amount",
+            "{\"id\":\"C4000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 356
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=edit_amount, using=name}"
+          ],
+          "result": "id: C4000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 974
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: edit_amount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: edit_amount",
+            "{\"id\":\"C4000000-0000-0000-7520-000000000000\",\"value\":[\"23.45\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1157
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIATextField[3]|//XCUIElementTypeTextField[3], using=xpath}"
+          ],
+          "result": "id: C8000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 805
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIATextField[3]|//XCUIElementTypeTextField[3]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //UIATextField[3]|//XCUIElementTypeTextField[3]",
+            "{\"id\":\"C8000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 740
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: B0010000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 619
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{\"name\":\"value\",\"id\":\"B0010000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "getElementAttribute:INR - ₹",
+          "subLogs": [],
+          "duration": 578
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: B0010000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 649
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{\"name\":\"value\",\"id\":\"B0010000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "getElementAttribute:USD - $",
+          "subLogs": [],
+          "duration": 560
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=edit_category, using=name}"
+          ],
+          "result": "id: CB000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 803
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: edit_category",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: edit_category",
+            "{\"id\":\"CB000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 748
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: 42020000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 948
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{\"name\":\"value\",\"id\":\"42020000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "getElementAttribute:- Select -",
+          "subLogs": [],
+          "duration": 726
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: 42020000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 869
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{\"name\":\"value\",\"id\":\"42020000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "getElementAttribute:Personal",
+          "subLogs": [],
+          "duration": 487
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIAPickerWheel|//XCUIElementTypePickerWheel, using=xpath}"
+          ],
+          "result": "id: 42020000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 827
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //UIAPickerWheel|//XCUIElementTypePickerWheel",
+            "{\"name\":\"value\",\"id\":\"42020000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "getElementAttribute:Business",
+          "subLogs": [],
+          "duration": 483
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=edit_date, using=name}"
+          ],
+          "result": "id: CE000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 639
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: edit_date",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: edit_date",
+            "{\"id\":\"CE000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 652
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "attachReceipt",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=edit_attach, using=name}"
+          ],
+          "result": "id: D1000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 445
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: edit_attach",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: edit_attach",
+            "{\"id\":\"D1000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1032
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=Camera, using=name}"
+          ],
+          "result": "id: AD020000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 568
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: Camera",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: Camera",
+            "{\"id\":\"AD020000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2362
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=OK, using=name}"
+          ],
+          "result": "id: 83500000-0000-0000-3400-000000000000",
+          "subLogs": [],
+          "duration": 661
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: OK",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: OK",
+            "{\"id\":\"83500000-0000-0000-3400-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1024
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=PhotoCapture, using=name}"
+          ],
+          "result": "id: E3020000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 530
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: PhotoCapture",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: PhotoCapture",
+            "{\"id\":\"E3020000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 489
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=Use Photo, using=name}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., app: PUBLIC:ExpenseTracker/Nativ..., assert_javascript_enabled: true, authenticationTenant: operator, automationName: XCUITest, browserName: , bundleId: io.perfecto.expense.tracker, cloud: demo.perfectomobile.com, cssSelectorsEnabled: true, databaseEnabled: false, deviceName: F8CC61DD12F92A7A856E02E9E2C..., deviceSessionId: stephenp@perfectomobile.com..., driverClass: io.appium.java_client.ios.I..., engineExternalExecId: 4d9aff5d-a07b-4196-b70b-f84..., entityType: appium_driver, executionId: stephenp@perfectomobile.com..., executionTenantId: demo-perfectomobile-com, host: demo.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, locationContextEnabled: false, model: iPhone.*, networkConnectionEnabled: false, password: , platform: MAC, platformName: ios, platformVersion: 12.4.1, pureAppiumFlow: true, report.jobBranch: master, report.jobName: PerfectoDemo, report.jobNumber: 16155203, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securityToken: , sensorInstrument: true, serverConnector: , serverHost: X.X.X.X:11608, simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: false, udid: f8cc61dd12f92a7a856e02e9e2c..., user: , webStorageEnabled: false, xcuitestFindOptimizations: true}\nSession ID: d4c1387a-2c06-4e33-a872-27859242acc0\n*** Element info: {Using=name, value=Use Photo}\nCommand duration or timeout: 0 milliseconds",
+          "subLogs": [],
+          "duration": 445
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=Use Photo, using=name}"
+          ],
+          "result": "id: EB020000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 519
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: Use Photo",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: Use Photo",
+            "{\"id\":\"EB020000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1241
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=add_save_btn, using=name}"
+          ],
+          "result": "id: B6000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 455
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: add_save_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: add_save_btn",
+            "{\"id\":\"B6000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1005
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=OK, using=name}"
+          ],
+          "result": "id: 04030000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 507
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: OK",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: OK",
+            "{\"id\":\"04030000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1400
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "logout",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=list_left_menu_btn, using=name}"
+          ],
+          "result": "id: AB000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 528
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: list_left_menu_btn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: list_left_menu_btn",
+            "{\"id\":\"AB000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 964
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=list_logout_menu, using=name}"
+          ],
+          "result": "id: A8000000-0000-0000-7520-000000000000",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: list_logout_menu",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: list_logout_menu",
+            "{\"id\":\"A8000000-0000-0000-7520-000000000000\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1181
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I login to Expense Tracker app with username and password",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 25093,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I add expense with head \"Meal\" , amount \"23.45\" , \"USD\" currency and category \"Business\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 30881,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I attach receipt",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 31802,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I logout of application",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3201,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

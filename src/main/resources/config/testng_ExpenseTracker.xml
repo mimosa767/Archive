@@ -4,95 +4,95 @@
         <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
     </listeners>
 
-    <test name="Android device 2.1" enabled="true">
-        <parameter name="driver.name" value="perfectoDriver"/>
-        <parameter name="driver.capabilities.platformName" value="Android"/>
-        <parameter name="driver.capabilities.platformVersion" value=".*"/>
-        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
-        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
-        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
-        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
-        <parameter name="appType" value="Native" />
-        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
-        <parameter name="env.resources" value="src/main/resources/android"/>
-        <groups>
-            <run>
-                <include name="@ExpenseTracker"/>
-            </run>
-        </groups>
-        <classes>
-            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
-        </classes>
-    </test>
+<!--    <test name="Android device 2.1" enabled="true">-->
+<!--        <parameter name="driver.name" value="perfectoDriver"/>-->
+<!--        <parameter name="driver.capabilities.platformName" value="Android"/>-->
+<!--        <parameter name="driver.capabilities.platformVersion" value=".*"/>-->
+<!--        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>-->
+<!--        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>-->
+<!--        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>-->
+<!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
+<!--        <parameter name="appType" value="Native" />-->
+<!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--        <parameter name="env.resources" value="src/main/resources/android"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@ExpenseTracker"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="Android device 2.2" enabled="true">
-        <parameter name="driver.name" value="perfectoDriver"/>
-        <parameter name="driver.capabilities.platformName" value="Android"/>
-        <parameter name="driver.capabilities.model" value=".*"/>
-        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
-        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
-        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
-        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
-        <parameter name="appType" value="Native" />
-        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
-        <parameter name="env.resources" value="src/main/resources/android"/>
-        <groups>
-            <run>
-                <include name="@ExpenseTracker"/>
-            </run>
-        </groups>
-        <classes>
-            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
-        </classes>
-    </test>
+<!--    <test name="Android device 2.2" enabled="true">-->
+<!--        <parameter name="driver.name" value="perfectoDriver"/>-->
+<!--        <parameter name="driver.capabilities.platformName" value="Android"/>-->
+<!--        <parameter name="driver.capabilities.model" value=".*"/>-->
+<!--        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>-->
+<!--        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>-->
+<!--        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>-->
+<!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
+<!--        <parameter name="appType" value="Native" />-->
+<!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--        <parameter name="env.resources" value="src/main/resources/android"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@ExpenseTracker"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="Android device 2.3" enabled="true">
-        <parameter name="driver.name" value="perfectoDriver"/>
-        <parameter name="driver.capabilities.platformName" value="Android"/>
-        <parameter name="driver.capabilities.model" value=".*"/>
-        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
-        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
-        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
-        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
-        <parameter name="appType" value="Native" />
-        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
-        <parameter name="env.resources" value="src/main/resources/android"/>
-        <groups>
-            <run>
-                <include name="@ExpenseTracker"/>
-            </run>
-        </groups>
-        <classes>
-            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
-        </classes>
-    </test>
+<!--    <test name="Android device 2.3" enabled="true">-->
+<!--        <parameter name="driver.name" value="perfectoDriver"/>-->
+<!--        <parameter name="driver.capabilities.platformName" value="Android"/>-->
+<!--        <parameter name="driver.capabilities.model" value=".*"/>-->
+<!--        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>-->
+<!--        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>-->
+<!--        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>-->
+<!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
+<!--        <parameter name="appType" value="Native" />-->
+<!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--        <parameter name="env.resources" value="src/main/resources/android"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@ExpenseTracker"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="Android device 2.4" enabled="true">
-        <parameter name="driver.name" value="perfectoDriver"/>
-        <parameter name="driver.capabilities.platformName" value="Android"/>
-        <!--        <parameter name="driver.capabilities.platformVersion" value="11"/>-->
-        <parameter name="driver.capabilities.model" value=".*"/>
-        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
-        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
-        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
-        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
-        <parameter name="appType" value="Native" />
-        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
-        <parameter name="env.resources" value="src/main/resources/android"/>
-        <groups>
-            <run>
-                <include name="@ExpenseTracker"/>
-            </run>
-        </groups>
-        <classes>
-            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
-        </classes>
-    </test>
+<!--    <test name="Android device 2.4" enabled="true">-->
+<!--        <parameter name="driver.name" value="perfectoDriver"/>-->
+<!--        <parameter name="driver.capabilities.platformName" value="Android"/>-->
+<!--        &lt;!&ndash;        <parameter name="driver.capabilities.platformVersion" value="11"/>&ndash;&gt;-->
+<!--        <parameter name="driver.capabilities.model" value=".*"/>-->
+<!--        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>-->
+<!--        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>-->
+<!--        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>-->
+<!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
+<!--        <parameter name="appType" value="Native" />-->
+<!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--        <parameter name="env.resources" value="src/main/resources/android"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@ExpenseTracker"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="Android device 2.5" enabled="true">
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="Android"/>
-        <parameter name="driver.capabilities.model" value=".*"/>
+        <parameter name="driver.capabilities.model" value="Pixel 6 Pro"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
         <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
@@ -113,7 +113,7 @@
     <test name="Android device 2.6" enabled="true">
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="Android"/>
-        <parameter name="driver.capabilities.model" value=".*"/>
+        <parameter name="driver.capabilities.model" value="Galaxy S22 Plus"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
         <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
@@ -130,31 +130,31 @@
             <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
         </classes>
     </test>
-    <test name="Android device 2.7" enabled="true">
-        <parameter name="driver.name" value="perfectoDriver"/>
-        <parameter name="driver.capabilities.platformName" value="Android"/>
-        <parameter name="driver.capabilities.platformVersion" value=".*"/>
-        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
-        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
-        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
-        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
-        <parameter name="appType" value="Native" />
-        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
-        <parameter name="env.resources" value="src/main/resources/android"/>
-        <groups>
-            <run>
-                <include name="@ExpenseTracker"/>
-            </run>
-        </groups>
-        <classes>
-            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
-        </classes>
-    </test>
+<!--    <test name="Android device 2.7" enabled="true">-->
+<!--        <parameter name="driver.name" value="perfectoDriver"/>-->
+<!--        <parameter name="driver.capabilities.platformName" value="Android"/>-->
+<!--        <parameter name="driver.capabilities.platformVersion" value=".*"/>-->
+<!--        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>-->
+<!--        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>-->
+<!--        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>-->
+<!--        <parameter name="driver.capabilities.sensorInstrument" value="true"/>-->
+<!--        <parameter name="appType" value="Native" />-->
+<!--        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>-->
+<!--        <parameter name="env.resources" value="src/main/resources/android"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="@ExpenseTracker"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="Android device 2.8" enabled="true">
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="Android"/>
-        <parameter name="driver.capabilities.model" value=".*"/>
+        <parameter name="driver.capabilities.model" value="Pixel 6 Pro"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
         <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
@@ -175,7 +175,7 @@
     <test name="Android device 2.9" enabled="true">
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="Android"/>
-        <parameter name="driver.capabilities.model" value=".*"/>
+        <parameter name="driver.capabilities.model" value="Pixel 6 Pro"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
         <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
@@ -197,7 +197,7 @@
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="Android"/>
         <!--        <parameter name="driver.capabilities.platformVersion" value="11"/>-->
-        <parameter name="driver.capabilities.model" value=".*"/>
+        <parameter name="driver.capabilities.model" value="Galaxy S22 Plus"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
         <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
@@ -215,54 +215,13 @@
         </classes>
     </test>
 
-    <test name="Android device 2.11" enabled="true">
-        <parameter name="driver.name" value="perfectoDriver"/>
-        <parameter name="driver.capabilities.platformName" value="Android"/>
-        <parameter name="driver.capabilities.model" value=".*"/>
-        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
-        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
-        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
-        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
-        <parameter name="appType" value="Native" />
-        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
-        <parameter name="env.resources" value="src/main/resources/android"/>
-        <groups>
-            <run>
-                <include name="@ExpenseTracker"/>
-            </run>
-        </groups>
-        <classes>
-            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
-        </classes>
-    </test>
-
-    <test name="Android device 2.12" enabled="true">
-        <parameter name="driver.name" value="perfectoDriver"/>
-        <parameter name="driver.capabilities.platformName" value="Android"/>
-        <parameter name="driver.capabilities.model" value=".*"/>
-        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
-        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
-        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
-        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
-        <parameter name="appType" value="Native" />
-        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
-        <parameter name="env.resources" value="src/main/resources/android"/>
-        <groups>
-            <run>
-                <include name="@ExpenseTracker"/>
-            </run>
-        </groups>
-        <classes>
-            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
-        </classes>
-    </test>
 
     <test name="Web Scenarios Chrome Test 3.1" enabled="true">
         <parameter name="driver.name" value="perfectoRemoteDriver"/>
         <parameter name="perfecto.capabilities.platformName" value="Windows"/>
         <parameter name="perfecto.capabilities.platformVersion" value="10"/>
         <parameter name="perfecto.capabilities.browserName" value="Chrome"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="119"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="123"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
         <parameter name="appType" value="Web"/>
@@ -283,7 +242,7 @@
         <parameter name="perfecto.capabilities.platformName" value="Windows"/>
         <parameter name="perfecto.capabilities.platformVersion" value="10"/>
         <parameter name="perfecto.capabilities.browserName" value="Firefox"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="119"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="123"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
         <parameter name="appType" value="Web"/>
@@ -304,7 +263,7 @@
         <parameter name="perfecto.capabilities.platformName" value="Windows"/>
         <parameter name="perfecto.capabilities.platformVersion" value="10"/>
         <parameter name="perfecto.capabilities.browserName" value="Edge"/>
-        <parameter name="perfecto.capabilities.browserVersion" value="119"/>
+        <parameter name="perfecto.capabilities.browserVersion" value="123"/>
         <parameter name="perfecto.capabilities.resolution" value="1280x1024"/>
         <parameter name="perfecto.capabilities.location" value="US East"/>
         <parameter name="appType" value="Web"/>
@@ -505,5 +464,127 @@
                 <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
             </classes>
         </test>
+    <test name="iOS device 1.7" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.platformName" value="iOS"/>
+        <parameter name="driver.capabilities.model" value="iPhone.*"/>
+        <parameter name="driver.capabilities.platformVersion" value=".*"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+        <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="appType" value="Native" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <groups>
+            <run>
+                <include name="@ExpenseTracker"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="iOS device 1.8" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.platformName" value="iOS"/>
+        <parameter name="driver.capabilities.model" value="iPhone.*"/>
+        <parameter name="driver.capabilities.platformVersion" value=".*"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+        <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="appType" value="Native" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <groups>
+            <run>
+                <include name="@ExpenseTracker"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="iOS device 1.9" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.platformName" value="iOS"/>
+        <parameter name="driver.capabilities.model" value="iPhone.*"/>
+        <parameter name="driver.capabilities.platformVersion" value="12.*"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+        <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="appType" value="Native" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <groups>
+            <run>
+                <include name="@ExpenseTracker"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="iOS device 1.10" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.platformName" value="iOS"/>
+        <parameter name="driver.capabilities.model" value="iPhone.*"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+        <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="appType" value="Native" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <groups>
+            <run>
+                <include name="@ExpenseTracker"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="iOS device 1.11 iPad" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.platformName" value="iOS"/>
+        <parameter name="driver.capabilities.model" value="iPad.*"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+        <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="appType" value="Native" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <groups>
+            <run>
+                <include name="@ExpenseTracker"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+
+    <test name="iOS device 1.12" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.platformName" value="iOS"/>
+        <parameter name="driver.capabilities.model" value="iPhone.*"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+        <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="appType" value="Native" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <groups>
+            <run>
+                <include name="@ExpenseTracker"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
 
 </suite>
