@@ -1,0 +1,29 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@ExpenseTrackerLogExpense",
+          "@ExpenseTracker"
+        ],
+        "lineNo": 5,
+        "name": "Add expense after Login",
+        "Perfecto-report": "<a href=\"https://demo.app.perfectomobile.com/reporting/library?externalId[0]=5b81585a-b0ee-4250-ae69-ee535756ba2e\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/ExpenseTracker.feature",
+        "resultFileName": "AddExpenseAfterLogin",
+        "sign": "src.main.resources.scenarios.ExpenseTracker.feature.Add expense after Login()[pri:1012, instance:com.qmetry.qaf.automation.step.client.Scenario@3f4]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1677520643777,
+      "duration": 116431,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
