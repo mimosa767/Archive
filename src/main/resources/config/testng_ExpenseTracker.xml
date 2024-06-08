@@ -88,6 +88,7 @@
 <!--            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>-->
 <!--        </classes>-->
 <!--    </test>-->
+  
 
     <test name="Android device 2.5" enabled="true">
         <parameter name="driver.name" value="perfectoDriver"/>
@@ -114,6 +115,26 @@
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="Android"/>
         <parameter name="driver.capabilities.model" value="Galaxy S22 Plus"/>
+        <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
+        <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
+        <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="appType" value="Native" />
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@ExpenseTracker"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+    <test name="Android device 2.7" enabled="true">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="driver.capabilities.platformName" value="Android"/>
+        <parameter name="driver.capabilities.platformVersion" value=".*"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseAppVer1.0.apk"/>
         <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.startActivity" value="io.perfecto.expense.tracker/app.perfecto.com.expencemanager.ui.splash.SplashActivity"/>
@@ -214,7 +235,6 @@
             <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
         </classes>
     </test>
-
 
     <test name="Web Scenarios Chrome Test 3.1" enabled="true">
         <parameter name="driver.name" value="perfectoRemoteDriver"/>
