@@ -488,7 +488,7 @@
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="iOS"/>
         <parameter name="driver.capabilities.model" value="iPhone.*"/>
-        <parameter name="driver.capabilities.platformVersion" value="16.*"/>
+        <parameter name="driver.capabilities.platformVersion" value=".*"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
         <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.sensorInstrument" value="true"/>
@@ -509,7 +509,7 @@
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="iOS"/>
         <parameter name="driver.capabilities.model" value="iPhone.*"/>
-        <parameter name="driver.capabilities.platformVersion" value="16.*"/>
+        <parameter name="driver.capabilities.platformVersion" value=".*"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
         <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.sensorInstrument" value="true"/>
@@ -530,7 +530,6 @@
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="iOS"/>
         <parameter name="driver.capabilities.model" value="iPhone.*"/>
-        <parameter name="driver.capabilities.platformVersion" value="17.*"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
         <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.sensorInstrument" value="true"/>
@@ -551,7 +550,6 @@
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="iOS"/>
         <parameter name="driver.capabilities.model" value="iPhone.*"/>
-        <parameter name="driver.capabilities.platformVersion" value="16.*"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
         <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.sensorInstrument" value="true"/>
@@ -592,7 +590,6 @@
         <parameter name="driver.name" value="perfectoDriver"/>
         <parameter name="driver.capabilities.platformName" value="iOS"/>
         <parameter name="driver.capabilities.model" value="iPhone.*"/>
-        <parameter name="driver.capabilities.platformVersion" value="15.*"/>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
         <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.sensorInstrument" value="true"/>
