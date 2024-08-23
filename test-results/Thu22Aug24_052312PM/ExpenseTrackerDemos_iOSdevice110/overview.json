@@ -1,0 +1,93 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "ExpenseTracker"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "app": "PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa",
+      "automationName": "Appium",
+      "bundleId": "io.perfecto.expense.tracker",
+      "cssSelectorsEnabled": true,
+      "driverClass": "io.appium.java_client.ios.IOSDriver",
+      "javascriptEnabled": true,
+      "model": "iPhone.*",
+      "platformName": "iOS",
+      "securityToken": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE3MDI0NzI1OTgsImp0aSI6ImE0NmNhYWI4LTI3MmYtNGU1MS1hYzU5LTdhZGI4NzAwNWYzNiIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiNjEwM2FhZjktOTdkNC00YjgwLThmZTYtZDNhYmRlNTJhM2JiIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiJmZmVmNWIxMC01OTI4LTQzNWUtOGIzZC1hNDcxNGQwODA0N2IiLCJzZXNzaW9uX3N0YXRlIjoiMDQ5NjdhZTMtNzQ0Yi00ZDA5LWFiZTgtNDhlNDFiMWIzNjM0Iiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MifQ.Xmzn0wU0tt9zV-vuzSUYrSCQ-B-4v6J7m3VLTiriaBg",
+      "sensorInstrument": "true",
+      "takesScreenshot": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://demo.app.perfectomobile.com/export/api/v3/test-executions/pdf?externalId[0]=d89ddc55-c8ad-4e70-aa96-f6446e2872ff",
+      "simpleIsVisibleCheck": "true",
+      "report.jobNumber": "16155203",
+      "streamInfo": "{\"url\":\"wss://ams-01.perfectomobile.com:443/live/websocket\",\"type\":\"WEBRTC_STREAM\",\"httpMethod\":null,\"authenticationType\":null,\"streamId\":\"demo__00008030_00194CCE2100802E__3cf98969_e536_40e0_89df_1a2881cae0ba_H264\",\"peerConnectionConfiguration\":{\"iceServers\":[{\"url\":\"turns:turn-01.perfectomobile.com:443?transport=tcp\",\"username\":\"perfecto\",\"credential\":\"perfecto\"}],\"iceTransportPolicy\":\"all\"},\"supportedStreams\":[{\"url\":\"wss://ams-01.perfectomobile.com:443/live/websocket\",\"type\":\"WEBRTC_STREAM\",\"httpMethod\":null,\"authenticationType\":null,\"streamId\":\"demo__00008030_00194CCE2100802E__3cf98969_e536_40e0_89df_1a2881cae0ba_H264\",\"peerConnectionConfiguration\":{\"iceServers\":[{\"url\":\"turns:turn-01.perfectomobile.com:443?transport=tcp\",\"username\":\"perfecto\",\"credential\":\"perfecto\"}],\"iceTransportPolicy\":\"all\"}},{\"url\":\"https://fast-image.aws-prod.perfectomobile.com/stream/86bec7dc-6729-48d4-b3a7-a346d4da6fe5/\",\"type\":\"FAST_IMAGE_STREAM\",\"httpMethod\":null,\"authenticationType\":null,\"streamId\":null,\"peerConnectionConfiguration\":{}},{\"url\":\"https://demo.perfectomobile.com/services/v2.0/devices/00008030-00194CCE2100802E/screenshot?executionId=stephenp@perfectomobile.com_RemoteWebDriver_24-08-22_21_23_20_10359&cloud=demo-perfectomobile-com&fixedSize=700\",\"type\":\"IMAGE_MODE\",\"httpMethod\":\"GET\",\"authenticationType\":\"PERFECTO_PARAMETER\",\"streamId\":null,\"peerConnectionConfiguration\":{}}]}",
+      "deviceName": "00008030-00194CCE2100802E",
+      "platform": "IOS",
+      "audioStreamInfo": "{\"audioStreamingServerUrl\":null,\"audioStreamName\":\"\",\"audioStreamingProtocol\":\"RTMP\"}",
+      "password": "",
+      "deviceSessionId": "d89ddc55-c8ad-4e70-aa96-f6446e2872ff",
+      "driverClass": "io.appium.java_client.ios.IOSDriver",
+      "platformVersion": "16.4.1",
+      "automationName": "XCUITest",
+      "host": "demo.perfectomobile.com",
+      "browserName": "",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "model": "iPhone.*",
+      "testRunWithPureAppiumFlow": "false",
+      "assert_javascript_enabled": "true",
+      "platformName": "iOS",
+      "sensorInstrument": "true",
+      "udid": "00008030-00194CCE2100802E",
+      "app": "PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa",
+      "report.jobName": "PerfectoDemo",
+      "stopUrl": "https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/session/d89ddc55-c8ad-4e70-aa96-f6446e2872ff",
+      "testGridReportUrl": "https://demo.app.perfectomobile.com/reporting/library?externalId[0]=d89ddc55-c8ad-4e70-aa96-f6446e2872ff",
+      "entityType": "appium_driver",
+      "xcuitestFindOptimizations": "true",
+      "bundleId": "io.perfecto.expense.tracker",
+      "serverConnector": "",
+      "securityToken": "",
+      "executionId": "d89ddc55-c8ad-4e70-aa96-f6446e2872ff",
+      "webdriver.remote.sessionid": "d89ddc55-c8ad-4e70-aa96-f6446e2872ff",
+      "mcmExecutionId": "stephenp@perfectomobile.com_RemoteWebDriver_24-08-22_21_23_20_10359",
+      "scriptName": "RemoteWebDriver",
+      "cssSelectorsEnabled": "true",
+      "report.jobBranch": "master"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Version": "3.0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34"
+    },
+    "run-parameters": {
+      "env.resources": "src/main/resources/ios",
+      "driver.capabilities.model": "iPhone.*",
+      "appType": "Native",
+      "driver.capabilities.app": "PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa",
+      "resources": "src/main/resources/ios",
+      "driver.capabilities.bundleId": "io.perfecto.expense.tracker",
+      "driver.capabilities.platformName": "iOS",
+      "driver.name": "perfectoDriver",
+      "driver.capabilities.sensorInstrument": "true",
+      "driver.capabilities.driverClass": "io.appium.java_client.ios.IOSDriver"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_202",
+      "os.arch": "x86_64",
+      "host": "spenn0821",
+      "os.name": "Mac OS X",
+      "user.name": "spenn02",
+      "os.version": "10.16"
+    }
+  },
+  "startTime": 1724361794113,
+  "endTime": 1724361970784
+}
